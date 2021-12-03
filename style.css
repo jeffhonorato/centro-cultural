@@ -8,8 +8,8 @@
     --size-subtitulo: 2rem;
     --size-corpo: 1.2rem;
     --cor-header: #7699D4;
-    --cor-sectio1: #CBB9A8;
-    --cor-sectioon2: #6EEB83;
+    --cor-section1: #469ED8;
+    --cor-section2: #6EEB83;
     --cor-botoes: #5941A9;
 }
 
@@ -73,4 +73,72 @@ img {
 
 /**************** MAIN - CONTEUDO ***************/
 
+/**************** SOBRE NÓS ***************/
+.sobre-nos {
+    padding-top: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-section2);
+    border-top: 3px solid #000;
+}
 
+.img-sobre-nos {
+    width: 450px;
+}
+
+.historico {
+    max-width: 550px;
+}
+
+.historico h1 {
+    font-family: var(--fonte-subtitulo);
+    font-size: var(--size-titulos);
+    text-align: center;
+}
+
+.historico p {
+    padding: 0.5rem;
+    font-family: var(--fonte-corpo);
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+    margin: 0 auto;
+}
+
+/**************** AGENDA ***************/
+.agenda {
+    background-color: var(--cor-section1);
+    height: 1000px;
+}
+
+.titulo-agenda {
+    font-family: var(--fonte-subtitulo);
+    font-size: var(--size-titulos);
+    margin-bottom: 5rem;
+}
+
+.containe-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.card-agenda {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1f 1fr;
+    background-color: yellowgreen;
+}
+
+.info-agenda {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+.mês {
+    
+}

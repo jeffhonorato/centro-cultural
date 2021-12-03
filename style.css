@@ -246,3 +246,14 @@ img {
 .abril {
     background-color: var(--cor-section2);
 }
+
+/**************** RESPONSIVIDADE ***************/
+@media(max-width:1000px) {
+    .containe-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .card-agenda {
+        width: 300px;
+    }
+}

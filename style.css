@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Spinnaker&family=Voltaire&display=swap');
+
+:root {
+    --fonte-titulos: 'Voltaire', sans-serif;
+    --fonte-subtitulo: 'Satisfy', cursive;
+    --fonte-corpo: 'Spinnaker', sans-serif;
+    --size-titulos: 4rem;
+    --size-subtitulo: 2rem;
+    --size-corpo: 1.2rem;
+    --cor-header: #7699D4;
+    --cor-sectio1: #CBB9A8;
+    --cor-sectioon2: #6EEB83;
+    --cor-botoes: #5941A9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+/**************** HEADER - CABECALHO ***************/
+.header {
+    background-color: #7699D4;
+}
+
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    height: 200px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.nav img {
+    max-width: 200px;
+}
+
+.nav-itens {
+    padding: 0.5rem;
+    color: #000;
+    box-shadow: 2px 1px 6px 1px #000;
+    font-family: var(--fonte-titulos);
+    font-size: var(--size-corpo);
+}
+
+.nav-itens:hover {
+    box-shadow: 1px 1px 1px 1px #000;
+    transition: all 0.6s;
+}
+
+/**************** MAIN - CONTEUDO ***************/
+
+

@@ -9,7 +9,7 @@
     --size-corpo: 1.2rem;
     --cor-header: #7699D4;
     --cor-section1: #469ED8;
-    --cor-section2: #6EEB83;
+    --cor-section2: #05299E;
     --cor-botoes: #5941A9;
 }
 
@@ -102,6 +102,7 @@ img {
     font-family: var(--fonte-subtitulo);
     font-size: var(--size-titulos);
     text-align: center;
+    color: #469ed8;
 }
 
 .historico p {
@@ -110,6 +111,7 @@ img {
     line-height: 1.4;
     letter-spacing: 0.5px;
     margin: 0 auto;
+    color: #fff;
 }
 
 /**************** AGENDA ***************/
@@ -213,6 +215,10 @@ img {
 }
 
 /**************** PROJETOS ***************/
+.projetos {
+    background-color: var(--cor-section1);
+}
+
 .projeto-info {
     display: flex;
     flex-wrap: wrap;
@@ -255,11 +261,11 @@ img {
     opacity: 0.8;
     border-radius: 6px;
     border: 1px solid #000;
-
 }
 
 .projeto-desc:hover {
     opacity: 1.0;
+    transition: all 0.6s;
 }
 
 .projeto-desc h2 {

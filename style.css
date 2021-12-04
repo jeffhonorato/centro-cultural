@@ -35,6 +35,9 @@ img {
 /**************** HEADER - CABECALHO ***************/
 .header {
     background-color: #7699D4;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 
@@ -45,7 +48,7 @@ img {
     align-items: center;
     justify-content: space-between;
     width: 95%;
-    height: 200px;
+    height: 100px;
 }
 
 .nav-menu {
@@ -55,7 +58,8 @@ img {
 }
 
 .nav img {
-    max-width: 200px;
+    max-width: 80px;
+    margin-left: 20px;
 }
 
 .nav-itens {
@@ -75,7 +79,7 @@ img {
 
 /**************** SOBRE NÓS ***************/
 .sobre-nos {
-    padding-top: 6rem;
+    padding-top: 200px;
     display: flex;
     flex-wrap: wrap;
     gap: 4rem;
@@ -176,12 +180,15 @@ img {
     padding: 1rem;
     box-shadow: 1px 1px 10px 1px #000;
     transform: rotateX(1deg);
+    background-color: slategrey;
+    opacity: 0.5;
     
 }
 
 .card-info:hover {
     transform: rotateX(0deg);
     transition: all 0.6s;
+    opacity: 1.0;
 }
 
 .card-info h2 {

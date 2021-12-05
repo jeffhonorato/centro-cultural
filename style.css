@@ -63,6 +63,11 @@ img {
     gap: 1rem;
 }
 
+.icone-menu {
+    display: block;
+    width: 50px;
+}
+
 .nav img {
     max-width: 80px;
     margin-left: 20px;

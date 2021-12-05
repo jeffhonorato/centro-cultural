@@ -540,7 +540,7 @@ img {
     }
 
     .agenda-info h2 {
-        font-size: 2.3rem;
+        font-size: 3rem;
     }
 
     .agenda-info p {
@@ -566,12 +566,48 @@ img {
         margin-bottom: 0rem;
     }
 
-    .musica {
+    .projeto-desc {
+        width: 300px;
+        display: block;
+        right: 0rem;
+        background-color: #fff;
+        padding: 0.5rem;
+    }
+
+    .projeto-desc h2 {
+        font-size: 5.2rem;
+    }
+
+    .img-galeria {
+        width: 18.75rem;
+    }
+
+    .galeria-titulo h2 {
+        font-size: 2.4rem;
+    }
+
+    .galeria-titulo p {
+        width: 18.75rem;
+    }
+
+    .museu-info h2 {
+        font-size: 2.4rem;
+    }
+
+    .museu-info p {
+        width: 18.75rem;
+    }
+
+    .titulo-colaboradores {
+        font-size: 2.4rem; ;
+    }
+
+    /* .musica {
         background-size: contain;
         width: 700px;
         height: 500px;
         opacity: 0.5;
-    }
+    } */
 
 
 }

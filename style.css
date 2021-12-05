@@ -10,6 +10,7 @@
     --cor-header: #7699D4;
     --cor-section1: #469ED8;
     --cor-section2: #05299E;
+    --cor-section3: #DEC0F1;
     --cor-botoes: #5941A9;
 }
 
@@ -17,6 +18,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 a {
@@ -216,7 +221,15 @@ img {
 
 /**************** PROJETOS ***************/
 .projetos {
-    background-color: var(--cor-section1);
+    background-color: var(--cor-section3);
+    padding: 5rem;
+}
+
+.cabecalho-titulo-pro {
+    font-family: var(--fonte-subtitulo);
+    font-size: var(--size-titulos);
+    text-align: center;
+    margin-bottom: 4rem;
 }
 
 .projeto-info {
@@ -228,8 +241,8 @@ img {
 
 }
 
-.titulo-pro {
-    background-image: url("./img/img-pro-musica.png");
+.musica {
+    background-image: url("./img/banner-musica.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -238,10 +251,71 @@ img {
     opacity: 0.5;
 }
 
-.titulo-pro:hover {
+.musica:hover {
     opacity: 1.0;
     transition: all 0.6s;
 }
+
+.teatro {
+    background-image: url("./img/banner-teatro.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    opacity: 0.5;
+}
+
+.teatro:hover {
+    opacity: 1.0;
+    transition: all 0.6s;
+}
+
+.cinema {
+    background-image: url("./img/banner-cinema.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    opacity: 0.5;
+}
+
+.cinema:hover {
+    opacity: 1.0;
+    transition: all 0.6s;
+}
+
+.danca {
+    background-image: url("./img/banner-danca.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    opacity: 0.5;
+}
+
+.danca:hover {
+    opacity: 1.0;
+    transition: all 0.6s;
+}
+
+.artesanato {
+    background-image: url("./img/banner-artesanato.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    opacity: 0.5;
+}
+
+.artesanato:hover {
+    opacity: 1.0;
+    transition: all 0.6s;
+}
+
 
 .titulo-pro h2 {
     font-family: var(--fonte-subtitulo);

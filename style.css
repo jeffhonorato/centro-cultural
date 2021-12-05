@@ -547,6 +547,7 @@ img {
         font-size: 0.75rem;
         padding: 0.5rem;
         width: 310px;
+        margin-bottom: 0rem;
     }
 
     .img-agenda {
@@ -568,14 +569,17 @@ img {
 
     .projeto-desc {
         width: 300px;
-        display: block;
+        /* display: block; */
         right: 0rem;
-        background-color: #fff;
         padding: 0.5rem;
     }
 
     .projeto-desc h2 {
-        font-size: 5.2rem;
+        font-size: 4rem;
+    }
+
+    .projeto-desc p {
+        width: 18.75rem;
     }
 
     .img-galeria {

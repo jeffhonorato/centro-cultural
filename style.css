@@ -101,13 +101,14 @@ img {
 
 .historico {
     max-width: 550px;
+    margin-bottom: 4rem;
 }
 
 .historico h1 {
     font-family: var(--fonte-subtitulo);
     font-size: var(--size-titulos);
     text-align: center;
-    color: #469ed8;
+    color: var(--cor-section1);
 }
 
 .historico p {
@@ -126,6 +127,7 @@ img {
     gap: 1.5rem;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
 .agenda-info {
@@ -345,6 +347,7 @@ img {
 .projeto-desc h2 {
     font-family: var(--fonte-subtitulo);
     font-size: 6rem;
+    color: var(--cor-section1);
 }
 
 .projeto-desc p {
@@ -352,4 +355,9 @@ img {
     line-height: 1.4;
     letter-spacing: 0.5px;
     margin-bottom: 0.75rem;
+}
+
+/**************** GALERIA  ***************/
+.img-galeria {
+    width: 600px;
 }

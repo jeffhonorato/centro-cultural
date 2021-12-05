@@ -26,6 +26,7 @@ html {
 
 a {
     text-decoration: none;
+    display: block;
 }
 
 ul, li {
@@ -358,6 +359,104 @@ img {
 }
 
 /**************** GALERIA  ***************/
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
 .img-galeria {
     width: 600px;
+}
+
+.galeria-titulo h2 {
+    font-family: var(--fonte-subtitulo);
+    font-size: var(--size-titulos);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.galeria-titulo p {
+    font-family: var(--fonte-corpo);
+    width: 500px;
+    padding: 0.5rem;
+}
+
+.galeria-titulo p:nth-child(3) {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.galeria-titulo a {
+    margin: 0 auto;
+    padding: 0.5rem 0.75rem;
+    background-color: var(--cor-botoes);
+    width: 160px;
+    text-align: center;
+    color: #fff;
+    font-family: var(--fonte-titulos);
+    font-size: var(--size-corpo);
+    border-radius: 6px;
+}
+
+.galeria-titulo a:hover {
+    background-color: var(--cor-section1);
+    transition: all 0.6s;
+    color: #000;
+}
+
+/**************** MUSEU - Pe.GERALDO ***************/
+.padre {
+    margin-top: 3rem;
+    background-color: var(--cor-section3);
+}
+
+.padre-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.museu-info h2 {
+    font-family: var(--fonte-subtitulo);
+    font-size: var(--size-titulos);
+    text-align: center;
+}
+
+.museu-info p {
+    font-family: var(--fonte-corpo);
+    width: 500px;
+    padding: 0.5rem;
+}
+
+.museu-info p:nth-child(3) {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.museu-info a {
+    margin: 0 auto;
+    padding: 0.5rem 0.75rem;
+    background-color: var(--cor-botoes);
+    width: 160px;
+    text-align: center;
+    color: #fff;
+    font-family: var(--fonte-titulos);
+    font-size: var(--size-corpo);
+    border-radius: 6px;
+}
+
+.museu-info a:hover {
+        background-color: var(--cor-section1);
+        transition: all 0.6s;
+        color: #000;
+}
+
+.img-museu-principal {
+    width: 300px;
 }

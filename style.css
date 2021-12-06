@@ -465,6 +465,11 @@ img {
 }
 
 /**************** COLABORADORES ***************/
+.colaboradores {
+    padding-bottom: 3rem;
+    border-bottom: 2px solid #000;
+}
+
 .titulo-colaboradores {
     font-family: var(--fonte-subtitulo);
     font-size: var(--size-titulos);
@@ -517,6 +522,37 @@ img {
 .mulher {
     background-color: var(--cor-section3);
  
+}
+
+/**************** FOOTER - RODAPÉ ***************/
+.footer {
+    background-image: url("./img/background-footer2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    height: 1000px;
+} 
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+    justify-items: center;
+    place-self: center;
+}
+
+.img-footer-icone {
+    width: 100px;
+}
+
+.card-footer {
+    width: 300px;
+    background-color: tomato;
+    text-align: center;
+    height: 600px;
+
+    /* margin: 0 auto; */
 }
 
 /**************** RESPONSIVIDADE ***************/

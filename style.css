@@ -64,8 +64,9 @@ img {
 }
 
 .icone-menu {
-    display: block;
+    display: none;
     width: 50px;
+    /* margin: 0 auto; */
 }
 
 .nav img {
@@ -635,6 +636,33 @@ img {
         height: 500px;
         opacity: 0.5;
     } */
+}
 
+@media(max-width:700px) {
+    .header {
+        height: 100vh;
+    }
+    
+    .icone-menu {
+        display: block;
+        text-align: center;
+    }
 
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-menu.ativo {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100vw;
+    }
+
+    .nav-itens {
+        width: 10rem;
+        margin: 0 auto;
+        text-align: center;
+    }
 }

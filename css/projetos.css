@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Spinnaker&family=Voltaire&display=swap');
+
+:root {
+    --fonte-titulos: 'Voltaire', sans-serif;
+    --fonte-subtitulo: 'Satisfy', cursive;
+    --fonte-corpo: 'Spinnaker', sans-serif;
+    --size-titulos: 4rem;
+    --size-subtitulo: 2rem;
+    --size-corpo: 1.2rem;
+    --cor-header: #7699D4;
+    --cor-section1: #469ED8;
+    --cor-section2: #05299E;
+    --cor-section3: #DEC0F1;
+    --cor-botoes: #5941A9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+ul, li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+body {
+    background-color: yellow;
+}

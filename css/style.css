@@ -195,7 +195,7 @@ img {
     padding: 1rem;
     box-shadow: 1px 1px 10px 1px #000;
     transform: rotateX(1deg);
-    background-color: slategrey;
+    background-color: var(--cor-section1);
     opacity: 0.7;
     border-radius: 6px;
     
@@ -216,6 +216,7 @@ img {
     padding: 2rem;
     position: relative;
     bottom: 60px;
+    border: solid 1px #000;
 }
 
 .card-info p {
@@ -223,6 +224,7 @@ img {
     position: relative;
     bottom: 30px;
     font-weight: bold;
+    padding: 0.2rem;
 }
 
 /**************** PROJETOS ***************/
@@ -231,134 +233,50 @@ img {
     padding: 5rem;
 }
 
-.cabecalho-titulo-pro {
-    font-family: var(--fonte-subtitulo);
-    font-size: var(--size-titulos);
-    text-align: center;
-    margin-bottom: 4rem;
-}
-
-.projeto-info {
+.projeto {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    gap: 1rem;
     justify-content: center;
-    margin-bottom: 4rem;
-
+    align-items: center;
 }
 
-.musica {
-    background-image: url("./img/banner-musica.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 500px;
-    height: 500px;
-    opacity: 0.5;
-}
-
-.musica:hover {
-    opacity: 1.0;
-    transition: all 0.6s;
-}
-
-.teatro {
-    background-image: url("./img/banner-teatro.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 500px;
-    height: 500px;
-    opacity: 0.5;
-}
-
-.teatro:hover {
-    opacity: 1.0;
-    transition: all 0.6s;
-}
-
-.cinema {
-    background-image: url("./img/banner-cinema.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 500px;
-    height: 500px;
-    opacity: 0.5;
-}
-
-.cinema:hover {
-    opacity: 1.0;
-    transition: all 0.6s;
-}
-
-.danca {
-    background-image: url("./img/banner-danca.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 500px;
-    height: 500px;
-    opacity: 0.5;
-}
-
-.danca:hover {
-    opacity: 1.0;
-    transition: all 0.6s;
-}
-
-.artesanato {
-    background-image: url("./img/banner-artesanato.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 500px;
-    height: 500px;
-    opacity: 0.5;
-}
-
-.artesanato:hover {
-    opacity: 1.0;
-    transition: all 0.6s;
-}
-
-
-.titulo-pro h2 {
-    font-family: var(--fonte-subtitulo);
-    font-size: 10rem;
-    height: 100%;
-    text-align: center;
-    padding-top: 200px;
-    color: #fff;
+.img-projeto {
+    width: 31.25rem;
 }
 
 .projeto-desc {
-    width: 500px;
-    position: relative;
-    right: 4rem;
-    background-color: #fff;
-    padding: 1rem;
-    opacity: 0.8;
-    border-radius: 6px;
-    border: 1px solid #000;
-}
-
-.projeto-desc:hover {
-    opacity: 1.0;
-    transition: all 0.6s;
+    width: 31.25rem; ;
 }
 
 .projeto-desc h2 {
     font-family: var(--fonte-subtitulo);
-    font-size: 6rem;
-    color: var(--cor-section1);
+    font-size: var(--size-titulos);
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .projeto-desc p {
-    font-family: var(--size-corpo);
-    line-height: 1.4;
-    letter-spacing: 0.5px;
-    margin-bottom: 0.75rem;
+    font-family: var(--fonte-corpo);
+    padding: 0.5rem;
+}
+
+.projeto-desc a {
+    margin: 0 auto;
+    padding: 0.5rem 0.75rem;
+    background-color: var(--cor-botoes);
+    width: 160px;
+    text-align: center;
+    color: #fff;
+    font-family: var(--fonte-titulos);
+    font-size: var(--size-corpo);
+    border-radius: 6px;
+}
+
+.projeto-desc a:hover {
+    background-color: var(--cor-section1);
+    transition: all 0.6s;
+    color: #000;
 }
 
 /**************** GALERIA  ***************/
@@ -526,7 +444,7 @@ img {
 
 /**************** FOOTER - RODAPÉ ***************/
 .footer {
-    background-image: url("./img/background-footer2.jpg");
+    background-image: url("../img/background-footer2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -556,7 +474,7 @@ img {
 }
 
 /**************** RESPONSIVIDADE ***************/
-@media(min-width: 320px) and (max-width: 420px) {
+@media(min-width: 320px) and (max-width: 600px) {
     .img-sobre-nos {
         width: 300px;
     }

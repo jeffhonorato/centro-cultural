@@ -444,12 +444,8 @@ img {
 
 /**************** FOOTER - RODAPÉ ***************/
 .footer {
-    background-image: url("../img/background-footer2.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    height: 1000px;
+    background-color: #05299E;
+    /* height: 600px; */
 } 
 
 .footer-container {
@@ -457,21 +453,57 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0.5rem;
     justify-items: center;
-    place-self: center;
+    align-items: center;
+    
+}
+
+.footer-container .card-footer {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-footer-icone {
-    width: 100px;
+    width: 200px;
 }
 
 .card-footer {
-    width: 300px;
-    background-color: tomato;
-    text-align: center;
+    width: 340px;
+    /* background-color: tomato; */
+    /* text-align: center; */
     height: 600px;
 
     /* margin: 0 auto; */
 }
+
+.card-footer h2 {
+    font-family: var(--fonte-titulos);
+    font-size: var(--size-subtitulo);
+}
+
+.localizacao h2 {
+    font-family: var(--fonte-titulos);
+    font-size: var(--size-subtitulo);
+    padding: 0.5rem;
+}
+
+.localizacao p {
+    font-family: var(--fonte-corpo);
+    font-size: var(--size-corpo);
+    padding: 0.2rem;
+}
+
+.midia-social {
+    width: 40px;
+   
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 0.5rem;
+}
+
 
 /**************** RESPONSIVIDADE ***************/
 @media(min-width: 320px) and (max-width: 600px) {
@@ -581,12 +613,14 @@ img {
         box-shadow: 1px 1px 1px 1px #000;
     }
 
-    /* .musica {
-        background-size: contain;
-        width: 700px;
-        height: 500px;
-        opacity: 0.5;
-    } */
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+
+    .card-footer {
+        height: 300px;
+    }
 }
 
 @media (max-width: 700px) {
@@ -618,5 +652,20 @@ img {
         width: 10rem;
         margin: 0 auto;
         text-align: center;
+    }
+}
+
+@media(min-width: 601px) and (max-width: 1024px) {
+    .acordion-cards {
+        width: 400px;
+    }
+    
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+
+    .card-footer {
+        height: 320px;
     }
 }

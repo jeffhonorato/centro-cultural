@@ -486,22 +486,31 @@ img {
     font-family: var(--fonte-titulos);
     font-size: var(--size-subtitulo);
     padding: 0.5rem;
+    color: var(--cor-section1);
 }
 
 .localizacao p {
     font-family: var(--fonte-corpo);
     font-size: var(--size-corpo);
     padding: 0.2rem;
+    color: #fff;
+}
+
+.midias-sociais h2 {
+    color: var(--cor-section1);
+    padding: 0.5rem;
 }
 
 .midia-social {
     width: 40px;
+   
    
 }
 
 .redes-sociais {
     display: flex;
     gap: 0.5rem;
+    justify-content: center;
 }
 
 

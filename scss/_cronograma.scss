@@ -22,13 +22,44 @@
         width: 940px;
         margin: 0 auto;
         text-align: center;
-    }    
+        border-radius: 10px;
+        box-shadow: 4px 4px 10px 4px #000;
+    }   
+    
+    .acordion__info {
+        width: 350px;
+    }
 
     .acordion__titulo {
         font-family: $fonte-subtitulo;
         font-size: $size-titulo;
         color: #fff;
+        // display: flex;
+        // justify-content: center;
+        // gap: 1rem;
     }
+
+    .acordion__info {
+        background-color: darkkhaki;
+    }
+
+    .acordion__dia {
+        font-family: $fonte-corpo;
+        font-size: 3rem;
+        background-color: darkorchid;
+        border-radius: 40%;
+    }
+
+    .acordion__evento,
+    .acordion__local,
+    .acordion__hora,
+    .acordion__colaborador {
+        font-family: $fonte-corpo;  
+        font-size: 2rem;  
+        font-weight: bold;
+
+    }
+
         
 
 }

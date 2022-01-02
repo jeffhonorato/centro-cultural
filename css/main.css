@@ -141,13 +141,39 @@ img {
 
 .cronograma .acordion__card {
   background-color: darkgoldenrod;
-  max-width: 800px;
+  width: 940px;
   margin: 0 auto;
   text-align: center;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px 4px #000;
+}
+
+.cronograma .acordion__info {
+  width: 350px;
 }
 
 .cronograma .acordion__titulo {
   font-family: "Londrina Solid", cursive;
   font-size: 4rem;
   color: #fff;
+}
+
+.cronograma .acordion__info {
+  background-color: darkkhaki;
+}
+
+.cronograma .acordion__dia {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 3rem;
+  background-color: darkorchid;
+  border-radius: 40%;
+}
+
+.cronograma .acordion__evento,
+.cronograma .acordion__local,
+.cronograma .acordion__hora,
+.cronograma .acordion__colaborador {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
 }

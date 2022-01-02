@@ -26,28 +26,39 @@
         box-shadow: 4px 4px 10px 4px #000;
     }   
     
-    .acordion__info {
-        width: 350px;
-    }
+    // .acordion__info {
+    //     width: 350px;
+    // }
 
     .acordion__titulo {
         font-family: $fonte-subtitulo;
         font-size: $size-titulo;
         color: #fff;
-        // display: flex;
-        // justify-content: center;
-        // gap: 1rem;
+        margin: 0 auto;
+        width: 960px;
+        text-align: center;
     }
 
+
+
     .acordion__info {
-        background-color: darkkhaki;
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .card {
+        margin-top: 2rem;
+        border: 1px solid #000;
+        padding: 1rem;
     }
 
     .acordion__dia {
-        font-family: $fonte-corpo;
+        font-family: $fonte-subtitulo;
         font-size: 3rem;
         background-color: darkorchid;
-        border-radius: 40%;
+        border-radius: 50%;
+        text-align: center;
     }
 
     .acordion__evento,
@@ -55,7 +66,7 @@
     .acordion__hora,
     .acordion__colaborador {
         font-family: $fonte-corpo;  
-        font-size: 2rem;  
+        font-size: 1.5rem;  
         font-weight: bold;
 
     }

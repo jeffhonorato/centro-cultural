@@ -170,29 +170,64 @@ img {
 .cronograma .acordion__info {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1.5rem;
   justify-content: center;
+  perspective: 500px;
 }
 
 .cronograma .card {
   margin-top: 2rem;
-  border: 1px solid #000;
+  box-shadow: 0 0 10px 4px #fff;
   padding: 1rem;
   background-color: #56CBF9;
+  transform: rotate3d(1, 0, 0, 10deg);
+}
+
+.cronograma .card:hover {
+  transform: rotate3d(0, 0, 0, 10deg);
+  transition: all 0.6s;
+  box-shadow: 0 0 10px 4px #000;
 }
 
 .cronograma .acordion__dia {
   font-family: "Londrina Solid", cursive;
   font-size: 3rem;
   background-color: #56CBF9;
-  margin-bottom: 1rem;
   text-align: center;
 }
 
-.cronograma .acordion__evento,
-.cronograma .acordion__local,
-.cronograma .acordion__hora,
+.cronograma .acordion__evento {
+  font-family: "Londrina Solid", cursive;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.cronograma .acordion__local {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.cronograma .acordion__hora {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .cronograma .acordion__colaborador {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
   font-family: "Rajdhani", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;

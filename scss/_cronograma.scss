@@ -54,31 +54,64 @@
     .acordion__info {
         display: flex;
         flex-wrap: wrap;
-        gap: 1rem;
+        gap: 1.5rem;
         justify-content: center;
+        perspective: 500px;
         
     }
 
     .card {
         margin-top: 2rem;
-        border: 1px solid #000;
+        box-shadow: 0 0 10px 4px #fff;
         padding: 1rem;
         background-color: $cor-header;
-        
+        transform: rotate3d(1,0,0, 10deg);
+
+            &:hover {
+                transform: rotate3d(0,0,0, 10deg);
+                transition: all 0.6s;
+                box-shadow: 0 0 10px 4px #000;
+            }
     }
 
     .acordion__dia {
         font-family: $fonte-subtitulo;
         font-size: 3rem;
         background-color: $cor-header;
-        margin-bottom: 1rem;
         text-align: center;
     }
 
-    .acordion__evento,
-    .acordion__local,
-    .acordion__hora,
+    .acordion__evento {
+        font-family: $fonte-subtitulo;
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    
+    .acordion__local {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        font-family: $fonte-corpo;  
+        font-size: 1.5rem;  
+        font-weight: bold;
+    }
+    .acordion__hora {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        font-family: $fonte-corpo;  
+        font-size: 1.5rem;  
+        font-weight: bold;
+    }
     .acordion__colaborador {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
         font-family: $fonte-corpo;  
         font-size: 1.5rem;  
         font-weight: bold;

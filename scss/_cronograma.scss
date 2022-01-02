@@ -19,6 +19,10 @@
             }
         }
 
+    .acordion__cards {
+        margin-bottom: 2rem;
+    }    
+
     .acordion__titulo {
         font-family: $fonte-subtitulo;
         font-size: $size-titulo;
@@ -29,28 +33,12 @@
         box-shadow: 5px 2px 4px 2px #fff;
         cursor: pointer;
         border-radius: 10px;
-       
-
-        // @keyframes suave {
-        //     from {
-        //         opacity: 0;
-        //         margin-top: -10px;
-        //     }
-        //     to {
-        //         opacity: 0;
-        //         margin-top: -10px;
-        //     }
-        // }
-
+    
             &:hover {
                 background-color: #000;
                 transition: all .6s;
             }
     }
-
-    
-
-
 
     .acordion__info {
         display: flex;
@@ -59,6 +47,7 @@
         justify-content: center;
         perspective: 900px;
         animation: suave .7s ease-in-out;
+        padding: 2rem;
 
         @keyframes suave {
             from {

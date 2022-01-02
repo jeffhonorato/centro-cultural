@@ -19,19 +19,6 @@
             }
         }
 
-    .acordion__card {
-        background-color: darkgoldenrod;
-        width: 940px;
-        margin: 0 auto;
-        text-align: center;
-        border-radius: 10px;
-        box-shadow: 4px 4px 10px 4px #000;
-    }   
-    
-    // .acordion__info {
-    //     width: 350px;
-    // }
-
     .acordion__titulo {
         font-family: $fonte-subtitulo;
         font-size: $size-titulo;
@@ -42,12 +29,26 @@
         box-shadow: 5px 2px 4px 2px #fff;
         cursor: pointer;
         border-radius: 10px;
+       
+
+        // @keyframes suave {
+        //     from {
+        //         opacity: 0;
+        //         margin-top: -10px;
+        //     }
+        //     to {
+        //         opacity: 0;
+        //         margin-top: -10px;
+        //     }
+        // }
 
             &:hover {
                 background-color: #000;
                 transition: all .6s;
             }
     }
+
+    
 
 
 
@@ -56,8 +57,19 @@
         flex-wrap: wrap;
         gap: 1.5rem;
         justify-content: center;
-        perspective: 500px;
-        
+        perspective: 900px;
+        animation: suave .7s ease-in-out;
+
+        @keyframes suave {
+            from {
+                opacity: 0;
+                margin-top: -10px;
+            }
+            to {
+                opacity: 1;
+                margin-top: 0px;
+            }
+        }
     }
 
     .card {
@@ -65,10 +77,11 @@
         box-shadow: 0 0 10px 4px #fff;
         padding: 1rem;
         background-color: $cor-header;
-        transform: rotate3d(1,0,0, 10deg);
-
+        transform: rotateX(10deg);
+        border-radius: 10px;
+        
             &:hover {
-                transform: rotate3d(0,0,0, 10deg);
+                transform: rotateX(0deg);;
                 transition: all 0.6s;
                 box-shadow: 0 0 10px 4px #000;
             }
@@ -85,9 +98,9 @@
         font-family: $fonte-subtitulo;
         display: flex;
         align-items: center;
+        justify-content: center;
         gap: 0.4rem;
-        font-size: 2rem;
-        text-align: center;
+        font-size: 1.7rem;
         margin-bottom: 2rem;
     }
 

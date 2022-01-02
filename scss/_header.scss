@@ -1,0 +1,42 @@
+.header {
+    background-color: $cor-header;
+
+        .img__logo {
+            width: 360px;
+        }
+
+        .nav {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            height: 60vh;
+        }
+         
+        .nav__lista {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .nav__link {
+            background-color: $cor-links;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 1px 5px 10px 1px #000;
+
+                &:hover  {
+                    background-color: $cor-links;
+                    box-shadow: 1px 5px 10px 1px #fff;
+                    transition: all .6s;
+                }
+        }
+
+        .nav__item {
+            font-family: $fonte-titulo;
+            color: #fff;
+        }
+
+
+
+}
+

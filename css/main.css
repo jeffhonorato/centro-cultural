@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/*********** VARIAVEIS ***********/
+/*********** CONFIGURAÇÃO ***********/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/*********** MIXINS ***********/
+/*********** PÁGINA ***********/
+.header {
+  background-color: #56CBF9;
+}
+
+.header .img__logo {
+  width: 360px;
+}
+
+.header .nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  height: 60vh;
+}
+
+.header .nav__lista {
+  display: flex;
+  gap: 1rem;
+}
+
+.header .nav__link {
+  background-color: #234c66;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 1px 5px 10px 1px #000;
+}
+
+.header .nav__link:hover {
+  background-color: #234c66;
+  box-shadow: 1px 5px 10px 1px #fff;
+  transition: all .6s;
+}
+
+.header .nav__item {
+  font-family: "Russo One", sans-serif;
+  color: #fff;
+}
+
+.slider {
+  background-color: #56CBF9;
+  border-top: 2px solid #000;
+}
+
+.slider .slider__galeria {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.slider .slider__img {
+  position: absolute;
+  height: 90vh;
+  opacity: 0;
+  transition: opacity 600ms;
+  box-shadow: 10px 10px 10px 4px #000;
+  border-radius: 10px;
+}
+
+.slider .slider__img.selected {
+  opacity: 1;
+}
+
+.sobre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 0;
+  gap: 10rem;
+}
+
+.sobre .sobre__img {
+  width: 400px;
+}
+
+.sobre .sobre__info {
+  width: 500px;
+}
+
+.sobre .sobre__titulo {
+  font-family: "Londrina Solid", cursive;
+  font-size: 4rem;
+  color: #234c66;
+  padding: 1rem;
+  text-align: center;
+}
+
+.sobre .sobre__p {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: 0.6rem;
+}
+
+.cronograma {
+  background-color: #119DA4;
+}
+
+.cronograma .cronograma__titulo {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.cronograma .cronograma__titulo .cronograma__h2 {
+  font-family: "Londrina Solid", cursive;
+  font-size: 4rem;
+}
+
+.cronograma .cronograma__titulo .cronograma__p {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.cronograma .acordion__card {
+  background-color: darkgoldenrod;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cronograma .acordion__titulo {
+  font-family: "Londrina Solid", cursive;
+  font-size: 4rem;
+  color: #fff;
+}

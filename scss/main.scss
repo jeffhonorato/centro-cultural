@@ -1,0 +1,47 @@
+
+/*********** VARIAVEIS ***********/
+$fonte-titulo: 'Russo One', sans-serif;
+$fonte-subtitulo: 'Londrina Solid', cursive;
+$fonte-corpo: 'Rajdhani', sans-serif;
+$cor-header: #56CBF9;
+$cor-section1: #119DA4;
+$cor-section2: #CEB1BE;
+$cor-links: #234c66;
+$size-titulo: 4rem;
+$size-corpo: 2rem;
+
+
+/*********** CONFIGURAÇÃO ***********/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*********** MIXINS ***********/
+@mixin paragrafo {
+    font-family: $fonte-corpo;
+    font-weight: bold;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    padding: 0.6rem;
+}
+
+/*********** PÁGINA ***********/
+@import "header";
+@import "slider";
+@import "sobre";
+@import "cronograma";

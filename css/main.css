@@ -120,12 +120,13 @@ img {
 }
 
 .cronograma {
-  background-color: #119DA4;
+  background-color: #16697A;
 }
 
 .cronograma .cronograma__titulo {
   padding-top: 3rem;
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 .cronograma .cronograma__titulo .cronograma__h2 {
@@ -137,6 +138,7 @@ img {
   font-family: "Rajdhani", sans-serif;
   font-size: 2rem;
   font-weight: bold;
+  color: #fff;
 }
 
 .cronograma .acordion__card {
@@ -151,14 +153,23 @@ img {
 .cronograma .acordion__titulo {
   font-family: "Londrina Solid", cursive;
   font-size: 4rem;
-  color: #fff;
+  color: #56CBF9;
   margin: 0 auto;
   width: 960px;
   text-align: center;
+  box-shadow: 5px 2px 4px 2px #fff;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.cronograma .acordion__titulo:hover {
+  background-color: #000;
+  transition: all .6s;
 }
 
 .cronograma .acordion__info {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
 }
@@ -167,13 +178,14 @@ img {
   margin-top: 2rem;
   border: 1px solid #000;
   padding: 1rem;
+  background-color: #56CBF9;
 }
 
 .cronograma .acordion__dia {
   font-family: "Londrina Solid", cursive;
   font-size: 3rem;
-  background-color: darkorchid;
-  border-radius: 50%;
+  background-color: #56CBF9;
+  margin-bottom: 1rem;
   text-align: center;
 }
 

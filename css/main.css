@@ -120,6 +120,7 @@ img {
 
 .cronograma {
   background-color: #16697A;
+  padding: 3rem;
 }
 
 .cronograma .cronograma__titulo {
@@ -239,4 +240,19 @@ img {
   font-family: "Rajdhani", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.projetos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.projetos .projeto__img {
+  width: 600px;
+}
+
+.projetos .projeto__info {
+  width: 500px;
 }

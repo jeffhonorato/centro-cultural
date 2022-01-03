@@ -301,3 +301,55 @@ img {
   box-shadow: 5px 1px 5px 1px #000;
   transition: all .6s;
 }
+
+.museu {
+  background-image: url("../img/background-museu.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+}
+
+.museu .museu__info {
+  max-width: 37.5rem;
+}
+
+.museu .projeto__titulo {
+  font-family: "Londrina Solid", cursive;
+  font-size: 4rem;
+  color: #56CBF9;
+  padding: 1rem;
+  text-align: center;
+}
+
+.museu .museu__p {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: 0.6rem;
+  color: #fff;
+}
+
+.museu .museu__link {
+  padding: 1rem;
+  background-color: #234c66;
+  color: #fff;
+  text-align: center;
+  margin: 1rem auto;
+  max-width: 12.5rem;
+  border-radius: 10px;
+  font-family: "Russo One", sans-serif;
+  box-shadow: 1px 5px 10px 1px #fff;
+}
+
+.museu .museu__link:hover {
+  background-color: #234c66;
+  box-shadow: 5px 1px 5px 1px #fff;
+  transition: all .6s;
+}

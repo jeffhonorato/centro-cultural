@@ -18,6 +18,10 @@ $size-corpo: 2rem;
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 li, ul {
     list-style: none;
 }

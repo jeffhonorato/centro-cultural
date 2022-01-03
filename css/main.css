@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 li, ul {
   list-style: none;
 }
@@ -181,6 +185,7 @@ img {
   perspective: 900px;
   animation: suave .7s ease-in-out;
   padding: 2rem;
+  margin-top: 2rem;
 }
 
 @keyframes suave {
@@ -195,12 +200,13 @@ img {
 }
 
 .cronograma .card {
-  margin-top: 2rem;
+  margin: 2rem 0;
   box-shadow: 0 0 10px 4px #fff;
   padding: 1rem;
   background-color: #56CBF9;
   transform: rotateX(10deg);
   border-radius: 10px;
+  position: relative;
 }
 
 .cronograma .card:hover {
@@ -214,6 +220,14 @@ img {
   font-size: 3rem;
   background-color: #56CBF9;
   text-align: center;
+  position: absolute;
+  padding: 1rem;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  top: -65px;
+  left: 120px;
+  background-color: #234c66;
+  color: #fff;
 }
 
 .cronograma .acordion__evento {
@@ -223,7 +237,7 @@ img {
   justify-content: center;
   gap: 0.4rem;
   font-size: 1.7rem;
-  margin-bottom: 2rem;
+  margin: 2rem 0;
 }
 
 .cronograma .acordion__local {

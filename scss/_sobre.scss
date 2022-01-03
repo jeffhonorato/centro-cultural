@@ -1,12 +1,13 @@
 .sobre {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding: 6rem 0;
     gap: 10rem;
 
         .sobre__img {
-            width: 400px;       
+            width: 400px;  
         }
 
         .sobre__info {
@@ -36,8 +37,27 @@
                 }
         }
 
-        
+/*********** MEDIA QUERIES - RESPONSIVIDADE ***********/
 
+/*********** CELULAR ***********/
+@media(min-width: 0px) and (max-width: 480px) {
+    .sobre {
+        padding: 3rem 0;
+        column-gap: 2rem;
+    }  
 
+    .sobre__img {
+        width: 280px;  
+    }
+
+    .sobre__titulo {
+        font-size: 2.4rem;
+    }
+
+    .sobre__logos {
+        gap: 0.5rem;
+    }
+}
 
 }
+

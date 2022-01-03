@@ -45,6 +45,7 @@ img {
 
 .header .nav__lista {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
@@ -93,10 +94,13 @@ img {
 
 .sobre {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding: 6rem 0;
   gap: 10rem;
+  /*********** MEDIA QUERIES - RESPONSIVIDADE ***********/
+  /*********** CELULAR ***********/
 }
 
 .sobre .sobre__img {
@@ -131,6 +135,22 @@ img {
 
 .sobre .sobre__logos .logo__img {
   width: 80px;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .sobre .sobre {
+    padding: 3rem 0;
+    column-gap: 2rem;
+  }
+  .sobre .sobre__img {
+    width: 280px;
+  }
+  .sobre .sobre__titulo {
+    font-size: 2.4rem;
+  }
+  .sobre .sobre__logos {
+    gap: 0.5rem;
+  }
 }
 
 .cronograma {
@@ -265,6 +285,12 @@ img {
   font-family: "Rajdhani", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .cronograma .cronograma__h2 {
+    font-size: 2rem;
+  }
 }
 
 .projetos {

@@ -12,4 +12,34 @@
         .projeto__info {
             width: 500px;
         }
+
+        .projeto__titulo {
+            font-family: $fonte-subtitulo;
+            font-size: $size-titulo;
+            color: $cor-links;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .projeto__p {
+            @include paragrafo;
+        }
+
+        .projeto__link {
+            padding: 1rem;
+            background-color: $cor-links;
+            color: #fff;
+            text-align: center;
+            margin: 1rem auto;
+            max-width: 12.5rem;
+            border-radius: 10px;
+            font-family: $fonte-titulo;
+            box-shadow: 1px 5px 10px 1px #000;
+
+                &:hover  {
+                    background-color: $cor-links;
+                    box-shadow: 5px 1px 5px 1px #000;
+                    transition: all .6s;
+                }
+        }
 }

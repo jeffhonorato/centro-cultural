@@ -13,6 +13,7 @@ li, ul {
 
 a {
   text-decoration: none;
+  display: block;
 }
 
 img {
@@ -116,6 +117,16 @@ img {
   line-height: 1.6;
   letter-spacing: 1px;
   padding: 0.6rem;
+}
+
+.sobre .sobre__logos {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.sobre .sobre__logos .logo__img {
+  width: 80px;
 }
 
 .cronograma {
@@ -255,4 +266,38 @@ img {
 
 .projetos .projeto__info {
   width: 500px;
+}
+
+.projetos .projeto__titulo {
+  font-family: "Londrina Solid", cursive;
+  font-size: 4rem;
+  color: #234c66;
+  padding: 1rem;
+  text-align: center;
+}
+
+.projetos .projeto__p {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: 0.6rem;
+}
+
+.projetos .projeto__link {
+  padding: 1rem;
+  background-color: #234c66;
+  color: #fff;
+  text-align: center;
+  margin: 1rem auto;
+  max-width: 12.5rem;
+  border-radius: 10px;
+  font-family: "Russo One", sans-serif;
+  box-shadow: 1px 5px 10px 1px #000;
+}
+
+.projetos .projeto__link:hover {
+  background-color: #234c66;
+  box-shadow: 5px 1px 5px 1px #000;
+  transition: all .6s;
 }

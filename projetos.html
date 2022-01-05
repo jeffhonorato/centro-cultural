@@ -122,6 +122,45 @@
                 </div>    
             </section>
         </section>
+
+        <section class="art__projeto">
+            <div class="artesanato">
+                <h2 class="art__titulo">Artesanato</h2>
+            </div>
+            <div class="art__conteudo">
+                <img src="./img/projetos/img-artesanato.png" alt="" class="img__art">
+                <div class="art__info">
+                    <p class="art__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quia ipsa odit suscipit voluptatibus perferendis totam libero culpa consectetur, dicta qui explicabo, ex officia et corporis incidunt enim quaerat aut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum sed sint modi deleniti magnam impedit excepturi quod repellendus blanditiis doloremque quibusdam adipisci dolore accusantium perferendis ratione, voluptatibus voluptate necessitatibus. Ab?</p>
+                    <p class="art__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quia ipsa odit suscipit voluptatibus perferendis totam libero culpa consectetur, dicta qui explicabo, ex officia et corporis incidunt enim quaerat aut.</p>
+                    <p class="art__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quia ipsa odit suscipit voluptatibus perferendis totam libero culpa consectetur, dicta qui explicabo, ex officia et corporis incidunt enim quaerat aut.</p>
+                    <p class="art__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quia ipsa odit suscipit voluptatibus perferendis totam libero culpa consectetur, dicta qui explicabo, ex officia et corporis incidunt enim quaerat aut.</p>
+                </div> 
+            </div>
+
+            <section class="slider__art">
+                <div class="swiper mySwiperArt">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide swiper-slide-art">
+                            <img src="img/projetos/artesanato/art-img1.jpg" alt="" class="art__img">
+                        </div>
+                        <div class="swiper-slide swiper-slide-art">
+                            <img src="img/projetos/artesanato/art-img2.jpeg" alt="" class="art__img">
+                        </div>
+                        <div class="swiper-slide swiper-slide-art">
+                            <img src="img/projetos/artesanato/art-img3.jpg" alt="" class="art__img">
+                        </div>
+                        <div class="swiper-slide swiper-slide-art">
+                            <img src="img/projetos/artesanato/art-img4.jpg" alt="" class="art__img">
+                        </div>
+                        <div class="swiper-slide swiper-slide-art">
+                            <img src="img/projetos/artesanato/art-img5.jpg" alt="" class="art__img">
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-pagination"></div>
+                </div>    
+            </section>
+        </section>
     </main>
 
     <footer></footer>
@@ -160,6 +199,26 @@
         stretch: 0,
         depth: 50,
         modifier: 1,
+        slideShadows: false,
+        },
+        // pagination: {
+        //   el: ".swiper-pagination",
+        // },
+    });
+</script>
+
+<script>
+    var swiperCinema = new Swiper(".mySwiperArt", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        loop: true,
+        coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 50,
+        modifier: 3,
         slideShadows: false,
         },
         // pagination: {

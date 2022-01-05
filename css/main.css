@@ -422,6 +422,7 @@ img {
   display: block;
   width: 100%;
   box-shadow: 1px 5px 10px 1px #000;
+  border-radius: 10px;
 }
 
 /*************  CINEMA  *************/
@@ -481,6 +482,67 @@ img {
   display: block;
   width: 100%;
   box-shadow: 1px 5px 10px 1px #000;
+  border-radius: 10px;
+}
+
+/*************  ARTESANATO  *************/
+.art__projeto {
+  padding-bottom: 4rem;
+}
+
+.art__projeto .artesanato {
+  background-image: url("../img/projetos/background-artesanato.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin-bottom: 6rem;
+}
+
+.art__projeto .art__titulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Londrina Solid", cursive;
+  font-size: 10rem;
+}
+
+.art__projeto .art__conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6rem;
+}
+
+.art__projeto .art__conteudo .art__info {
+  max-width: 600px;
+}
+
+.art__projeto .art__conteudo .art__p {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: 0.6rem;
+}
+
+.art__projeto .swiper-slide-art {
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.art__projeto .swiper-slide-art img {
+  display: block;
+  width: 100%;
+  box-shadow: 1px 5px 10px 1px #000;
+  border-radius: 10px;
 }
 
 .museu {

@@ -65,6 +65,7 @@
         display: block;
         width: 100%;
         box-shadow: 1px 5px 10px 1px #000;
+        border-radius: 10px;
       }
 
 
@@ -108,7 +109,7 @@
             }
     
             .cinema__p {
-                @include paragrafo
+                @include paragrafo;
     
             }
     }    
@@ -124,7 +125,66 @@
         display: block;
         width: 100%;
         box-shadow: 1px 5px 10px 1px #000;
+        border-radius: 10px;
     }
+
+}
+
+/*************  ARTESANATO  *************/
+.art__projeto {
+    padding-bottom: 4rem;
+
+        .artesanato {
+            background-image: url("../img/projetos/background-artesanato.jpg");
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            margin-bottom: 6rem;
+        }
+
+        .art__titulo {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: $fonte-subtitulo;
+            font-size: 10rem;
+        }
+
+    .art__conteudo {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 6rem;
+
+            .art__info {
+                max-width: 600px;
+            }
+
+            .art__p {
+                @include paragrafo;
+            }
+    }
+
+    .swiper-slide-art {
+        background-position: center;
+        background-size: cover;
+        width: 400px;
+        height: 400px;
+    }
+
+    .swiper-slide-art img {
+        display: block;
+        width: 100%;
+        box-shadow: 1px 5px 10px 1px #000;
+        border-radius: 10px;
+    }
+
 
 }
 

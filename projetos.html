@@ -44,6 +44,46 @@
             <h1 class="titulo__principal">Fique por dentro de <br> todos os nosso projetos</h1>
         </article>
 
+        <section class="capoeira__projeto">
+            <div class="capoeira">
+                <h2 class="capoeira__titulo">Capoeira</h2>
+            </div>
+            <div class="capoeira__conteudo">
+                <img src="./img/projetos/capoeira-img.png" alt="" class="img__capoeira">
+                <div class="capoeira__info">
+                    <p class="capoeira__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quia ipsa odit suscipit voluptatibus perferendis totam libero culpa consectetur, dicta qui explicabo, ex officia et corporis incidunt enim quaerat aut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum sed sint modi deleniti magnam impedit excepturi quod repellendus blanditiis doloremque quibusdam adipisci dolore accusantium perferendis ratione, voluptatibus voluptate necessitatibus. Ab?</p>
+                    <p class="capoeira__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quia ipsa odit suscipit voluptatibus perferendis totam libero culpa consectetur, dicta qui explicabo, ex officia et corporis incidunt enim quaerat aut.</p>
+                    <p class="capoeira__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quia ipsa odit suscipit voluptatibus perferendis totam libero culpa consectetur, dicta qui explicabo, ex officia et corporis incidunt enim quaerat aut.</p>
+                    <p class="capoeira__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quia ipsa odit suscipit voluptatibus perferendis totam libero culpa consectetur, dicta qui explicabo, ex officia et corporis incidunt enim quaerat aut.</p>
+                </div> 
+            </div>
+
+            <section class="slider__capoeira">
+                <div class="swiper mySwiperCapoeira">
+                    <div class="swiper-wrapper ">
+                        <div class="swiper-slide swiper-slide-capoeira">
+                            <img src="img/projetos/capoeira/capoeira-img1.jpg" alt="" class="cinema__img">
+                        </div>
+                        <div class="swiper-slide swiper-slide-capoeira">
+                            <img src="img/projetos/capoeira/capoeira-img2.jpeg" alt="" class="cinema__img">
+                        </div>
+                        <div class="swiper-slide swiper-slide-capoeira">
+                            <img src="img/projetos/capoeira/capoeira-img3.jpg" alt="" class="cinema__img">
+                        </div>
+                        <div class="swiper-slide swiper-slide-capoeira">
+                            <img src="img/projetos/capoeira/capoeira-img4.jpg" alt="" class="cinema__img">
+                        </div>
+                        <div class="swiper-slide swiper-slide-capoeira">
+                            <img src="img/projetos/capoeira/capoeira-img5.jpg" alt="" class="cinema__img">
+                        </div>
+                    </div>
+                        
+                    
+                    <div class="swiper-pagination"></div>
+                </div>    
+            </section>
+        </section>
+
         <section class="musica__projeto">
             <div class="musica">
                 <h2 class="musica__titulo">Música</h2>
@@ -156,8 +196,11 @@
                             <img src="img/projetos/artesanato/art-img5.jpg" alt="" class="art__img">
                         </div>
                     </div>
-                    
+                    <!-- <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div> -->
                     <div class="swiper-pagination"></div>
+
+                    </div>
                 </div>    
             </section>
         </section>
@@ -166,6 +209,26 @@
     <footer></footer>
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiperCapoeira", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            loop: true,
+            coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 50,
+            modifier: 2,
+            slideShadows: false,
+            },
+            // pagination: {
+            //   el: ".swiper-pagination",
+            // },
+        });
+    </script>
 
     <script>
         var swiper = new Swiper(".mySwiper", {
@@ -221,6 +284,10 @@
         modifier: 3,
         slideShadows: false,
         },
+        // navigation: {
+        //   nextEl: ".swiper-button-next",
+        //   prevEl: ".swiper-button-prev",
+        // },
         // pagination: {
         //   el: ".swiper-pagination",
         // },

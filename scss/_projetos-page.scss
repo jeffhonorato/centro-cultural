@@ -3,8 +3,64 @@
     font-family: $fonte-subtitulo;
     font-size: $size-titulo;
     color: $cor-links;
-    padding: 2rem;
+    padding: 4rem;
     text-align: center;
+}
+
+/*************  CAPOEIRA  *************/
+.capoeira__projeto {
+    padding-bottom: 4rem;
+
+        .capoeira {
+            background-image: url("../img/projetos/background-capoeira.jpg");
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            margin-bottom: 6rem;
+
+            .capoeira__titulo {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                font-family: $fonte-subtitulo;
+                font-size: 10rem;
+            }
+        }
+
+        .capoeira__conteudo {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 4rem;
+        }
+
+        .capoeira__info {
+            max-width: 600px;
+        }
+
+        .capoeira__p {
+            @include paragrafo;
+        }
+
+    .swiper-slide-capoeira {
+        background-position: center;
+        background-size: cover;
+        width: 400px;
+        height: 400px;
+    }
+
+    .swiper-slide-capoeira img {
+        display: block;
+        width: 100%;
+        box-shadow: 1px 5px 10px 1px #000;
+        border-radius: 10px;
+    }
 }
 
 /*************  MUSICA  *************/
@@ -52,23 +108,21 @@
         width: 100%;
         padding-top: 50px;
         padding-bottom: 50px;
-      }
+    }
 
-      .swiper-slide {
+    .swiper-slide {
         background-position: center;
         background-size: cover;
         width: 400px;
         height: 400px;
-      }
+    }
 
-      .swiper-slide img {
+    .swiper-slide img {
         display: block;
         width: 100%;
         box-shadow: 1px 5px 10px 1px #000;
         border-radius: 10px;
-      }
-
-
+    }
 }
 
 

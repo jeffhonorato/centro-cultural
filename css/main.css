@@ -356,8 +356,68 @@ img {
   font-family: "Londrina Solid", cursive;
   font-size: 4rem;
   color: #234c66;
-  padding: 2rem;
+  padding: 4rem;
   text-align: center;
+}
+
+/*************  CAPOEIRA  *************/
+.capoeira__projeto {
+  padding-bottom: 4rem;
+}
+
+.capoeira__projeto .capoeira {
+  background-image: url("../img/projetos/background-capoeira.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin-bottom: 6rem;
+}
+
+.capoeira__projeto .capoeira .capoeira__titulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Londrina Solid", cursive;
+  font-size: 10rem;
+}
+
+.capoeira__projeto .capoeira__conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.capoeira__projeto .capoeira__info {
+  max-width: 600px;
+}
+
+.capoeira__projeto .capoeira__p {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: 0.6rem;
+}
+
+.capoeira__projeto .swiper-slide-capoeira {
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.capoeira__projeto .swiper-slide-capoeira img {
+  display: block;
+  width: 100%;
+  box-shadow: 1px 5px 10px 1px #000;
+  border-radius: 10px;
 }
 
 /*************  MUSICA  *************/

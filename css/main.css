@@ -352,21 +352,64 @@ img {
 }
 
 /*************  LANDING PAGE PROJETOS  *************/
-.container-projetos {
-  background-image: url("../img/projetos/background-projetos.jpg");
+.titulo__principal {
+  font-family: "Londrina Solid", cursive;
+  font-size: 4rem;
+  color: #234c66;
+  padding: 2rem;
+  text-align: center;
+}
+
+/*************  MUSICA  *************/
+.musica {
+  background-image: url("../img/projetos/background-musica.jpg");
   background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+  margin-bottom: 6rem;
 }
 
-.container-projetos .titulo__principal {
-  text-align: center;
-  background-color: blue;
+.musica .musica__titulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Londrina Solid", cursive;
+  font-size: 10rem;
 }
 
-.container-projetos .subtitulo {
-  text-align: center;
-  background-color: blue;
+.musica__conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.musica__conteudo .music__info {
+  max-width: 600px;
+}
+
+.musica__conteudo .music__p {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: 0.6rem;
+}
+
+/*************  CINEMA  *************/
+.cinema {
+  background-image: url("../img/projetos/background-projetos.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin-bottom: 6rem;
 }
 
 .museu {

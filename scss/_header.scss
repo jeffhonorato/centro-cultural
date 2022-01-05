@@ -24,12 +24,20 @@
             padding: 1rem;
             border-radius: 5px;
             box-shadow: 1px 5px 10px 1px #000;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
 
                 &:hover  {
                     background-color: $cor-links;
                     box-shadow: 1px 5px 10px 1px #fff;
                     transition: all .6s;
                 }
+
+            .nav__ico {
+                font-size: 1.5rem;
+                color: #fff;
+            }    
         }
 
         .nav__item {

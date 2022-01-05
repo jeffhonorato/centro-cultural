@@ -54,12 +54,20 @@ img {
   padding: 1rem;
   border-radius: 5px;
   box-shadow: 1px 5px 10px 1px #000;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .header .nav__link:hover {
   background-color: #234c66;
   box-shadow: 1px 5px 10px 1px #fff;
   transition: all .6s;
+}
+
+.header .nav__link .nav__ico {
+  font-size: 1.5rem;
+  color: #fff;
 }
 
 .header .nav__item {
@@ -293,6 +301,7 @@ img {
   }
 }
 
+/*************  APRESENTAÇÃO - INDEX.HTML  *************/
 .projetos {
   display: flex;
   align-items: center;
@@ -340,6 +349,24 @@ img {
   background-color: #234c66;
   box-shadow: 5px 1px 5px 1px #000;
   transition: all .6s;
+}
+
+/*************  LANDING PAGE PROJETOS  *************/
+.container-projetos {
+  background-image: url("../img/projetos/background-projetos.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-projetos .titulo__principal {
+  text-align: center;
+  background-color: blue;
+}
+
+.container-projetos .subtitulo {
+  text-align: center;
+  background-color: blue;
 }
 
 .museu {

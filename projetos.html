@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Rajdhani:wght@300&family=Russo+One&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./img/ico.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/main.css">
@@ -56,6 +57,31 @@
                     <p class="music__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quia ipsa odit suscipit voluptatibus perferendis totam libero culpa consectetur, dicta qui explicabo, ex officia et corporis incidunt enim quaerat aut.</p>
                 </div> 
             </div>
+
+            <section class="slider__musica">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/projetos/musica/musica-img1.jpg" alt="" class="cinema__img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/projetos/musica/musica-img2.jpg" alt="" class="cinema__img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/projetos/musica/musica-img2.jpg" alt="" class="cinema__img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/projetos/musica/musica-img4.jpg" alt="" class="cinema__img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/projetos/musica/musica-img5.jpg" alt="" class="cinema__img">
+                        </div>
+                    </div>
+                        
+                    
+                    <div class="swiper-pagination"></div>
+                </div>    
+            </section>
         </section>
 
         <section class="cinema__projeto">
@@ -73,4 +99,28 @@
             </div>
         </section>
     </main>
+
+    <footer></footer>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script>
+    var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        loop: true,
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+    
 </body>

@@ -405,6 +405,25 @@ img {
   padding: 0.6rem;
 }
 
+.musica__projeto .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.musica__projeto .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.musica__projeto .swiper-slide img {
+  display: block;
+  width: 100%;
+  box-shadow: 1px 1px 20px 1px #000;
+}
+
 /*************  CINEMA  *************/
 .cinema__projeto {
   padding-bottom: 4rem;

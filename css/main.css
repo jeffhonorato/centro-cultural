@@ -421,7 +421,7 @@ img {
 .musica__projeto .swiper-slide img {
   display: block;
   width: 100%;
-  box-shadow: 1px 1px 20px 1px #000;
+  box-shadow: 1px 5px 10px 1px #000;
 }
 
 /*************  CINEMA  *************/
@@ -455,6 +455,7 @@ img {
   gap: 2rem;
   align-items: center;
   justify-content: center;
+  margin-bottom: 6rem;
 }
 
 .cinema__projeto .cinema__conteudo .cinema__info {
@@ -467,6 +468,19 @@ img {
   line-height: 1.6;
   letter-spacing: 1px;
   padding: 0.6rem;
+}
+
+.cinema__projeto .swiper-slide-cinema {
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.cinema__projeto .swiper-slide-cinema img {
+  display: block;
+  width: 100%;
+  box-shadow: 1px 5px 10px 1px #000;
 }
 
 .museu {

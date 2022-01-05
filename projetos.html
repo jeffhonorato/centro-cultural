@@ -97,30 +97,75 @@
                     <p class="cinema__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quia ipsa odit suscipit voluptatibus perferendis totam libero culpa consectetur, dicta qui explicabo, ex officia et corporis incidunt enim quaerat aut.</p>
                 </div> 
             </div>
+
+            <section class="slider__cinema">
+                <div class="swiper mySwiperCinema">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide swiper-slide-cinema">
+                            <img src="img/projetos/cinema/cinema-img1.jpg" alt="" class="cinema__img">
+                        </div>
+                        <div class="swiper-slide swiper-slide-cinema">
+                            <img src="img/projetos/cinema/cinema-img2.png" alt="" class="cinema__img">
+                        </div>
+                        <div class="swiper-slide swiper-slide-cinema">
+                            <img src="img/projetos/cinema/cinema-img3.jpg" alt="" class="cinema__img">
+                        </div>
+                        <div class="swiper-slide swiper-slide-cinema">
+                            <img src="img/projetos/cinema/cinema-img4.jpg" alt="" class="cinema__img">
+                        </div>
+                        <div class="swiper-slide swiper-slide-cinema">
+                            <img src="img/projetos/cinema/cinema-img5.jpg" alt="" class="cinema__img">
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-pagination"></div>
+                </div>    
+            </section>
         </section>
     </main>
 
     <footer></footer>
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
     <script>
-    var swiper = new Swiper(".mySwiper", {
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            loop: true,
+            coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 50,
+            modifier: 1,
+            slideShadows: false,
+            },
+            // pagination: {
+            //   el: ".swiper-pagination",
+            // },
+        });
+    </script>
+
+<script>
+    var swiperCinema = new Swiper(".mySwiperCinema", {
         effect: "coverflow",
         grabCursor: true,
         centeredSlides: true,
         slidesPerView: "auto",
         loop: true,
         coverflowEffect: {
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: false,
+        rotate: 50,
+        stretch: 0,
+        depth: 50,
+        modifier: 1,
+        slideShadows: false,
         },
-        pagination: {
-          el: ".swiper-pagination",
-        },
-      });
-    </script>
+        // pagination: {
+        //   el: ".swiper-pagination",
+        // },
+    });
+</script>
     
 </body>

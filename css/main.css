@@ -361,7 +361,11 @@ img {
 }
 
 /*************  MUSICA  *************/
-.musica {
+.musica__projeto {
+  padding-bottom: 4rem;
+}
+
+.musica__projeto .musica {
   background-image: url("../img/projetos/background-musica.jpg");
   background-position: center;
   background-attachment: fixed;
@@ -371,7 +375,7 @@ img {
   margin-bottom: 6rem;
 }
 
-.musica .musica__titulo {
+.musica__projeto .musica .musica__titulo {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -381,7 +385,7 @@ img {
   font-size: 10rem;
 }
 
-.musica__conteudo {
+.musica__projeto .musica__conteudo {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -389,11 +393,11 @@ img {
   justify-content: center;
 }
 
-.musica__conteudo .music__info {
+.musica__projeto .musica__conteudo .music__info {
   max-width: 600px;
 }
 
-.musica__conteudo .music__p {
+.musica__projeto .musica__conteudo .music__p {
   font-family: "Rajdhani", sans-serif;
   font-weight: bold;
   line-height: 1.6;
@@ -402,14 +406,48 @@ img {
 }
 
 /*************  CINEMA  *************/
-.cinema {
-  background-image: url("../img/projetos/background-projetos.jpg");
+.cinema__projeto {
+  padding-bottom: 4rem;
+}
+
+.cinema__projeto .cinema {
+  background-image: url("../img/projetos/background-cinema.jpg");
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
   margin-bottom: 6rem;
+}
+
+.cinema__projeto .cinema .cinema__titulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Londrina Solid", cursive;
+  font-size: 10rem;
+}
+
+.cinema__projeto .cinema__conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.cinema__projeto .cinema__conteudo .cinema__info {
+  max-width: 600px;
+}
+
+.cinema__projeto .cinema__conteudo .cinema__p {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: 0.6rem;
 }
 
 .museu {

@@ -8,53 +8,88 @@
 }
 
 /*************  MUSICA  *************/
-.musica {
-    background-image: url("../img/projetos/background-musica.jpg");
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    margin-bottom: 6rem;
+.musica__projeto {
+    padding-bottom: 4rem;
 
-        .musica__titulo {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            font-family: $fonte-subtitulo;
-            font-size: 10rem;
-
-        }
-}
-
-.musica__conteudo {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
-
-        .music__info {
-            max-width: 600px;
-        }
-
-        .music__p {
-            @include paragrafo
-
-        }
+    .musica {
+        background-image: url("../img/projetos/background-musica.jpg");
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        margin-bottom: 6rem;
+    
+            .musica__titulo {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                font-family: $fonte-subtitulo;
+                font-size: 10rem;
+    
+            }
+    }
+    
+    .musica__conteudo {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+    
+            .music__info {
+                max-width: 600px;
+            }
+    
+            .music__p {
+                @include paragrafo;
+            }
+    }
 }
 
 /*************  CINEMA  *************/
-.cinema {
-    background-image: url("../img/projetos/background-projetos.jpg");
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    margin-bottom: 6rem;
+.cinema__projeto {
+    padding-bottom: 4rem;
+
+    .cinema {
+        background-image: url("../img/projetos/background-cinema.jpg");
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        margin-bottom: 6rem;
+    
+            .cinema__titulo {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                font-family: $fonte-subtitulo;
+                font-size: 10rem;
+            }
+    }
+    
+    .cinema__conteudo {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+    
+            .cinema__info {
+                max-width: 600px;
+            }
+    
+            .cinema__p {
+                @include paragrafo
+    
+            }
+    }    
+
 }
 
 

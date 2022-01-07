@@ -389,7 +389,8 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .cronograma .acordion__local {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -402,6 +403,13 @@ img {
   font-weight: bold;
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .cronograma .acordion__hora {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+}
+
 .cronograma .acordion__colaborador {
   display: flex;
   align-items: center;
@@ -409,6 +417,12 @@ img {
   font-family: "Rajdhani", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .cronograma .acordion__colaborador {
+    font-size: 1.3rem;
+  }
 }
 
 /*************  APRESENTAÇÃO - INDEX.HTML  *************/

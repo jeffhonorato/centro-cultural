@@ -151,7 +151,8 @@
         font-weight: bold;
 
             @include celular {
-                font-size: 1.2rem;
+                font-size: 1.3rem;
+                margin-bottom: 1rem;
             }
     }
     .acordion__hora {
@@ -161,6 +162,11 @@
         font-family: $fonte-corpo;  
         font-size: 1.5rem;  
         font-weight: bold;
+
+            @include celular {
+                font-size: 1.3rem;
+                margin-bottom: 1rem;
+            }
     }
     .acordion__colaborador {
         display: flex;
@@ -170,5 +176,8 @@
         font-size: 1.5rem;  
         font-weight: bold;
 
+            @include celular {
+                font-size: 1.3rem;
+            }
     }
 }

@@ -6,9 +6,10 @@
         @include celular {
             height: 50vh;
         }
-    
-    // padding: 3rem;
-   
+
+        @include tablet {
+            height: 60vh;
+        }
 
         .slider__galeria {
             display: flex;
@@ -16,14 +17,16 @@
             justify-content: center;
             height: 80vh;
             align-items: center;
-            
             position: relative;
           
                 @include celular {
                     height: 50vh;
                 }
 
-        }
+                @include tablet {
+                    height: 60vh;
+                }
+            }
 
         .slider__img {
             position: absolute;
@@ -38,9 +41,12 @@
                     width: 100vw;
                     height: 40vh;
                 }
-           
-            
-        }
+
+                @include tablet {
+                    width: 100vw;
+                    height: 50vh;
+                } 
+         }
 
         .slider__img.selected {
             opacity: 1;

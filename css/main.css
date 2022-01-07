@@ -101,6 +101,12 @@ img {
   }
 }
 
+@media (min-width: 480px) and (max-width: 768px) {
+  .slider {
+    height: 60vh;
+  }
+}
+
 .slider .slider__galeria {
   display: flex;
   align-items: center;
@@ -113,6 +119,12 @@ img {
 @media (min-width: 0px) and (max-width: 480px) {
   .slider .slider__galeria {
     height: 50vh;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .slider .slider__galeria {
+    height: 60vh;
   }
 }
 
@@ -133,6 +145,13 @@ img {
   }
 }
 
+@media (min-width: 480px) and (max-width: 768px) {
+  .slider .slider__img {
+    width: 100vw;
+    height: 50vh;
+  }
+}
+
 .slider .slider__img.selected {
   opacity: 1;
 }
@@ -144,12 +163,22 @@ img {
   justify-content: center;
   padding: 6rem 0;
   gap: 10rem;
-  /*********** MEDIA QUERIES - RESPONSIVIDADE ***********/
-  /*********** CELULAR ***********/
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .sobre {
+    gap: 1rem;
+  }
 }
 
 .sobre .sobre__img {
   width: 400px;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .sobre .sobre__img {
+    width: 280px;
+  }
 }
 
 .sobre .sobre__info {
@@ -164,12 +193,24 @@ img {
   text-align: center;
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .sobre .sobre__titulo {
+    font-size: 2rem;
+  }
+}
+
 .sobre .sobre__p {
   font-family: "Rajdhani", sans-serif;
   font-weight: bold;
   line-height: 1.6;
   letter-spacing: 1px;
   padding: 0.6rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .sobre .sobre__p {
+    font-size: 1rem;
+  }
 }
 
 .sobre .sobre__logos {
@@ -183,18 +224,8 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  .sobre .sobre {
-    padding: 3rem 0;
-    column-gap: 2rem;
-  }
-  .sobre .sobre__img {
-    width: 280px;
-  }
-  .sobre .sobre__titulo {
-    font-size: 2.4rem;
-  }
-  .sobre .sobre__logos {
-    gap: 0.5rem;
+  .sobre .sobre__logos .logo__img {
+    width: 60px;
   }
 }
 

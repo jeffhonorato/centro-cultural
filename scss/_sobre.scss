@@ -6,8 +6,16 @@
     padding: 6rem 0;
     gap: 10rem;
 
+            @include celular {
+                gap: 1rem;
+            }
+
         .sobre__img {
             width: 400px;  
+
+                @include celular {
+                    width: 280px;  
+                }
         }
 
         .sobre__info {
@@ -20,10 +28,18 @@
             color: $cor-links;
             padding: 1rem;
             text-align: center;
+
+                @include celular {
+                    font-size: $size-corpo;  
+                }
         }
 
         .sobre__p {
             @include paragrafo;
+
+                @include celular {
+                    font-size: 1rem;  
+                }
         }
 
         .sobre__logos {
@@ -34,30 +50,13 @@
 
                 .logo__img {
                     width: 80px;
+
+                    @include celular {
+                        width: 60px;  
+                    }
                 }
+
+                
         }
-
-/*********** MEDIA QUERIES - RESPONSIVIDADE ***********/
-
-/*********** CELULAR ***********/
-@media(min-width: 0px) and (max-width: 480px) {
-    .sobre {
-        padding: 3rem 0;
-        column-gap: 2rem;
-    }  
-
-    .sobre__img {
-        width: 280px;  
-    }
-
-    .sobre__titulo {
-        font-size: 2.4rem;
-    }
-
-    .sobre__logos {
-        gap: 0.5rem;
-    }
-}
-
 }
 

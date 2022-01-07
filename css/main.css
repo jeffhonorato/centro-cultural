@@ -667,6 +667,7 @@ img {
   gap: 2rem;
   justify-content: center;
   align-items: center;
+  padding-bottom: 3rem;
 }
 
 .footer .logo__rodape {
@@ -732,4 +733,31 @@ img {
   justify-content: center;
   font-family: "Rajdhani", sans-serif;
   font-size: 1.5rem;
+}
+
+.footer .desenvolvedor {
+  padding: 0.8rem;
+  background-color: #000;
+  text-align: center;
+}
+
+.footer .img__dev {
+  margin: 0 auto;
+}
+
+.footer .dev__dev p {
+  color: #fff;
+  font-family: "Russo One", sans-serif;
+}
+
+.footer .dev__link {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: .4rem;
+}
+
+.footer .dev__link:hover {
+  background-color: #56CBF9;
+  border-radius: 10px;
+  transition: all .6s;
 }

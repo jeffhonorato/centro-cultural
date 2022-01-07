@@ -7,6 +7,8 @@
             gap: 2rem;
             justify-content: center;
             align-items: center;
+            padding-bottom: 3rem;
+
         }
 
         .logo__rodape {
@@ -50,6 +52,7 @@
 
     .rodape__horarios {
         margin-top: 2rem;
+
     }
 
     .rodape__func {
@@ -68,5 +71,32 @@
         justify-content: center;
         font-family: $fonte-corpo;
         font-size: 1.5rem;
+    }
+
+    .desenvolvedor {
+        padding: 0.8rem;
+        background-color: #000;
+        text-align: center;
+    }
+
+    .img__dev {
+        margin: 0 auto;
+    }
+
+    .dev__dev p {
+        color: #fff;
+        font-family: $fonte-titulo;
+    }
+
+    .dev__link {
+        max-width: 300px;
+        margin: 0 auto;
+        padding: .4rem;
+    }
+
+    .dev__link:hover {
+        background-color: $cor-header;
+        border-radius: 10px;
+        transition: all .6s;
     }
 }

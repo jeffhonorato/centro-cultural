@@ -11,11 +11,20 @@
                 height: 170vh;
             }
 
+            @include tablet {
+                gap: 2rem;
+                height: 170vh;
+            }
+
         .projeto__img {
             width: 600px; 
 
                 @include celular {
                     width: 300px;
+                }
+
+                @include tablet {
+                    width: 400px;
                 }
         }
 

@@ -7,9 +7,16 @@
             text-align: center;   
             margin-bottom: 4rem;
 
+                
+
             .cronograma__h2 {
                 font-family: $fonte-subtitulo;
                 font-size: $size-titulo;
+
+                    @include celular {
+                        font-size: 3rem;
+                        margin-bottom: 1rem;
+                    }
             }
 
             .cronograma__p {
@@ -17,11 +24,24 @@
                 font-size: $size-corpo;
                 font-weight: bold;
                 color: #fff;
+
+                    @include celular {
+                        font-size: 1.5rem;
+                    }
             }
         }
 
+    .acordions__base {
+        @include celular {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+        }
+    }    
+
     .acordion__cards {
         margin-bottom: 2rem;
+
     }    
 
     .acordion__titulo {
@@ -39,6 +59,12 @@
                 background-color: #000;
                 transition: all .6s;
             }
+
+                @include celular {
+                    width: 300px;
+                    font-size: $size-corpo;
+                    padding: 1rem;
+                }
     }
 
     .acordion__info {
@@ -77,6 +103,11 @@
                 transition: all 0.6s;
                 box-shadow: 0 0 10px 4px #000;
             }
+
+                @include celular {
+                    transform: rotateX(0);
+                    padding: 2.3rem;
+                }
     }
 
     .acordion__dia {
@@ -92,6 +123,10 @@
         left: 120px;
         background-color: $cor-links;
         color: #fff;
+
+            @include celular {
+                left: 50px;
+            }
     }
 
     .acordion__evento {
@@ -102,6 +137,8 @@
         gap: 0.4rem;
         font-size: 1.7rem;
         margin: 2rem 0;
+
+            
     }
 
     
@@ -112,6 +149,10 @@
         font-family: $fonte-corpo;  
         font-size: 1.5rem;  
         font-weight: bold;
+
+            @include celular {
+                font-size: 1.2rem;
+            }
     }
     .acordion__hora {
         display: flex;
@@ -130,11 +171,4 @@
         font-weight: bold;
 
     }
-
-@media(min-width: 0px) and (max-width: 480px) {
-    .cronograma__h2 {
-        font-size: 2rem;
-    }
-}
-
 }

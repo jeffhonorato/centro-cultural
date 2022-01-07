@@ -1,7 +1,7 @@
 .header {
     background-color: $cor-header;
         @include celular {
-            height: 150vh;
+            height: 140vh;
         }
 
         .img__logo {

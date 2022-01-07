@@ -33,7 +33,7 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .header {
-    height: 150vh;
+    height: 140vh;
   }
 }
 
@@ -245,11 +245,32 @@ img {
   font-size: 4rem;
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .cronograma .cronograma__titulo .cronograma__h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+}
+
 .cronograma .cronograma__titulo .cronograma__p {
   font-family: "Rajdhani", sans-serif;
   font-size: 2rem;
   font-weight: bold;
   color: #fff;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .cronograma .cronograma__titulo .cronograma__p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .cronograma .acordions__base {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
 }
 
 .cronograma .acordion__cards {
@@ -271,6 +292,14 @@ img {
 .cronograma .acordion__titulo:hover {
   background-color: #000;
   transition: all .6s;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .cronograma .acordion__titulo {
+    width: 300px;
+    font-size: 2rem;
+    padding: 1rem;
+  }
 }
 
 .cronograma .acordion__info {
@@ -311,6 +340,13 @@ img {
   box-shadow: 0 0 10px 4px #000;
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .cronograma .card {
+    transform: rotateX(0);
+    padding: 2.3rem;
+  }
+}
+
 .cronograma .acordion__dia {
   font-family: "Londrina Solid", cursive;
   font-size: 3rem;
@@ -324,6 +360,12 @@ img {
   left: 120px;
   background-color: #234c66;
   color: #fff;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .cronograma .acordion__dia {
+    left: 50px;
+  }
 }
 
 .cronograma .acordion__evento {
@@ -345,6 +387,12 @@ img {
   font-weight: bold;
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .cronograma .acordion__local {
+    font-size: 1.2rem;
+  }
+}
+
 .cronograma .acordion__hora {
   display: flex;
   align-items: center;
@@ -361,12 +409,6 @@ img {
   font-family: "Rajdhani", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
-}
-
-@media (min-width: 0px) and (max-width: 480px) {
-  .cronograma .cronograma__h2 {
-    font-size: 2rem;
-  }
 }
 
 /*************  APRESENTAÇÃO - INDEX.HTML  *************/

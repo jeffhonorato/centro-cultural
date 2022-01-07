@@ -870,6 +870,10 @@ img {
   margin-bottom: 6rem;
 }
 
+.art__projeto .art__conteudo .img__art {
+  width: 320px;
+}
+
 .art__projeto .art__conteudo .art__info {
   max-width: 600px;
 }

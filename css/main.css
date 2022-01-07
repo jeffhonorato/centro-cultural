@@ -485,7 +485,19 @@ img {
 }
 
 .cronograma .col__ico {
-  font-size: 40px;
+  font-size: 20px;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .cronograma .col__ico {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .cronograma .col__ico {
+    font-size: 20px;
+  }
 }
 
 /*************  APRESENTAÇÃO - INDEX.HTML  *************/

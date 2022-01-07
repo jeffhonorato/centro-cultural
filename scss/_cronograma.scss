@@ -212,6 +212,14 @@
     }
 
     .col__ico {
-        font-size: 40px;
+        font-size: 20px;
+
+            @include celular {
+                font-size: 40px;
+            }
+
+            @include tablet {
+                font-size: 20px;
+            }
     }
 }

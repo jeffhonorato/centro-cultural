@@ -597,12 +597,34 @@ img {
 }
 
 /*************  LANDING PAGE PROJETOS  *************/
+.header {
+  height: 70vh;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .header {
+    height: 80vh;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .header .img__logo {
+    width: 300px;
+  }
+}
+
 .titulo__principal {
   font-family: "Londrina Solid", cursive;
   font-size: 4rem;
   color: #234c66;
   padding: 4rem;
   text-align: center;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .titulo__principal {
+    font-size: 2rem;
+  }
 }
 
 /*************  CAPOEIRA  *************/
@@ -628,6 +650,12 @@ img {
   height: 100vh;
   font-family: "Londrina Solid", cursive;
   font-size: 10rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .capoeira__projeto .capoeira .capoeira__titulo {
+    font-size: 5rem;
+  }
 }
 
 .capoeira__projeto .capoeira__conteudo {
@@ -688,6 +716,12 @@ img {
   height: 100vh;
   font-family: "Londrina Solid", cursive;
   font-size: 10rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .musica__projeto .musica .musica__titulo {
+    font-size: 5rem;
+  }
 }
 
 .musica__projeto .musica__conteudo {
@@ -755,6 +789,12 @@ img {
   font-size: 10rem;
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .cinema__projeto .cinema .cinema__titulo {
+    font-size: 5rem;
+  }
+}
+
 .cinema__projeto .cinema__conteudo {
   display: flex;
   flex-wrap: wrap;
@@ -813,6 +853,12 @@ img {
   height: 100vh;
   font-family: "Londrina Solid", cursive;
   font-size: 10rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .art__projeto .art__titulo {
+    font-size: 4rem;
+  }
 }
 
 .art__projeto .art__conteudo {

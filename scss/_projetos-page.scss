@@ -1,10 +1,28 @@
 /*************  LANDING PAGE PROJETOS  *************/
+.header {
+    height: 70vh;
+
+        @include celular {
+            height: 80vh;
+        }
+
+    .img__logo {
+        @include celular {
+            width: 300px;
+        }
+    }    
+}
+
 .titulo__principal {
     font-family: $fonte-subtitulo;
     font-size: $size-titulo;
     color: $cor-links;
     padding: 4rem;
     text-align: center;
+
+        @include celular {
+            font-size: 2rem;
+        }
 }
 
 /*************  CAPOEIRA  *************/
@@ -28,6 +46,10 @@
                 height: 100vh;
                 font-family: $fonte-subtitulo;
                 font-size: 10rem;
+
+                    @include celular {
+                        font-size: 5rem;
+                    }
             }
         }
 
@@ -84,6 +106,10 @@
                 height: 100vh;
                 font-family: $fonte-subtitulo;
                 font-size: 10rem;
+
+                    @include celular {
+                        font-size: 5rem;
+                    }
     
             }
     }
@@ -147,6 +173,10 @@
                 height: 100vh;
                 font-family: $fonte-subtitulo;
                 font-size: 10rem;
+
+                    @include celular {
+                        font-size: 5rem;
+                    }
             }
     }
     
@@ -206,6 +236,10 @@
             height: 100vh;
             font-family: $fonte-subtitulo;
             font-size: 10rem;
+
+                @include celular {
+                    font-size: 4rem;
+                }
         }
 
     .art__conteudo {

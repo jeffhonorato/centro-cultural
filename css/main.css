@@ -656,3 +656,80 @@ img {
   box-shadow: 5px 1px 5px 1px #fff;
   transition: all .6s;
 }
+
+.footer {
+  background-color: #56CBF9;
+}
+
+.footer .rodape {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .logo__rodape {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.footer .rodape__info {
+  max-width: 520px;
+}
+
+.footer .rodape p {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: 0.6rem;
+}
+
+.footer .redes__sociais {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .rede__img:hover {
+  box-shadow: 2px 2px 10px 2px #000;
+  transition: all .6s;
+}
+
+.footer .rodape__endereco {
+  padding: 1rem;
+}
+
+.footer .rodape__rua,
+.footer .rodape__bairro,
+.footer .rodape__cidade {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.5rem;
+}
+
+.footer .rodape__horarios {
+  margin-top: 2rem;
+}
+
+.footer .rodape__func {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  border: 1px solid #000;
+  padding: 0.8rem;
+}
+
+.footer .hora__semana,
+.footer .hora__almoco {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  justify-content: center;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.5rem;
+}

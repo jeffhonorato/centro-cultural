@@ -11,6 +11,10 @@
     align-items: center;
     padding: 1rem;
 
+        @include celular {
+            height: 120vh;
+        }
+
         .museu__info {
             max-width: 37.5rem;
         }
@@ -21,11 +25,19 @@
             color: $cor-header;
             padding: 1rem;
             text-align: center;
+
+                @include celular {
+                    font-size: 3rem;
+                }
         }
 
         .museu__p {
             @include paragrafo;
             color: #fff;
+
+                @include celular {
+                    font-size: 1rem;
+                }
         }
 
         .museu__link {

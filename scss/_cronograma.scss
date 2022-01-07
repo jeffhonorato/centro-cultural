@@ -37,6 +37,18 @@
             grid-template-columns: 1fr;
             justify-content: center;
         }
+
+        @include celular {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+        }
+
+        @include desktop {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+        }
     }    
 
     .acordion__cards {
@@ -62,6 +74,18 @@
 
                 @include celular {
                     width: 300px;
+                    font-size: $size-corpo;
+                    padding: 1rem;
+                }
+
+                @include tablet {
+                    width: 400px;
+                    font-size: $size-corpo;
+                    padding: 1rem;
+                }
+
+                @include desktop {
+                    width: 800px;
                     font-size: $size-corpo;
                     padding: 1rem;
                 }
@@ -108,6 +132,11 @@
                     transform: rotateX(0);
                     padding: 2.3rem;
                 }
+
+                @include tablet {
+                    transform: rotateX(0);
+                    padding: 2.3rem;
+                }
     }
 
     .acordion__dia {
@@ -126,6 +155,10 @@
 
             @include celular {
                 left: 50px;
+            }
+
+            @include tablet {
+                left: 85px;
             }
     }
 
@@ -176,5 +209,9 @@
             @include celular {
                 font-size: 1.3rem;
             }
+    }
+
+    .col__ico {
+        font-size: 40px;
     }
 }

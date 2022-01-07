@@ -33,7 +33,13 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .header {
-    height: 140vh;
+    height: 150vh;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .header {
+    height: 150vh;
   }
 }
 
@@ -56,6 +62,14 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
+  .header .nav__lista {
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
   .header .nav__lista {
     padding: 0.5rem;
     display: grid;
@@ -273,6 +287,22 @@ img {
   }
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .cronograma .acordions__base {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .cronograma .acordions__base {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+}
+
 .cronograma .acordion__cards {
   margin-bottom: 2rem;
 }
@@ -297,6 +327,22 @@ img {
 @media (min-width: 0px) and (max-width: 480px) {
   .cronograma .acordion__titulo {
     width: 300px;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .cronograma .acordion__titulo {
+    width: 400px;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .cronograma .acordion__titulo {
+    width: 800px;
     font-size: 2rem;
     padding: 1rem;
   }
@@ -347,6 +393,13 @@ img {
   }
 }
 
+@media (min-width: 480px) and (max-width: 768px) {
+  .cronograma .card {
+    transform: rotateX(0);
+    padding: 2.3rem;
+  }
+}
+
 .cronograma .acordion__dia {
   font-family: "Londrina Solid", cursive;
   font-size: 3rem;
@@ -365,6 +418,12 @@ img {
 @media (min-width: 0px) and (max-width: 480px) {
   .cronograma .acordion__dia {
     left: 50px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .cronograma .acordion__dia {
+    left: 85px;
   }
 }
 
@@ -425,20 +484,44 @@ img {
   }
 }
 
+.cronograma .col__ico {
+  font-size: 40px;
+}
+
 /*************  APRESENTAÇÃO - INDEX.HTML  *************/
 .projetos {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 10rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .projetos {
+    gap: 3rem;
+    height: 170vh;
+  }
 }
 
 .projetos .projeto__img {
   width: 600px;
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .projetos .projeto__img {
+    width: 300px;
+  }
+}
+
 .projetos .projeto__info {
   width: 500px;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .projetos .projeto__info {
+    width: 300px;
+  }
 }
 
 .projetos .projeto__titulo {
@@ -447,6 +530,12 @@ img {
   color: #234c66;
   padding: 1rem;
   text-align: center;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .projetos .projeto__titulo {
+    font-size: 2.5rem;
+  }
 }
 
 .projetos .projeto__p {
@@ -742,6 +831,12 @@ img {
   padding: 1rem;
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .museu {
+    height: 120vh;
+  }
+}
+
 .museu .museu__info {
   max-width: 37.5rem;
 }
@@ -754,6 +849,12 @@ img {
   text-align: center;
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .museu .projeto__titulo {
+    font-size: 3rem;
+  }
+}
+
 .museu .museu__p {
   font-family: "Rajdhani", sans-serif;
   font-weight: bold;
@@ -761,6 +862,12 @@ img {
   letter-spacing: 1px;
   padding: 0.6rem;
   color: #fff;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .museu .museu__p {
+    font-size: 1rem;
+  }
 }
 
 .museu .museu__link {
@@ -852,6 +959,15 @@ img {
   color: #fff;
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .footer .rodape__rua,
+  .footer .rodape__bairro,
+  .footer .rodape__cidade {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
 .footer .rodape__horarios {
   margin-top: 2rem;
 }
@@ -882,6 +998,14 @@ img {
   font-family: "Rajdhani", sans-serif;
   font-size: 1.5rem;
   color: #fff;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .footer .hora__semana,
+  .footer .hora__almoco {
+    font-size: 1rem;
+    padding-bottom: 0.4rem;
+  }
 }
 
 .footer .desenvolvedor {

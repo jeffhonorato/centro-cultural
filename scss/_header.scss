@@ -1,7 +1,11 @@
 .header {
     background-color: $cor-header;
         @include celular {
-            height: 140vh;
+            height: 150vh;
+        }
+
+        @include tablet {
+            height: 150vh;
         }
 
         .img__logo {
@@ -26,6 +30,12 @@
                     display: grid;
                     grid-template-columns: 1fr;
                 }  
+
+                @include tablet {
+                    padding: 0.5rem;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                } 
         }
 
         .nav__link {

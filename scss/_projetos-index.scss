@@ -1,17 +1,30 @@
 /*************  APRESENTAÇÃO - INDEX.HTML  *************/
 .projetos {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 10rem;
 
+            @include celular {
+                gap: 3rem;
+                height: 170vh;
+            }
 
         .projeto__img {
             width: 600px; 
+
+                @include celular {
+                    width: 300px;
+                }
         }
 
         .projeto__info {
             width: 500px;
+
+                @include celular {
+                    width: 300px; 
+                }
         }
 
         .projeto__titulo {
@@ -20,6 +33,10 @@
             color: $cor-links;
             padding: 1rem;
             text-align: center;
+
+                @include celular {
+                    font-size: 2.5rem;
+                }
         }
 
         .projeto__p {

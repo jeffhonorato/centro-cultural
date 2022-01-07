@@ -827,6 +827,20 @@ img {
   padding: 1rem;
 }
 
+.footer .endereco__titulo {
+  font-family: "Russo One", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.footer .endereco__info {
+  background-color: #234C66;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 2px #000;
+}
+
 .footer .rodape__rua,
 .footer .rodape__bairro,
 .footer .rodape__cidade {
@@ -835,6 +849,7 @@ img {
   align-items: center;
   font-family: "Rajdhani", sans-serif;
   font-size: 1.5rem;
+  color: #fff;
 }
 
 .footer .rodape__horarios {
@@ -845,8 +860,17 @@ img {
   font-family: "Rajdhani", sans-serif;
   font-size: 1.5rem;
   text-align: center;
-  border: 1px solid #000;
+  background-color: #37769c;
+  box-shadow: 2px 2px 10px 2px #000;
   padding: 0.8rem;
+  border-radius: 10px;
+}
+
+.footer .funcionamento {
+  font-family: "Russo One", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .footer .hora__semana,
@@ -857,6 +881,7 @@ img {
   justify-content: center;
   font-family: "Rajdhani", sans-serif;
   font-size: 1.5rem;
+  color: #fff;
 }
 
 .footer .desenvolvedor {

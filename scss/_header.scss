@@ -1,5 +1,8 @@
 .header {
     background-color: $cor-header;
+        @include celular {
+            height: 150vh;
+        }
 
         .img__logo {
             width: 360px;
@@ -17,6 +20,12 @@
             display: flex;
             flex-wrap: wrap;
             gap: 1rem;
+
+                @include celular {
+                    padding: 0.5rem;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                }  
         }
 
         .nav__link {
@@ -33,6 +42,12 @@
                     box-shadow: 1px 5px 10px 1px #fff;
                     transition: all .6s;
                 }
+            
+            // @include celular {
+            //     padding: 0.5rem;
+            //     display: grid;
+            //     grid-template-columns: 1fr;
+            // }    
 
             .nav__ico {
                 font-size: 1.5rem;

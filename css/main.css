@@ -31,6 +31,12 @@ img {
   background-color: #56CBF9;
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .header {
+    height: 150vh;
+  }
+}
+
 .header .img__logo {
   width: 360px;
 }
@@ -47,6 +53,14 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .header .nav__lista {
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 .header .nav__link {
@@ -77,23 +91,40 @@ img {
 
 .slider {
   background-color: #000;
+  height: 100vh;
+  position: relative;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .slider {
+    height: 50vh;
+  }
 }
 
 .slider .slider__galeria {
   display: flex;
-  position: relative;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 80vh;
+  align-items: center;
+  object-fit: cover;
+  margin: 1rem;
+  position: relative;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .slider .slider__galeria {
+    height: 50vh;
+  }
 }
 
 .slider .slider__img {
   position: absolute;
-  height: 90vh;
   opacity: 0;
   transition: opacity 600ms;
   box-shadow: 10px 10px 10px 4px #fff;
   border-radius: 10px;
+  height: 70vh;
 }
 
 .slider .slider__img.selected {

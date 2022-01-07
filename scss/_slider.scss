@@ -1,25 +1,41 @@
 .slider {
     background-color: #000;
+    height: 100vh;
+    position: relative;
+
+        @include celular {
+            height: 50vh;
+        }
+    
     // padding: 3rem;
    
 
         .slider__galeria {
             display: flex;
-            position: relative;
             align-items: center;
             justify-content: center;
-            height: 100vh;
-            // width: 80%;
-            // max-width: 500px;
+            height: 80vh;
+            align-items: center;
+            object-fit: cover;
+            margin: 1rem;
+            position: relative;
+          
+                @include celular {
+                    height: 50vh;
+                }
+
         }
 
         .slider__img {
             position: absolute;
-            height: 90vh;
+            // width: 100vw;
+            // height: 100vh;
             opacity: 0;
             transition: opacity 600ms;
             box-shadow: 10px 10px 10px 4px #fff;
             border-radius: 10px;
+            height: 70vh;
+            
         }
 
         .slider__img.selected {

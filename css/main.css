@@ -91,7 +91,7 @@ img {
 
 .slider {
   background-color: #000;
-  height: 100vh;
+  height: 80vh;
   position: relative;
 }
 
@@ -107,8 +107,6 @@ img {
   justify-content: center;
   height: 80vh;
   align-items: center;
-  object-fit: cover;
-  margin: 1rem;
   position: relative;
 }
 
@@ -120,11 +118,19 @@ img {
 
 .slider .slider__img {
   position: absolute;
+  width: 80vw;
+  height: 70vh;
   opacity: 0;
   transition: opacity 600ms;
   box-shadow: 10px 10px 10px 4px #fff;
   border-radius: 10px;
-  height: 70vh;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .slider .slider__img {
+    width: 100vw;
+    height: 40vh;
+  }
 }
 
 .slider .slider__img.selected {

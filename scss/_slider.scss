@@ -1,6 +1,6 @@
 .slider {
     background-color: #000;
-    height: 100vh;
+    height: 80vh;
     position: relative;
 
         @include celular {
@@ -16,8 +16,7 @@
             justify-content: center;
             height: 80vh;
             align-items: center;
-            object-fit: cover;
-            margin: 1rem;
+            
             position: relative;
           
                 @include celular {
@@ -28,13 +27,18 @@
 
         .slider__img {
             position: absolute;
-            // width: 100vw;
-            // height: 100vh;
+            width: 80vw;
+            height: 70vh;
             opacity: 0;
             transition: opacity 600ms;
             box-shadow: 10px 10px 10px 4px #fff;
             border-radius: 10px;
-            height: 70vh;
+
+                @include celular {
+                    width: 100vw;
+                    height: 40vh;
+                }
+           
             
         }
 

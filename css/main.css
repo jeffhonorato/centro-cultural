@@ -597,24 +597,24 @@ img {
 }
 
 /*************  LANDING PAGE PROJETOS  *************/
-.header {
+.header__projetos {
   height: 70vh;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  .header {
+  .header__projetos {
     height: 80vh;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  .header {
+  .header__projetos {
     height: 90vh;
   }
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  .header .img__logo {
+  .header__projetos .img__logo {
     width: 300px;
   }
 }

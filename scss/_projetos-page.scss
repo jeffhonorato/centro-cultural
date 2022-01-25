@@ -133,12 +133,12 @@
     .musica__conteudo {
         display: flex;
         flex-wrap: wrap;
-        gap: 2rem;
+        gap: 1rem;
         align-items: center;
         justify-content: center;
     
             .music__info {
-                max-width: 600px;
+                max-width: 500px;
             }
     
             .music__p {
@@ -203,13 +203,13 @@
     .cinema__conteudo {
         display: flex;
         flex-wrap: wrap;
-        gap: 2rem;
+        gap: 1rem;
         align-items: center;
         justify-content: center;
         margin-bottom: 6rem;
     
             .cinema__info {
-                max-width: 600px;
+                max-width: 500px;
             }
     
             .cinema__p {
@@ -269,17 +269,17 @@
     .art__conteudo {
         display: flex;
         flex-wrap: wrap;
-        gap: 2rem;
+        gap: 1rem;
         align-items: center;
         justify-content: center;
         margin-bottom: 6rem;
 
-            .img__art {
-                width: 320px;
-            }
+            // .img__art {
+            //     width: 520px;
+            // }
 
             .art__info {
-                max-width: 600px;
+                max-width: 500px;
             }
 
             .art__p {

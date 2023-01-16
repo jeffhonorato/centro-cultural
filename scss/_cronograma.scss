@@ -49,10 +49,10 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            transform: skew(1deg, 1deg);
-            border: 1px solid inset #fff;
-            transition: .3s; 
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
             transform: rotateY(40deg);
+            transition: .3s; 
             box-shadow: 1px 1px 10px #fff;
 
             &:hover {
@@ -61,7 +61,10 @@
             }
         }
 
-
+        .card__info--titulo {
+            font-family: $fonte-corpo;
+            text-align: center;
+        }
 
     }
 

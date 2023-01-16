@@ -1,30 +1,25 @@
 @charset "UTF-8";
 /*********** VARIAVEIS ***********/
 /*********** CONFIGURAÇÃO ***********/
-/* line 15, ../../../Documents/GitHub/centro-cultural/scss/main.scss */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* line 21, ../../../Documents/GitHub/centro-cultural/scss/main.scss */
 html {
   scroll-behavior: smooth;
 }
 
-/* line 25, ../../../Documents/GitHub/centro-cultural/scss/main.scss */
 li, ul {
   list-style: none;
 }
 
-/* line 29, ../../../Documents/GitHub/centro-cultural/scss/main.scss */
 a {
   text-decoration: none;
   display: block;
 }
 
-/* line 34, ../../../Documents/GitHub/centro-cultural/scss/main.scss */
 img {
   max-width: 100%;
   display: block;
@@ -32,31 +27,26 @@ img {
 
 /*********** MIXINS ***********/
 /*********** PÁGINA ***********/
-/* line 1, ../../../Documents/GitHub/centro-cultural/scss/_header.scss */
 .header {
   background-color: #56CBF9;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 1, ../../../Documents/GitHub/centro-cultural/scss/_header.scss */
   .header {
-    height: 150vh;
+    height: 50vh;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 1, ../../../Documents/GitHub/centro-cultural/scss/_header.scss */
   .header {
     height: 150vh;
   }
 }
 
-/* line 11, ../../../Documents/GitHub/centro-cultural/scss/_header.scss */
 .header .logo {
   padding-top: 5rem;
 }
 
-/* line 15, ../../../Documents/GitHub/centro-cultural/scss/_header.scss */
 .header .img__logo {
   width: 360px;
   margin: 0 auto;
@@ -64,7 +54,28 @@ img {
   flex-direction: column;
 }
 
-/* line 23, ../../../Documents/GitHub/centro-cultural/scss/_header.scss */
+@media (min-width: 0px) and (max-width: 480px) {
+  .header .img__logo {
+    width: 300px;
+  }
+}
+
+.header .icone__mobile {
+  width: 70px;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .header .icone__mobile {
+    display: block;
+    width: 60px;
+  }
+}
+
 .header .nav {
   display: flex;
   flex-wrap: wrap;
@@ -73,7 +84,13 @@ img {
   height: 30vh;
 }
 
-/* line 31, ../../../Documents/GitHub/centro-cultural/scss/_header.scss */
+@media (min-width: 0px) and (max-width: 480px) {
+  .header .nav {
+    display: grid;
+    justify-items: center;
+  }
+}
+
 .header .nav__lista {
   display: flex;
   flex-wrap: wrap;
@@ -81,16 +98,19 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 31, ../../../Documents/GitHub/centro-cultural/scss/_header.scss */
   .header .nav__lista {
     padding: 0.5rem;
-    display: grid;
+    display: none;
     grid-template-columns: 1fr;
+    gap: 0rem;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    transition: all .5s;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 31, ../../../Documents/GitHub/centro-cultural/scss/_header.scss */
   .header .nav__lista {
     padding: 0.5rem;
     display: grid;
@@ -98,7 +118,12 @@ img {
   }
 }
 
-/* line 49, ../../../Documents/GitHub/centro-cultural/scss/_header.scss */
+@media (min-width: 0px) and (max-width: 480px) {
+  .header .nav__lista.ativo {
+    display: grid;
+  }
+}
+
 .header .nav__link {
   background-color: #234c66;
   padding: 1rem;
@@ -106,29 +131,34 @@ img {
   box-shadow: 1px 5px 10px 1px #000;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
+  border: 1px solid #fff;
 }
 
-/* line 58, ../../../Documents/GitHub/centro-cultural/scss/_header.scss */
 .header .nav__link:hover {
   background-color: #234c66;
   box-shadow: 1px 5px 10px 1px #fff;
   transition: all .6s;
 }
 
-/* line 70, ../../../Documents/GitHub/centro-cultural/scss/_header.scss */
+@media (min-width: 0px) and (max-width: 480px) {
+  .header .nav__link {
+    padding: 0.5rem;
+  }
+}
+
 .header .nav__link .nav__ico {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #fff;
 }
 
-/* line 76, ../../../Documents/GitHub/centro-cultural/scss/_header.scss */
 .header .nav__item {
   font-family: "Russo One", sans-serif;
   color: #fff;
+  font-size: .8rem;
 }
 
-/* line 1, ../../../Documents/GitHub/centro-cultural/scss/_slider.scss */
 .slider {
   background-color: #000;
   height: 80vh;
@@ -136,20 +166,17 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 1, ../../../Documents/GitHub/centro-cultural/scss/_slider.scss */
   .slider {
     height: 50vh;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 1, ../../../Documents/GitHub/centro-cultural/scss/_slider.scss */
   .slider {
     height: 60vh;
   }
 }
 
-/* line 14, ../../../Documents/GitHub/centro-cultural/scss/_slider.scss */
 .slider .slider__galeria {
   display: flex;
   align-items: center;
@@ -160,20 +187,17 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 14, ../../../Documents/GitHub/centro-cultural/scss/_slider.scss */
   .slider .slider__galeria {
     height: 50vh;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 14, ../../../Documents/GitHub/centro-cultural/scss/_slider.scss */
   .slider .slider__galeria {
     height: 60vh;
   }
 }
 
-/* line 31, ../../../Documents/GitHub/centro-cultural/scss/_slider.scss */
 .slider .slider__img {
   position: absolute;
   width: 80vw;
@@ -185,7 +209,6 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 31, ../../../Documents/GitHub/centro-cultural/scss/_slider.scss */
   .slider .slider__img {
     width: 100vw;
     height: 40vh;
@@ -193,19 +216,16 @@ img {
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 31, ../../../Documents/GitHub/centro-cultural/scss/_slider.scss */
   .slider .slider__img {
     width: 100vw;
     height: 50vh;
   }
 }
 
-/* line 51, ../../../Documents/GitHub/centro-cultural/scss/_slider.scss */
 .slider .slider__img.selected {
   opacity: 1;
 }
 
-/* line 1, ../../../Documents/GitHub/centro-cultural/scss/_sobre.scss */
 .sobre {
   display: flex;
   flex-wrap: wrap;
@@ -216,30 +236,25 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 1, ../../../Documents/GitHub/centro-cultural/scss/_sobre.scss */
   .sobre {
     gap: 1rem;
   }
 }
 
-/* line 13, ../../../Documents/GitHub/centro-cultural/scss/_sobre.scss */
 .sobre .sobre__img {
   width: 400px;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 13, ../../../Documents/GitHub/centro-cultural/scss/_sobre.scss */
   .sobre .sobre__img {
     width: 280px;
   }
 }
 
-/* line 21, ../../../Documents/GitHub/centro-cultural/scss/_sobre.scss */
 .sobre .sobre__info {
   width: 500px;
 }
 
-/* line 25, ../../../Documents/GitHub/centro-cultural/scss/_sobre.scss */
 .sobre .sobre__titulo {
   font-family: "Londrina Solid", cursive;
   font-size: 4rem;
@@ -249,13 +264,11 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 25, ../../../Documents/GitHub/centro-cultural/scss/_sobre.scss */
   .sobre .sobre__titulo {
     font-size: 2rem;
   }
 }
 
-/* line 37, ../../../Documents/GitHub/centro-cultural/scss/_sobre.scss */
 .sobre .sobre__p {
   font-family: "Rajdhani", sans-serif;
   font-weight: bold;
@@ -265,59 +278,50 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 37, ../../../Documents/GitHub/centro-cultural/scss/_sobre.scss */
   .sobre .sobre__p {
     font-size: 1rem;
   }
 }
 
-/* line 45, ../../../Documents/GitHub/centro-cultural/scss/_sobre.scss */
 .sobre .sobre__logos {
   display: flex;
   gap: 1rem;
   justify-content: center;
 }
 
-/* line 51, ../../../Documents/GitHub/centro-cultural/scss/_sobre.scss */
 .sobre .sobre__logos .logo__img {
   width: 80px;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 51, ../../../Documents/GitHub/centro-cultural/scss/_sobre.scss */
   .sobre .sobre__logos .logo__img {
     width: 60px;
   }
 }
 
-/* line 1, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
 .cronograma {
   background-color: #16697A;
   padding: 3rem;
 }
 
-/* line 5, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
 .cronograma .cronograma__titulo {
   padding-top: 3rem;
   text-align: center;
   margin-bottom: 4rem;
 }
 
-/* line 12, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
 .cronograma .cronograma__titulo .cronograma__h2 {
   font-family: "Londrina Solid", cursive;
   font-size: 4rem;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 12, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
   .cronograma .cronograma__titulo .cronograma__h2 {
     font-size: 3rem;
     margin-bottom: 1rem;
   }
 }
 
-/* line 22, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
 .cronograma .cronograma__titulo .cronograma__p {
   font-family: "Rajdhani", sans-serif;
   font-size: 2rem;
@@ -326,14 +330,12 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 22, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
   .cronograma .cronograma__titulo .cronograma__p {
     font-size: 1.5rem;
   }
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 34, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
   .cronograma .acordions__base {
     display: grid;
     grid-template-columns: 1fr;
@@ -342,7 +344,6 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 34, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
   .cronograma .acordions__base {
     display: grid;
     grid-template-columns: 1fr;
@@ -351,7 +352,6 @@ img {
 }
 
 @media (min-width: 768px) and (max-width: 1280px) {
-  /* line 34, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
   .cronograma .acordions__base {
     display: grid;
     grid-template-columns: 1fr;
@@ -359,12 +359,10 @@ img {
   }
 }
 
-/* line 54, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
 .cronograma .acordion__cards {
   margin-bottom: 2rem;
 }
 
-/* line 59, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
 .cronograma .acordion__titulo {
   font-family: "Londrina Solid", cursive;
   font-size: 4rem;
@@ -377,14 +375,12 @@ img {
   border-radius: 10px;
 }
 
-/* line 70, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
 .cronograma .acordion__titulo:hover {
   background-color: #000;
   transition: all .6s;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 59, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
   .cronograma .acordion__titulo {
     width: 300px;
     font-size: 2rem;
@@ -393,7 +389,6 @@ img {
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 59, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
   .cronograma .acordion__titulo {
     width: 400px;
     font-size: 2rem;
@@ -402,7 +397,6 @@ img {
 }
 
 @media (min-width: 768px) and (max-width: 1280px) {
-  /* line 59, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
   .cronograma .acordion__titulo {
     width: 800px;
     font-size: 2rem;
@@ -410,7 +404,6 @@ img {
   }
 }
 
-/* line 94, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
 .cronograma .acordion__info {
   display: flex;
   flex-wrap: wrap;
@@ -433,7 +426,6 @@ img {
   }
 }
 
-/* line 116, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
 .cronograma .card {
   margin: 2rem 0;
   box-shadow: 0 0 10px 4px #fff;
@@ -444,7 +436,6 @@ img {
   position: relative;
 }
 
-/* line 125, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
 .cronograma .card:hover {
   transform: rotateX(0deg);
   transition: all 0.6s;
@@ -452,7 +443,6 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 116, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
   .cronograma .card {
     transform: rotateX(0);
     padding: 2.3rem;
@@ -460,14 +450,12 @@ img {
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 116, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
   .cronograma .card {
     transform: rotateX(0);
     padding: 2.3rem;
   }
 }
 
-/* line 142, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
 .cronograma .acordion__dia {
   font-family: "Londrina Solid", cursive;
   font-size: 3rem;
@@ -484,20 +472,17 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 142, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
   .cronograma .acordion__dia {
     left: 50px;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 142, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
   .cronograma .acordion__dia {
     left: 85px;
   }
 }
 
-/* line 165, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
 .cronograma .acordion__evento {
   font-family: "Londrina Solid", cursive;
   display: flex;
@@ -508,7 +493,6 @@ img {
   margin: 2rem 0;
 }
 
-/* line 175, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
 .cronograma .acordion__local {
   display: flex;
   align-items: center;
@@ -519,14 +503,12 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 175, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
   .cronograma .acordion__local {
     font-size: 1.3rem;
     margin-bottom: 1rem;
   }
 }
 
-/* line 188, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
 .cronograma .acordion__hora {
   display: flex;
   align-items: center;
@@ -537,14 +519,12 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 188, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
   .cronograma .acordion__hora {
     font-size: 1.3rem;
     margin-bottom: 1rem;
   }
 }
 
-/* line 201, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
 .cronograma .acordion__colaborador {
   display: flex;
   align-items: center;
@@ -555,33 +535,28 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 201, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
   .cronograma .acordion__colaborador {
     font-size: 1.3rem;
   }
 }
 
-/* line 214, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
 .cronograma .col__ico {
   font-size: 20px;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 214, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
   .cronograma .col__ico {
     font-size: 40px;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 214, ../../../Documents/GitHub/centro-cultural/scss/_cronograma.scss */
   .cronograma .col__ico {
     font-size: 20px;
   }
 }
 
 /*************  APRESENTAÇÃO - INDEX.HTML  *************/
-/* line 2, ../../../Documents/GitHub/centro-cultural/scss/_projetos-index.scss */
 .projetos {
   display: flex;
   flex-wrap: wrap;
@@ -591,7 +566,6 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 2, ../../../Documents/GitHub/centro-cultural/scss/_projetos-index.scss */
   .projetos {
     gap: 3rem;
     height: 170vh;
@@ -599,45 +573,38 @@ img {
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 2, ../../../Documents/GitHub/centro-cultural/scss/_projetos-index.scss */
   .projetos {
     gap: 2rem;
     height: 170vh;
   }
 }
 
-/* line 19, ../../../Documents/GitHub/centro-cultural/scss/_projetos-index.scss */
 .projetos .projeto__img {
   width: 600px;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 19, ../../../Documents/GitHub/centro-cultural/scss/_projetos-index.scss */
   .projetos .projeto__img {
     width: 300px;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 19, ../../../Documents/GitHub/centro-cultural/scss/_projetos-index.scss */
   .projetos .projeto__img {
     width: 400px;
   }
 }
 
-/* line 31, ../../../Documents/GitHub/centro-cultural/scss/_projetos-index.scss */
 .projetos .projeto__info {
   width: 500px;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 31, ../../../Documents/GitHub/centro-cultural/scss/_projetos-index.scss */
   .projetos .projeto__info {
     width: 300px;
   }
 }
 
-/* line 39, ../../../Documents/GitHub/centro-cultural/scss/_projetos-index.scss */
 .projetos .projeto__titulo {
   font-family: "Londrina Solid", cursive;
   font-size: 4rem;
@@ -647,13 +614,11 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 39, ../../../Documents/GitHub/centro-cultural/scss/_projetos-index.scss */
   .projetos .projeto__titulo {
     font-size: 2.5rem;
   }
 }
 
-/* line 51, ../../../Documents/GitHub/centro-cultural/scss/_projetos-index.scss */
 .projetos .projeto__p {
   font-family: "Rajdhani", sans-serif;
   font-weight: bold;
@@ -662,7 +627,6 @@ img {
   padding: 0.6rem;
 }
 
-/* line 55, ../../../Documents/GitHub/centro-cultural/scss/_projetos-index.scss */
 .projetos .projeto__link {
   padding: 1rem;
   background-color: #234c66;
@@ -675,7 +639,6 @@ img {
   box-shadow: 1px 5px 10px 1px #000;
 }
 
-/* line 66, ../../../Documents/GitHub/centro-cultural/scss/_projetos-index.scss */
 .projetos .projeto__link:hover {
   background-color: #234c66;
   box-shadow: 5px 1px 5px 1px #000;
@@ -683,33 +646,28 @@ img {
 }
 
 /*************  LANDING PAGE PROJETOS  *************/
-/* line 2, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .header__projetos {
   height: 70vh;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 2, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
   .header__projetos {
     height: 80vh;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 2, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
   .header__projetos {
     height: 90vh;
   }
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 13, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
   .header__projetos .img__logo {
     width: 300px;
   }
 }
 
-/* line 20, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .titulo__principal {
   font-family: "Londrina Solid", cursive;
   font-size: 4rem;
@@ -719,26 +677,22 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 20, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
   .titulo__principal {
     font-size: 2rem;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 20, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
   .titulo__principal {
     font-size: 2.5rem;
   }
 }
 
 /*************  CAPOEIRA  *************/
-/* line 37, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .capoeira__projeto {
   padding-bottom: 4rem;
 }
 
-/* line 40, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .capoeira__projeto .capoeira {
   background-image: url("../img/projetos/background-capoeira.jpg");
   background-position: center;
@@ -749,7 +703,6 @@ img {
   margin-bottom: 6rem;
 }
 
-/* line 49, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .capoeira__projeto .capoeira .capoeira__titulo {
   display: flex;
   flex-direction: column;
@@ -761,20 +714,17 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 49, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
   .capoeira__projeto .capoeira .capoeira__titulo {
     font-size: 5rem;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 49, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
   .capoeira__projeto .capoeira .capoeira__titulo {
     font-size: 6rem;
   }
 }
 
-/* line 68, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .capoeira__projeto .capoeira__conteudo {
   display: flex;
   flex-wrap: wrap;
@@ -784,12 +734,10 @@ img {
   margin-bottom: 4rem;
 }
 
-/* line 77, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .capoeira__projeto .capoeira__info {
   max-width: 600px;
 }
 
-/* line 81, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .capoeira__projeto .capoeira__p {
   font-family: "Rajdhani", sans-serif;
   font-weight: bold;
@@ -798,7 +746,6 @@ img {
   padding: 0.6rem;
 }
 
-/* line 85, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .capoeira__projeto .swiper-slide-capoeira {
   background-position: center;
   background-size: cover;
@@ -806,7 +753,6 @@ img {
   height: 400px;
 }
 
-/* line 92, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .capoeira__projeto .swiper-slide-capoeira img {
   display: block;
   width: 100%;
@@ -815,12 +761,10 @@ img {
 }
 
 /*************  MUSICA  *************/
-/* line 101, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .musica__projeto {
   padding-bottom: 4rem;
 }
 
-/* line 104, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .musica__projeto .musica {
   background-image: url("../img/projetos/background-musica.jpg");
   background-position: center;
@@ -831,7 +775,6 @@ img {
   margin-bottom: 6rem;
 }
 
-/* line 113, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .musica__projeto .musica .musica__titulo {
   display: flex;
   flex-direction: column;
@@ -843,20 +786,17 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 113, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
   .musica__projeto .musica .musica__titulo {
     font-size: 5rem;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 113, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
   .musica__projeto .musica .musica__titulo {
     font-size: 6rem;
   }
 }
 
-/* line 133, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .musica__projeto .musica__conteudo {
   display: flex;
   flex-wrap: wrap;
@@ -865,12 +805,10 @@ img {
   justify-content: center;
 }
 
-/* line 140, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .musica__projeto .musica__conteudo .music__info {
   max-width: 500px;
 }
 
-/* line 144, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .musica__projeto .musica__conteudo .music__p {
   font-family: "Rajdhani", sans-serif;
   font-weight: bold;
@@ -879,14 +817,12 @@ img {
   padding: 0.6rem;
 }
 
-/* line 149, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .musica__projeto .swiper {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/* line 155, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .musica__projeto .swiper-slide {
   background-position: center;
   background-size: cover;
@@ -894,7 +830,6 @@ img {
   height: 400px;
 }
 
-/* line 162, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .musica__projeto .swiper-slide img {
   display: block;
   width: 100%;
@@ -903,12 +838,10 @@ img {
 }
 
 /*************  CINEMA  *************/
-/* line 172, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .cinema__projeto {
   padding-bottom: 4rem;
 }
 
-/* line 175, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .cinema__projeto .cinema {
   background-image: url("../img/projetos/background-cinema.jpg");
   background-position: center;
@@ -919,7 +852,6 @@ img {
   margin-bottom: 6rem;
 }
 
-/* line 184, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .cinema__projeto .cinema .cinema__titulo {
   display: flex;
   flex-direction: column;
@@ -931,20 +863,17 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 184, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
   .cinema__projeto .cinema .cinema__titulo {
     font-size: 5rem;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 184, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
   .cinema__projeto .cinema .cinema__titulo {
     font-size: 6rem;
   }
 }
 
-/* line 203, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .cinema__projeto .cinema__conteudo {
   display: flex;
   flex-wrap: wrap;
@@ -954,12 +883,10 @@ img {
   margin-bottom: 6rem;
 }
 
-/* line 211, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .cinema__projeto .cinema__conteudo .cinema__info {
   max-width: 500px;
 }
 
-/* line 215, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .cinema__projeto .cinema__conteudo .cinema__p {
   font-family: "Rajdhani", sans-serif;
   font-weight: bold;
@@ -968,7 +895,6 @@ img {
   padding: 0.6rem;
 }
 
-/* line 221, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .cinema__projeto .swiper-slide-cinema {
   background-position: center;
   background-size: cover;
@@ -976,7 +902,6 @@ img {
   height: 400px;
 }
 
-/* line 228, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .cinema__projeto .swiper-slide-cinema img {
   display: block;
   width: 100%;
@@ -985,12 +910,10 @@ img {
 }
 
 /*************  ARTESANATO  *************/
-/* line 238, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .art__projeto {
   padding-bottom: 4rem;
 }
 
-/* line 241, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .art__projeto .artesanato {
   background-image: url("../img/projetos/background-artesanato.jpg");
   background-position: center;
@@ -1001,7 +924,6 @@ img {
   margin-bottom: 6rem;
 }
 
-/* line 251, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .art__projeto .art__titulo {
   display: flex;
   flex-direction: column;
@@ -1013,20 +935,17 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 251, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
   .art__projeto .art__titulo {
     font-size: 4rem;
   }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 251, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
   .art__projeto .art__titulo {
     font-size: 5rem;
   }
 }
 
-/* line 269, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .art__projeto .art__conteudo {
   display: flex;
   flex-wrap: wrap;
@@ -1036,12 +955,10 @@ img {
   margin-bottom: 6rem;
 }
 
-/* line 281, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .art__projeto .art__conteudo .art__info {
   max-width: 500px;
 }
 
-/* line 285, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .art__projeto .art__conteudo .art__p {
   font-family: "Rajdhani", sans-serif;
   font-weight: bold;
@@ -1050,7 +967,6 @@ img {
   padding: 0.6rem;
 }
 
-/* line 290, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .art__projeto .swiper-slide-art {
   background-position: center;
   background-size: cover;
@@ -1058,7 +974,6 @@ img {
   height: 400px;
 }
 
-/* line 297, ../../../Documents/GitHub/centro-cultural/scss/_projetos-page.scss */
 .art__projeto .swiper-slide-art img {
   display: block;
   width: 100%;
@@ -1066,7 +981,6 @@ img {
   border-radius: 10px;
 }
 
-/* line 1, ../../../Documents/GitHub/centro-cultural/scss/_museu.scss */
 .museu {
   background-image: url("../img/background-museu.png");
   background-position: center;
@@ -1081,18 +995,15 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 1, ../../../Documents/GitHub/centro-cultural/scss/_museu.scss */
   .museu {
     height: 120vh;
   }
 }
 
-/* line 18, ../../../Documents/GitHub/centro-cultural/scss/_museu.scss */
 .museu .museu__info {
   max-width: 37.5rem;
 }
 
-/* line 22, ../../../Documents/GitHub/centro-cultural/scss/_museu.scss */
 .museu .projeto__titulo {
   font-family: "Londrina Solid", cursive;
   font-size: 4rem;
@@ -1102,13 +1013,11 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 22, ../../../Documents/GitHub/centro-cultural/scss/_museu.scss */
   .museu .projeto__titulo {
     font-size: 3rem;
   }
 }
 
-/* line 34, ../../../Documents/GitHub/centro-cultural/scss/_museu.scss */
 .museu .museu__p {
   font-family: "Rajdhani", sans-serif;
   font-weight: bold;
@@ -1119,13 +1028,11 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 34, ../../../Documents/GitHub/centro-cultural/scss/_museu.scss */
   .museu .museu__p {
     font-size: 1rem;
   }
 }
 
-/* line 43, ../../../Documents/GitHub/centro-cultural/scss/_museu.scss */
 .museu .museu__link {
   padding: 1rem;
   background-color: #234c66;
@@ -1138,19 +1045,16 @@ img {
   box-shadow: 1px 5px 10px 1px #fff;
 }
 
-/* line 54, ../../../Documents/GitHub/centro-cultural/scss/_museu.scss */
 .museu .museu__link:hover {
   background-color: #234c66;
   box-shadow: 5px 1px 5px 1px #fff;
   transition: all .6s;
 }
 
-/* line 1, ../../../Documents/GitHub/centro-cultural/scss/_footer.scss */
 .footer {
   background-color: #56CBF9;
 }
 
-/* line 5, ../../../Documents/GitHub/centro-cultural/scss/_footer.scss */
 .footer .rodape {
   display: flex;
   flex-wrap: wrap;
@@ -1160,18 +1064,15 @@ img {
   padding: 3.5rem 0;
 }
 
-/* line 15, ../../../Documents/GitHub/centro-cultural/scss/_footer.scss */
 .footer .logo__rodape {
   width: 300px;
   margin: 0 auto;
 }
 
-/* line 20, ../../../Documents/GitHub/centro-cultural/scss/_footer.scss */
 .footer .rodape__info {
   max-width: 520px;
 }
 
-/* line 24, ../../../Documents/GitHub/centro-cultural/scss/_footer.scss */
 .footer .rodape p {
   font-family: "Rajdhani", sans-serif;
   font-weight: bold;
@@ -1180,7 +1081,6 @@ img {
   padding: 0.6rem;
 }
 
-/* line 28, ../../../Documents/GitHub/centro-cultural/scss/_footer.scss */
 .footer .redes__sociais {
   display: flex;
   gap: 0.5rem;
@@ -1188,18 +1088,15 @@ img {
   align-items: center;
 }
 
-/* line 35, ../../../Documents/GitHub/centro-cultural/scss/_footer.scss */
 .footer .rede__img:hover {
   box-shadow: 2px 2px 10px 2px #000;
   transition: all .6s;
 }
 
-/* line 40, ../../../Documents/GitHub/centro-cultural/scss/_footer.scss */
 .footer .rodape__endereco {
   padding: 1rem;
 }
 
-/* line 44, ../../../Documents/GitHub/centro-cultural/scss/_footer.scss */
 .footer .endereco__titulo {
   font-family: "Russo One", sans-serif;
   font-size: 2rem;
@@ -1207,7 +1104,6 @@ img {
   margin-bottom: 1rem;
 }
 
-/* line 53, ../../../Documents/GitHub/centro-cultural/scss/_footer.scss */
 .footer .endereco__info {
   background-color: #234C66;
   padding: 1rem;
@@ -1215,7 +1111,6 @@ img {
   box-shadow: 2px 2px 10px 2px #000;
 }
 
-/* line 60, ../../../Documents/GitHub/centro-cultural/scss/_footer.scss */
 .footer .rodape__rua,
 .footer .rodape__bairro,
 .footer .rodape__cidade {
@@ -1228,7 +1123,6 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 60, ../../../Documents/GitHub/centro-cultural/scss/_footer.scss */
   .footer .rodape__rua,
   .footer .rodape__bairro,
   .footer .rodape__cidade {
@@ -1237,12 +1131,10 @@ img {
   }
 }
 
-/* line 77, ../../../Documents/GitHub/centro-cultural/scss/_footer.scss */
 .footer .rodape__horarios {
   margin-top: 2rem;
 }
 
-/* line 82, ../../../Documents/GitHub/centro-cultural/scss/_footer.scss */
 .footer .rodape__func {
   font-family: "Rajdhani", sans-serif;
   font-size: 1.5rem;
@@ -1253,7 +1145,6 @@ img {
   border-radius: 10px;
 }
 
-/* line 92, ../../../Documents/GitHub/centro-cultural/scss/_footer.scss */
 .footer .funcionamento {
   font-family: "Russo One", sans-serif;
   font-size: 2rem;
@@ -1261,7 +1152,6 @@ img {
   margin-bottom: 1rem;
 }
 
-/* line 99, ../../../Documents/GitHub/centro-cultural/scss/_footer.scss */
 .footer .hora__semana,
 .footer .hora__almoco {
   display: flex;
@@ -1274,7 +1164,6 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  /* line 99, ../../../Documents/GitHub/centro-cultural/scss/_footer.scss */
   .footer .hora__semana,
   .footer .hora__almoco {
     font-size: 1rem;
@@ -1282,36 +1171,29 @@ img {
   }
 }
 
-/* line 115, ../../../Documents/GitHub/centro-cultural/scss/_footer.scss */
 .footer .desenvolvedor {
   padding: 0.8rem;
   background-color: #000;
   text-align: center;
 }
 
-/* line 121, ../../../Documents/GitHub/centro-cultural/scss/_footer.scss */
 .footer .img__dev {
   margin: 0 auto;
 }
 
-/* line 125, ../../../Documents/GitHub/centro-cultural/scss/_footer.scss */
 .footer .dev__dev p {
   color: #fff;
   font-family: "Russo One", sans-serif;
 }
 
-/* line 130, ../../../Documents/GitHub/centro-cultural/scss/_footer.scss */
 .footer .dev__link {
   max-width: 300px;
   margin: 0 auto;
   padding: .4rem;
 }
 
-/* line 136, ../../../Documents/GitHub/centro-cultural/scss/_footer.scss */
 .footer .dev__link:hover {
   background-color: #56CBF9;
   border-radius: 10px;
   transition: all .6s;
 }
-
-/*# sourceMappingURL=main.css.map */

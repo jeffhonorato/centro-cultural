@@ -1,7 +1,7 @@
 .header {
     background-color: $cor-header;
         @include celular {
-            height: 150vh;
+            height: 50vh;
         }
 
         @include tablet {
@@ -17,7 +17,25 @@
             margin: 0 auto;
             display: flex;
             flex-direction: column;
+
+                @include celular {
+                    width: 300px;
+                }
            
+        }
+
+        .icone__mobile {
+            width: 70px;
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1;
+
+                @include celular {
+                    display: block;
+                    width: 60px;
+                }
         }
 
         .nav {
@@ -26,6 +44,11 @@
             align-items: center;
             justify-content: space-around;
             height: 30vh;
+
+             @include celular {
+                display: grid;
+                justify-items: center;
+             }
         }
          
         .nav__lista {
@@ -35,8 +58,13 @@
 
                 @include celular {
                     padding: 0.5rem;
-                    display: grid;
+                    display: none;
                     grid-template-columns: 1fr;
+                    gap: 0rem;
+                    position: fixed;
+                    top: 50px;
+                    left: 0;
+                    transition: all .5s;
                 }  
 
                 @include tablet {
@@ -46,6 +74,13 @@
                 } 
         }
 
+        .nav__lista.ativo {
+            @include celular {
+                display: grid;
+                
+            }
+        }
+
         .nav__link {
             background-color: $cor-links;
             padding: 1rem;
@@ -53,7 +88,9 @@
             box-shadow: 1px 5px 10px 1px #000;
             display: flex;
             align-items: center;
+            justify-content: center;
             gap: 0.5rem;
+            border: 1px solid #fff;
 
                 &:hover  {
                     background-color: $cor-links;
@@ -61,14 +98,12 @@
                     transition: all .6s;
                 }
             
-            // @include celular {
-            //     padding: 0.5rem;
-            //     display: grid;
-            //     grid-template-columns: 1fr;
-            // }    
+            @include celular {
+                padding: 0.5rem;
+            }    
 
             .nav__ico {
-                font-size: 1.5rem;
+                font-size: 1rem;
                 color: #fff;
             }    
         }
@@ -76,8 +111,8 @@
         .nav__item {
             font-family: $fonte-titulo;
             color: #fff;
+            font-size: .8rem;
         }
-
 
 
 }

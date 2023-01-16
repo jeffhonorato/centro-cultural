@@ -221,6 +221,7 @@ img {
   height: 80vh;
   align-items: center;
   position: relative;
+  margin: 0 .5rem;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
@@ -241,7 +242,7 @@ img {
   height: 70vh;
   opacity: 0;
   transition: opacity 600ms;
-  box-shadow: 2px 2px 2px 4px #fff;
+  box-shadow: 1px 1px 1px 1px #fff;
   border-radius: 10px;
 }
 
@@ -346,6 +347,12 @@ img {
   background-attachment: fixed;
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .cronograma {
+    height: 250vh;
+  }
+}
+
 .cronograma .cronograma__titulo {
   padding-top: 2em;
   text-align: center;
@@ -379,7 +386,18 @@ img {
 }
 
 .cronograma .cards {
-  perspective: 1000px;
+  perspective: 3000px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .cronograma .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    perspective: 3000px;
+  }
 }
 
 .cronograma .cards .card {
@@ -395,11 +413,24 @@ img {
   transform: rotateY(40deg);
   transition: .3s;
   box-shadow: 1px 1px 10px #fff;
+  cursor: pointer;
+  margin-bottom: 1rem;
 }
 
 .cronograma .cards .card:hover {
   transform: rotateY(0deg);
   transition: .3s;
+  background-color: #234c66;
+}
+
+.cronograma .cards .card:hover .card__info--titulo {
+  color: #fff;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .cronograma .cards .card {
+    width: 8.5rem;
+  }
 }
 
 .cronograma .cards .card__info--titulo {

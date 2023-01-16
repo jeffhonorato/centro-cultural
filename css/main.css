@@ -62,14 +62,22 @@ img {
 
 .header .icone__mobile {
   width: 70px;
-  display: none;
+  display: block;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
+  cursor: pointer;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
+  .header .icone__mobile {
+    display: block;
+    width: 60px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
   .header .icone__mobile {
     display: block;
     width: 60px;
@@ -80,8 +88,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
-  height: 30vh;
+  justify-content: center;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
@@ -93,8 +100,9 @@ img {
 
 .header .nav__lista {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: .5rem;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
@@ -121,6 +129,7 @@ img {
 @media (min-width: 0px) and (max-width: 480px) {
   .header .nav__lista.ativo {
     display: grid;
+    z-index: 1;
   }
 }
 

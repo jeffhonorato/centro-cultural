@@ -378,6 +378,10 @@ img {
   }
 }
 
+.cronograma .ico__animation--cronograma {
+  background-color: chocolate;
+}
+
 /*************  APRESENTAÇÃO - INDEX.HTML  *************/
 .projetos {
   display: flex;

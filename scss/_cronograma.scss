@@ -9,7 +9,7 @@
         background-size: cover;
         background-attachment: fixed;
 
-        
+
         .cronograma__titulo {
             padding-top: 2em;
             text-align: center;   
@@ -39,5 +39,7 @@
             }
         }
 
-    
+    .ico__animation--cronograma {
+        background-color: chocolate;
+    }
 }

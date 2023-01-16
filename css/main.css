@@ -29,6 +29,7 @@ img {
 /*********** PÁGINA ***********/
 .header {
   background-color: #56CBF9;
+  height: 50vh;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
@@ -39,16 +40,19 @@ img {
 
 @media (min-width: 480px) and (max-width: 768px) {
   .header {
-    height: 150vh;
+    height: 50vh;
   }
 }
 
 .header .logo {
-  padding-top: 5rem;
+  height: 50vh;
+  display: grid;
+  place-content: center;
 }
 
 .header .img__logo {
-  width: 360px;
+  width: 25rem;
+  /* 400px */
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -56,7 +60,8 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .header .img__logo {
-    width: 300px;
+    width: 18.7rem;
+    /* 300px */
   }
 }
 
@@ -138,7 +143,7 @@ img {
 
 .header .nav__link {
   background-color: #234c66;
-  padding: 1rem;
+  padding: .7rem .6rem;
   border-radius: 5px;
   box-shadow: 1px 5px 10px 1px #000;
   display: flex;
@@ -151,7 +156,8 @@ img {
 .header .nav__link:hover {
   background-color: #fff;
   box-shadow: 1px 5px 10px 1px #fff;
-  transition: all .6s;
+  border: 1px solid #000;
+  transition: all .5s;
 }
 
 .header .nav__link:hover .nav__ico {
@@ -231,11 +237,11 @@ img {
 
 .slider .slider__img {
   position: absolute;
-  width: 80vw;
+  width: 90vw;
   height: 70vh;
   opacity: 0;
   transition: opacity 600ms;
-  box-shadow: 10px 10px 10px 4px #fff;
+  box-shadow: 2px 2px 2px 4px #fff;
   border-radius: 10px;
 }
 
@@ -262,7 +268,7 @@ img {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 6rem 0;
+  padding: 4rem 0;
   gap: 10rem;
 }
 

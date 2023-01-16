@@ -30,11 +30,11 @@
 
         .slider__img {
             position: absolute;
-            width: 80vw;
+            width: 90vw;
             height: 70vh;
             opacity: 0;
             transition: opacity 600ms;
-            box-shadow: 10px 10px 10px 4px #fff;
+            box-shadow: 2px 2px 2px 4px #fff;
             border-radius: 10px;
 
                 @include celular {

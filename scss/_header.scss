@@ -1,25 +1,31 @@
 .header {
     background-color: $cor-header;
+    height: 50vh;
+
+
+
         @include celular {
             height: 50vh;
         }
 
         @include tablet {
-            height: 150vh;
+            height: 50vh;
         }
 
         .logo {
-            padding-top: 5rem;
+            height: 50vh;
+            display: grid;
+            place-content: center;
         }
 
         .img__logo {
-            width: 360px;
+            width: 25rem; /* 400px */
             margin: 0 auto;
             display: flex;
             flex-direction: column;
 
                 @include celular {
-                    width: 300px;
+                    width: 18.7rem; /* 300px */
                 }
            
         }
@@ -94,7 +100,7 @@
 
         .nav__link {
             background-color: $cor-links;
-            padding: 1rem;
+            padding: .7rem .6rem;
             border-radius: 5px;
             box-shadow: 1px 5px 10px 1px #000;
             display: flex;
@@ -106,7 +112,8 @@
                 &:hover  {
                     background-color: #fff;
                     box-shadow: 1px 5px 10px 1px #fff;
-                    transition: all .6s;
+                    border: 1px solid #000;
+                    transition: all .5s;
                 }
 
                 &:hover .nav__ico {

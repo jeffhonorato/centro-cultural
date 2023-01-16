@@ -39,7 +39,29 @@
             }
         }
 
-    .ico__animation--cronograma {
-        background-color: chocolate;
+    .cards {
+        perspective: 1000px;
+
+        .card {
+            width: 10rem; /* 200px */
+            padding: .4rem;
+            background-color: $cor-header;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transform: skew(1deg, 1deg);
+            border: 1px solid inset #fff;
+            transition: .3s; 
+            transform: rotateY(40deg);
+
+            &:hover {
+                transform: rotateY(0deg);
+                transition: .3s;
+            }
+        }
+
+
+
     }
+
 }

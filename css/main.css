@@ -378,8 +378,27 @@ img {
   }
 }
 
-.cronograma .ico__animation--cronograma {
-  background-color: chocolate;
+.cronograma .cards {
+  perspective: 1000px;
+}
+
+.cronograma .cards .card {
+  width: 10rem;
+  /* 200px */
+  padding: .4rem;
+  background-color: #56CBF9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: skew(1deg, 1deg);
+  border: 1px solid inset #fff;
+  transition: .3s;
+  transform: rotateY(40deg);
+}
+
+.cronograma .cards .card:hover {
+  transform: rotateY(0deg);
+  transition: .3s;
 }
 
 /*************  APRESENTAÇÃO - INDEX.HTML  *************/

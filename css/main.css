@@ -351,7 +351,7 @@ img {
 
 .cronograma {
   padding: 2rem;
-  height: 100vh;
+  height: 90vh;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/cronograma/background-cronograma.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -361,14 +361,13 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .cronograma {
-    height: 250vh;
+    height: 100vh;
   }
 }
 
 .cronograma .cronograma__titulo {
   padding-top: 2em;
   text-align: center;
-  margin-bottom: 4rem;
 }
 
 .cronograma .cronograma__titulo .cronograma__h2 {
@@ -397,6 +396,11 @@ img {
   }
 }
 
+.cronograma .cards {
+  display: grid;
+  place-content: center;
+}
+
 @media (min-width: 0px) and (max-width: 480px) {
   .cronograma .cards {
     display: grid;
@@ -404,8 +408,17 @@ img {
   }
 }
 
+.cronograma .cards .card__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .cronograma .cards .card {
-  width: 10rem;
+  width: 14rem;
+  /* 225px */
+  height: 12.5rem;
   /* 200px */
   padding: .4rem;
   background-color: #56CBF9;

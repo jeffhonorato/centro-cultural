@@ -131,6 +131,10 @@
             .nav__ico {
                 font-size: 1.4rem;
                 color: #fff;
+
+                @include celular {
+                    font-size: 1.2rem;
+                }
             }    
         }
 

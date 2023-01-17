@@ -179,6 +179,12 @@ img {
   color: #fff;
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .header .nav__link .nav__ico {
+    font-size: 1.2rem;
+  }
+}
+
 .header .nav__item {
   font-family: "Russo One", sans-serif;
   color: #fff;

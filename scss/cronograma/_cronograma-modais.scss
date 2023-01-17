@@ -8,8 +8,32 @@
     right: 0;
     bottom: 0;
     background-color: $cor-links;
+    z-index: 2;
+    animation: slidein 1s forwards;
+    
+
+    .modal__card--titulo {
+        text-align: center;
+        font-family: $fonte-subtitulo;
+        color: #fff;
+        margin-top: 2.5rem;
+        font-size: 3rem;
+    }
 }
 
 .modal__card.ativo {
     display: block;
+    transform: slidein 1s forwards;
 }
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }

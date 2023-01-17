@@ -1,6 +1,6 @@
 .cronograma {
     padding: 2rem;
-    height: 90vh;
+    height: 80vh;
 
     @include celular {
         height: 100vh;
@@ -84,7 +84,7 @@
             }
 
             @include celular {
-                width: 8.5rem;
+                width: 11rem;
             }
         }
 
@@ -107,7 +107,7 @@
     background-position: center;
     background-size: cover;
     width: 300px;
-    height: 300px;
+    // height: 300px;
   }
 
   .swiper-slide img {

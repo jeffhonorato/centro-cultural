@@ -67,7 +67,8 @@ img {
 @import "header";
 @import "slider";
 @import "sobre";
-@import "cronograma";
+@import "./cronograma/cronograma";
+@import "./cronograma/cronograma-modais";
 @import "projetos-index";
 @import "museu";
 @import "footer";

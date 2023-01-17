@@ -1,4 +1,4 @@
-.modal__card {
+.modal {
     display: none;
     width: 100%;
     height: 100%;
@@ -21,7 +21,7 @@
     }
 }
 
-.modal__card.ativo {
+.modal.ativo {
     display: block;
     transform: slidein 1s forwards;
 }

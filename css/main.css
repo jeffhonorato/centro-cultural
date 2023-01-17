@@ -492,7 +492,7 @@ img {
   width: 300px;
 }
 
-.modal__card {
+.modal {
   display: none;
   width: 100%;
   height: 100%;
@@ -506,7 +506,7 @@ img {
   animation: slidein 1s forwards;
 }
 
-.modal__card .modal__card--titulo {
+.modal .modal__card--titulo {
   text-align: center;
   font-family: "Londrina Solid", cursive;
   color: #fff;
@@ -514,7 +514,7 @@ img {
   font-size: 3rem;
 }
 
-.modal__card.ativo {
+.modal.ativo {
   display: block;
   transform: slidein 1s forwards;
 }

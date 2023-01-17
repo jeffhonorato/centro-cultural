@@ -3,9 +3,10 @@ const cardMesJaneiro = () => {
     cardMes.addEventListener("click", () => {
         const modalMes = document.querySelector(".js-modal-janeiro");
         modalMes.classList.add("ativo");
-        
+        console.log(modalMes);
     });
-    console.log(cardMes)
+    console.log(cardMes);
+    
 }
 
 

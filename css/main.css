@@ -477,6 +477,7 @@ img {
   background-color: #234c66;
   color: #fff;
   font-weight: bold;
+  user-select: none;
 }
 
 .swiper {

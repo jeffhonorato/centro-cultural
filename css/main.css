@@ -517,6 +517,7 @@ img {
 .modal .modal__cards {
   display: flex;
   flex-wrap: wrap;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
 }
@@ -534,6 +535,7 @@ img {
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
   margin: 0rem .5rem;
+  box-shadow: 1px 1px 10px #fff;
 }
 
 .modal .modal__card--data {

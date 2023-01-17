@@ -522,17 +522,18 @@ img {
 }
 
 .modal .modal__card {
-  background-color: #fff;
+  background-color: #dfe6e9;
   width: 21rem;
   /* 320px */
   padding: .5rem;
   text-align: center;
   display: flex;
-  gap: 1rem;
+  gap: .5rem;
   justify-content: center;
   align-items: center;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  margin: 0rem .5rem;
 }
 
 .modal .modal__card--data {
@@ -542,6 +543,51 @@ img {
   border-radius: 50%;
   width: 100px;
   padding: .4rem;
+}
+
+.modal .modal__card--evento {
+  margin-bottom: 1rem;
+}
+
+.modal .modal__card--eventoCategoria {
+  font-family: "Londrina Solid", cursive;
+  font-size: 1.7rem;
+}
+
+.modal .modal__card--eventoNome {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+}
+
+.modal .modal__card--endereco {
+  display: flex;
+  gap: .3rem;
+}
+
+.modal .modal__card--enderecoNome {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+}
+
+.modal .modal__card--hora {
+  display: flex;
+  gap: .3rem;
+}
+
+.modal .modal__card--horaNome {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+}
+
+.modal .modal__card--colaborador {
+  display: flex;
+  gap: .3rem;
+}
+
+.modal .modal__card--colaboradorNome {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  text-align: start;
 }
 
 .modal.ativo {

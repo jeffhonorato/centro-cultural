@@ -28,16 +28,17 @@
     }
 
     .modal__card {
-        background-color: #fff;
+        background-color: #dfe6e9;
         width: 21rem; /* 320px */
         padding: .5rem;
         text-align: center;
         display: flex;
-        gap: 1rem;
+        gap: .5rem;
         justify-content: center;
         align-items: center;
         border-top-left-radius: 20px;
         border-bottom-right-radius: 20px;
+        margin: 0rem .5rem;
     }
 
     .modal__card--data {
@@ -47,8 +48,56 @@
         border-radius: 50%;
         width: 100px;
         padding: .4rem;
-
     }
+
+    .modal__card--evento {
+        margin-bottom: 1rem;
+    }
+
+    .modal__card--eventoCategoria{
+        font-family: $fonte-subtitulo;
+        font-size: 1.7rem;
+    }
+
+    .modal__card--eventoNome {
+        font-family: $fonte-corpo;
+        font-weight: bold;
+    }
+
+
+
+    .modal__card--endereco {
+        display: flex;
+        gap: .3rem;
+    }
+
+    .modal__card--enderecoNome {
+        font-family: $fonte-corpo;
+        font-weight: bold;
+    }
+
+    .modal__card--hora {
+        display: flex;
+        gap: .3rem;
+    }
+
+    .modal__card--horaNome {
+        font-family: $fonte-corpo;
+        font-weight: bold;
+    }
+
+    .modal__card--colaborador {
+        display: flex;
+        gap: .3rem;
+    }
+
+    .modal__card--colaboradorNome {
+        font-family: $fonte-corpo;
+        font-weight: bold;
+        text-align: start;
+    }
+
+
 }
 
 .modal.ativo {

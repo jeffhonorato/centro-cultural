@@ -444,13 +444,14 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .cronograma .cards .card {
-    width: 11rem;
+    width: 12.5rem;
   }
 }
 
 .cronograma .cards .card__info--titulo {
   font-family: "Rajdhani", sans-serif;
   text-align: center;
+  font-size: 2rem;
 }
 
 .swiper {

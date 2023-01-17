@@ -84,13 +84,14 @@
             }
 
             @include celular {
-                width: 11rem;
+                width: 12.5rem;
             }
         }
 
         .card__info--titulo {
             font-family: $fonte-corpo;
             text-align: center;
+            font-size: 2rem;
         }
 
     }

@@ -61,7 +61,7 @@
 
         .card {
             width: 14rem; /* 225px */
-            height: 12.5rem; /* 200px */
+            height: 14.5rem; /* 200px */
             padding: .4rem;
             background-color: $cor-header;
             display: flex;
@@ -71,7 +71,6 @@
             border-bottom-right-radius: 20px;
             transition: .3s; 
             box-shadow: 1px 1px 10px #fff;
-            cursor: pointer;
             margin-bottom: 1rem;
 
             &:hover {
@@ -83,6 +82,10 @@
                 color: #fff;
             }
 
+            &:hover .card__btn--info {
+                border: 1px solid #fff;
+            }
+
             @include celular {
                 width: 12.5rem;
             }
@@ -92,6 +95,21 @@
             font-family: $fonte-corpo;
             text-align: center;
             font-size: 2rem;
+        }
+
+        .card__btn {
+            margin-top: 1rem;
+        }
+
+        .card__btn--info {
+            font-family: $fonte-corpo;
+            font-size: 1.2rem;
+            padding: .4rem;
+            cursor: pointer;
+            border-radius: 10px;
+            border: none;
+            background-color: $cor-links;
+            color: #fff;
         }
 
     }

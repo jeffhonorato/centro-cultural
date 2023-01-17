@@ -510,8 +510,38 @@ img {
   text-align: center;
   font-family: "Londrina Solid", cursive;
   color: #fff;
-  margin-top: 2.5rem;
+  margin: 2.5rem 0rem;
   font-size: 3rem;
+}
+
+.modal .modal__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal .modal__card {
+  background-color: #fff;
+  width: 21rem;
+  /* 320px */
+  padding: .5rem;
+  text-align: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.modal .modal__card--data {
+  font-family: "Londrina Solid", cursive;
+  font-size: 2.2rem;
+  border: 3px solid #000;
+  border-radius: 50%;
+  width: 100px;
+  padding: .4rem;
 }
 
 .modal.ativo {

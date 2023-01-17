@@ -397,18 +397,10 @@ img {
   }
 }
 
-.cronograma .cards {
-  perspective: 3000px;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  justify-content: center;
-}
-
 @media (min-width: 0px) and (max-width: 480px) {
   .cronograma .cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    perspective: 3000px;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -422,7 +414,6 @@ img {
   align-items: center;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  transform: rotateY(40deg);
   transition: .3s;
   box-shadow: 1px 1px 10px #fff;
   cursor: pointer;
@@ -430,7 +421,6 @@ img {
 }
 
 .cronograma .cards .card:hover {
-  transform: rotateY(0deg);
   transition: .3s;
   background-color: #234c66;
 }
@@ -448,6 +438,24 @@ img {
 .cronograma .cards .card__info--titulo {
   font-family: "Rajdhani", sans-serif;
   text-align: center;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
 }
 
 /*************  APRESENTAÇÃO - INDEX.HTML  *************/

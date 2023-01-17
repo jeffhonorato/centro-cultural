@@ -99,6 +99,10 @@
 
         .card__btn {
             margin-top: 1rem;
+
+            @include celular {
+                margin-top: .6rem;
+            }
         }
 
         .card__btn--info {
@@ -110,6 +114,7 @@
             border: none;
             background-color: $cor-links;
             color: #fff;
+            font-weight: bold;
         }
 
     }

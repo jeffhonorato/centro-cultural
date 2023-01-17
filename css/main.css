@@ -461,6 +461,12 @@ img {
   margin-top: 1rem;
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .cronograma .cards .card__btn {
+    margin-top: .6rem;
+  }
+}
+
 .cronograma .cards .card__btn--info {
   font-family: "Rajdhani", sans-serif;
   font-size: 1.2rem;
@@ -470,6 +476,7 @@ img {
   border: none;
   background-color: #234c66;
   color: #fff;
+  font-weight: bold;
 }
 
 .swiper {
@@ -493,7 +500,7 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: #234c66;
 }
 
 .modal__card.ativo {

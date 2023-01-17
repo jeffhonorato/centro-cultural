@@ -506,6 +506,25 @@ img {
   animation: slidein 1s forwards;
 }
 
+.modal .btn-fechar {
+  width: 60px;
+  position: fixed;
+  top: 10px;
+  right: 4px;
+  cursor: pointer;
+}
+
+.modal .btn-fechar:hover {
+  width: 58px;
+  transition: all .4s;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .modal .btn-fechar {
+    width: 40px;
+  }
+}
+
 .modal .modal__card--titulo {
   text-align: center;
   font-family: "Londrina Solid", cursive;

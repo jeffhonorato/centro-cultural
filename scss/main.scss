@@ -36,6 +36,14 @@ img {
     display: block;
 }
 
+.js-scroll {
+    overflow: auto;
+}
+
+.js-scroll.off {
+    overflow: hidden;
+}
+
 /*********** MIXINS ***********/
 @mixin paragrafo {
     font-family: $fonte-corpo;

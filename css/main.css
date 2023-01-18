@@ -25,6 +25,14 @@ img {
   display: block;
 }
 
+.js-scroll {
+  overflow: auto;
+}
+
+.js-scroll.off {
+  overflow: hidden;
+}
+
 /*********** MIXINS ***********/
 /*********** PÁGINA ***********/
 .header {
@@ -504,6 +512,7 @@ img {
   background-color: #234c66;
   z-index: 2;
   animation: slidein 1s forwards;
+  overflow-y: auto;
 }
 
 .modal .btn-fechar {
@@ -555,6 +564,13 @@ img {
   border-bottom-right-radius: 20px;
   margin: 0rem .5rem;
   box-shadow: 1px 1px 10px #fff;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .modal .modal__card {
+    width: 21rem;
+    /* 330px */
+  }
 }
 
 .modal .modal__card:hover {

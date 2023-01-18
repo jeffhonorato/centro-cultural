@@ -10,6 +10,7 @@
     background-color: $cor-links;
     z-index: 2;
     animation: slidein 1s forwards;
+    overflow-y: auto;
     
     .btn-fechar {
         width: 60px;
@@ -59,7 +60,7 @@
         box-shadow: 1px 1px 10px #fff;
 
             @include celular {
-                width: 21.5rem; /* 380px */
+                width: 21rem; /* 330px */
             }
 
             &:hover {

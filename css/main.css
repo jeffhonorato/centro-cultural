@@ -543,8 +543,8 @@ img {
 
 .modal .modal__card {
   background-color: #dfe6e9;
-  width: 21rem;
-  /* 320px */
+  width: 23.5rem;
+  /* 380px */
   padding: .5rem;
   text-align: center;
   display: flex;
@@ -578,43 +578,50 @@ img {
 
 .modal .modal__card--eventoCategoria {
   font-family: "Londrina Solid", cursive;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
 }
 
 .modal .modal__card--eventoNome {
   font-family: "Rajdhani", sans-serif;
   font-weight: bold;
+  font-size: 1.3rem;
 }
 
 .modal .modal__card--endereco {
   display: flex;
   gap: .3rem;
+  align-items: center;
 }
 
 .modal .modal__card--enderecoNome {
   font-family: "Rajdhani", sans-serif;
   font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .modal .modal__card--hora {
   display: flex;
   gap: .3rem;
+  align-items: center;
 }
 
 .modal .modal__card--horaNome {
   font-family: "Rajdhani", sans-serif;
   font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .modal .modal__card--colaborador {
   display: flex;
   gap: .3rem;
+  align-items: center;
 }
 
 .modal .modal__card--colaboradorNome {
   font-family: "Rajdhani", sans-serif;
   font-weight: bold;
   text-align: start;
+  font-size: 1.1rem;
 }
 
 .modal.ativo {

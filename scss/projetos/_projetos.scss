@@ -52,23 +52,14 @@
             @include paragrafo;
         }
 
-        .projeto__link {
-            padding: 1rem;
-            background-color: $cor-links;
-            color: #fff;
-            text-align: center;
-            margin: 1rem auto;
-            max-width: 12.5rem;
-            border-radius: 10px;
-            font-family: $fonte-titulo;
-            box-shadow: 1px 5px 10px 1px #000;
+    .projetos__links {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }   
 
-                &:hover  {
-                    background-color: $cor-links;
-                    box-shadow: 5px 1px 5px 1px #000;
-                    transition: all .6s;
-                }
-        }
+    .projeto__link--img {
+        width: 80px;
+    }
 
     
 }

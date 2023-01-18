@@ -730,22 +730,13 @@ img {
   padding: 0.6rem;
 }
 
-.projetos .projeto__link {
-  padding: 1rem;
-  background-color: #234c66;
-  color: #fff;
-  text-align: center;
-  margin: 1rem auto;
-  max-width: 12.5rem;
-  border-radius: 10px;
-  font-family: "Russo One", sans-serif;
-  box-shadow: 1px 5px 10px 1px #000;
+.projetos .projetos__links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-.projetos .projeto__link:hover {
-  background-color: #234c66;
-  box-shadow: 5px 1px 5px 1px #000;
-  transition: all .6s;
+.projetos .projeto__link--img {
+  width: 80px;
 }
 
 .museu {

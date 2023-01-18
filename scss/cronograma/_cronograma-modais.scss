@@ -11,7 +11,7 @@
     z-index: 2;
     animation: slidein 1s forwards;
     overflow-y: auto;
-    
+
     .btn-fechar {
         width: 60px;
         position: fixed;
@@ -47,7 +47,7 @@
 
     .modal__card {
         background-color: #dfe6e9;
-        width: 23.5rem; /* 380px */
+        width: 25rem; /* 400px */
         padding: .5rem;
         text-align: center;
         display: flex;
@@ -61,6 +61,7 @@
 
             @include celular {
                 width: 21rem; /* 330px */
+                margin-bottom: 1.5rem;
             }
 
             &:hover {

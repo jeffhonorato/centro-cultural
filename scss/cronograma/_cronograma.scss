@@ -62,7 +62,7 @@
 
         .card {
             width: 14rem; /* 225px */
-            height: 14.5rem; /* 200px */
+            height: 16rem; /* 260px */
             padding: .4rem;
             background-color: $cor-header;
             display: flex;
@@ -89,13 +89,15 @@
 
             @include celular {
                 width: 12.5rem;
+                height: 16.5rem; /* 260px */
+
             }
         }
 
         .card__info--titulo {
             font-family: $fonte-corpo;
             text-align: center;
-            font-size: 2rem;
+            font-size: 2.5rem;
         }
 
         .card__btn {

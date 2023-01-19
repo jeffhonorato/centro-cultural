@@ -739,6 +739,8 @@ img {
 .projetos .projeto__link {
   box-shadow: 1px 1px 10px 4px #111;
   padding: .6rem;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .projetos .projeto__link:hover {
@@ -753,7 +755,6 @@ img {
 
 .projetos .projeto__link--img {
   width: 100px;
-  cursor: pointer;
 }
 
 .projetos .projeto__btn {

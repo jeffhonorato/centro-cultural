@@ -61,6 +61,12 @@
                 grid-template-columns: repeat(2, 1fr);
                 gap: 2rem;
             }
+
+            @include tablet {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
+            }
     }   
 
     .projeto__link {
@@ -88,6 +94,12 @@
     .projeto__link--img {
         // width: 400px;
         margin-bottom: 1rem;
+    }
+
+    .capoeira__div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 
     .projeto__btn {

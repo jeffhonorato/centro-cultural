@@ -742,13 +742,32 @@ img {
 }
 
 .projetos .projeto__link:hover {
-  box-shadow: 1px 1px 10px #111;
   transition: all .5s;
   background-color: #234c66;
 }
 
+.projetos .projeto__link:hover .projeto__btn {
+  background-color: #fff;
+  color: #111;
+}
+
 .projetos .projeto__link--img {
   width: 100px;
+  cursor: pointer;
+}
+
+.projetos .projeto__btn {
+  font-family: "Russo One", sans-serif;
+  font-size: 1.2rem;
+  padding: .4rem;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  background-color: #234c66;
+  color: #fff;
+  user-select: none;
+  display: block;
+  margin: 0 auto;
   cursor: pointer;
 }
 

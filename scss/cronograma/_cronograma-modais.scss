@@ -132,6 +132,24 @@
         font-size: 1.1rem;
     }
 
+    .modal__card--instagram {
+        display: flex;
+        gap: .3rem;
+        align-items: center;
+    }
+
+    .modal__card--instagramNome {
+        font-family: $fonte-corpo;
+        font-weight: bold;
+        text-align: start;
+        font-size: 1.1rem;
+        color: #000;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
 
 }
 

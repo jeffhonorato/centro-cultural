@@ -2,8 +2,6 @@
     background-color: $cor-header;
     height: 50vh;
 
-
-
         @include celular {
             height: 50vh;
         }
@@ -84,12 +82,19 @@
                     top: 30px;
                     left: 0;
                     transition: all .5s;
+                    z-index: 1;
                 }  
 
                 @include tablet {
                     padding: 0.5rem;
-                    display: grid;
+                    display: none;
                     grid-template-columns: 1fr;
+                    gap: 0rem;
+                    position: fixed;
+                    top: 30px;
+                    left: 0;
+                    transition: all .5s;
+                    z-index: 1;
                 } 
         }
 
@@ -147,8 +152,6 @@
                 font-size: .7rem;
             }
         }
-
-
 }
 
 @keyframes suave {

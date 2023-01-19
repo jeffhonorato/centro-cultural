@@ -671,7 +671,6 @@ img {
 @media (min-width: 0px) and (max-width: 480px) {
   .projetos {
     gap: 1rem;
-    height: 100vh;
   }
 }
 
@@ -767,10 +766,6 @@ img {
 .projetos .projeto__link:hover .projeto__btn {
   background-color: #fff;
   color: #111;
-}
-
-.projetos lottie-player[style*="width"] {
-  width: 20px;
 }
 
 .projetos .projeto__btn {

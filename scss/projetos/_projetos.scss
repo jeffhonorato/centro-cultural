@@ -8,7 +8,6 @@
 
             @include celular {
                 gap: 1rem;
-                height: 100vh;
             }
 
             @include tablet {
@@ -84,10 +83,6 @@
             background-color: #fff;
             color: #111;
         }
-    }
-
-    lottie-player[style*="width"] {
-        width: 20px;
     }
 
     .projeto__btn {

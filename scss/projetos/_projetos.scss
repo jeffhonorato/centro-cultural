@@ -57,10 +57,10 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 1rem;    
 
-            // &:hover {
-            //     display: grid;
-            //     grid-template-columns: repeat(2, 1fr);
-            // }
+            @include celular {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
     }   
 
     .projeto__link {
@@ -80,8 +80,8 @@
         }
     }
 
-    .projeto__link--img {
-        width: 100px;
+    lottie-player[style] {
+        width: 50px;
     }
 
     .projeto__btn {

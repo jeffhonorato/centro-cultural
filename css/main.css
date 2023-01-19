@@ -736,6 +736,13 @@ img {
   gap: 1rem;
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .projetos .projetos__links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .projetos .projeto__link {
   box-shadow: 1px 1px 10px 4px #111;
   padding: .6rem;
@@ -753,8 +760,8 @@ img {
   color: #111;
 }
 
-.projetos .projeto__link--img {
-  width: 100px;
+.projetos lottie-player[style] {
+  width: 50px;
 }
 
 .projetos .projeto__btn {

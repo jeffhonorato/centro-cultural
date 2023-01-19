@@ -60,6 +60,7 @@
             @include celular {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
             }
     }   
 
@@ -68,6 +69,11 @@
         padding: .6rem;
         border-top-left-radius: 10px;
         border-bottom-right-radius: 10px;
+        width: 13.7rem; /* 220px */
+
+        @include celular {
+            width: 150px;
+        }
 
         &:hover {
             transition: all .5s;
@@ -80,8 +86,8 @@
         }
     }
 
-    lottie-player[style] {
-        width: 50px;
+    lottie-player[style*="width"] {
+        width: 20px;
     }
 
     .projeto__btn {

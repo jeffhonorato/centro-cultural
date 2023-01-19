@@ -736,14 +736,20 @@ img {
   gap: 1rem;
 }
 
-.projetos .projeto__link--img {
-  width: 80px;
-  cursor: pointer;
+.projetos .projeto__link {
+  box-shadow: 1px 1px 10px 4px #111;
+  padding: .6rem;
 }
 
-.projetos .projeto__link--img:hover {
+.projetos .projeto__link:hover {
   box-shadow: 1px 1px 10px #111;
   transition: all .5s;
+  background-color: #234c66;
+}
+
+.projetos .projeto__link--img {
+  width: 100px;
+  cursor: pointer;
 }
 
 .museu {

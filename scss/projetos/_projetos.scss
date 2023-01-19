@@ -55,19 +55,23 @@
     .projetos__links {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 1rem;
-
-            
+        gap: 1rem;    
     }   
 
-    .projeto__link--img {
-        width: 80px;
-        cursor: pointer;
+    .projeto__link {
+        box-shadow: 1px 1px 10px 4px #111;
+        padding: .6rem;
 
         &:hover {
             box-shadow: 1px 1px 10px #111;
             transition: all .5s;
+            background-color: $cor-links;
         }
+    }
+
+    .projeto__link--img {
+        width: 100px;
+        cursor: pointer;
     }
 
     

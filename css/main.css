@@ -911,7 +911,8 @@ img {
 }
 
 .projeto__modal .musica__missao--p {
-  width: 400px;
+  width: 28rem;
+  /* 450px */
   font-weight: bold;
   font-family: "Rajdhani", sans-serif;
   font-weight: bold;
@@ -921,7 +922,8 @@ img {
 }
 
 .projeto__modal .musica__img--missao {
-  width: 500px;
+  width: 31rem;
+  /* 500px */
 }
 
 .projeto__modal.ativo {

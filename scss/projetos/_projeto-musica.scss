@@ -71,13 +71,13 @@
     }
 
     .musica__missao--p {
-        width: 400px;
+        width: 28rem; /* 450px */ 
         font-weight: bold;
         @include paragrafo;
     }
 
     .musica__img--missao {
-        width: 500px;
+        width: 31rem; /* 500px */
     }
 
 

@@ -837,6 +837,18 @@ img {
   cursor: pointer;
 }
 
+.projeto__modais {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-color: #234c66;
+  z-index: 1;
+}
+
 .museu {
   background-image: url("../img/background-museu.png");
   background-position: center;

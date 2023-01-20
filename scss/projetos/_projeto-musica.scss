@@ -9,27 +9,44 @@
     height: 100%;
     background-color: $cor-links;
     z-index: 2;  
-    transform: slideinModal 1s forwards;
+    overflow-y: auto;
     
    .modal__musica--titulo {
-    font-family: $fonte-subtitulo;
-    text-align: center;
-    font-size: 6rem;
-    color: #000;
-    height: 80vh;
-    background-image: url("../../img/projetos/musica/background-musica.jpg");
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+        font-family: $fonte-subtitulo;
+        text-align: center;
+        font-size: 6rem;
+        color: #000;
+        height: 80vh;
+        background-image: url("../../img/projetos/musica/background-musica.jpg");
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     
    }
+
+    .btn-fechar-musica {
+        width: 60px;
+        position: fixed;
+        top: 10px;
+        right: 4px;
+        cursor: pointer;
+
+        &:hover {
+            width: 58px;
+            transition: all .4s;
+        }
+
+        @include celular {
+            width: 40px;
+        }
+    }
 
 
 }
 
 .projeto__modal.ativo {
     display: block;
-    transform: slideinModal 1s forwards;
+    animation: slideinModal 1s forwards;
 }
 
 @keyframes slideinModal {

@@ -848,7 +848,7 @@ img {
   height: 100%;
   background-color: #234c66;
   z-index: 2;
-  transform: slideinModal 1s forwards;
+  overflow-y: auto;
 }
 
 .projeto__modal .modal__musica--titulo {
@@ -863,9 +863,28 @@ img {
   justify-content: center;
 }
 
+.projeto__modal .btn-fechar-musica {
+  width: 60px;
+  position: fixed;
+  top: 10px;
+  right: 4px;
+  cursor: pointer;
+}
+
+.projeto__modal .btn-fechar-musica:hover {
+  width: 58px;
+  transition: all .4s;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .projeto__modal .btn-fechar-musica {
+    width: 40px;
+  }
+}
+
 .projeto__modal.ativo {
   display: block;
-  transform: slideinModal 1s forwards;
+  animation: slideinModal 1s forwards;
 }
 
 @keyframes slideinModal {

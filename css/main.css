@@ -849,6 +849,7 @@ img {
   background-color: #fff;
   z-index: 2;
   overflow-y: auto;
+  padding-bottom: 3rem;
 }
 
 .projeto__modal .modal__musica--titulo {

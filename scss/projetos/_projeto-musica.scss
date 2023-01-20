@@ -1,4 +1,4 @@
-.projeto__modais {
+.projeto__modal {
     display: none;
     position: fixed;
     top: 0;
@@ -6,10 +6,40 @@
     bottom: 0;
     right: 0;
     width: 100%;
+    height: 100%;
     background-color: $cor-links;
-    z-index: 1;
-
-
+    z-index: 2;  
+    transform: slideinModal 1s forwards;
+    
+   .modal__musica--titulo {
+    font-family: $fonte-subtitulo;
+    text-align: center;
+    font-size: 6rem;
+    color: #000;
+    height: 80vh;
+    background-image: url("../../img/projetos/musica/background-musica.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   }
 
 
 }
+
+.projeto__modal.ativo {
+    display: block;
+    transform: slideinModal 1s forwards;
+}
+
+@keyframes slideinModal {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }

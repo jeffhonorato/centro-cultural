@@ -871,7 +871,7 @@ img {
   width: 60px;
   position: fixed;
   top: 10px;
-  right: 4px;
+  right: 20px;
   cursor: pointer;
 }
 
@@ -884,6 +884,44 @@ img {
   .projeto__modal .btn-fechar-musica {
     width: 40px;
   }
+}
+
+.projeto__modal .modal__musica--missao {
+  margin-top: 3rem;
+}
+
+.projeto__modal .modal__musica--missao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.projeto__modal .musica__missao--titulo {
+  font-family: "Londrina Solid", cursive;
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.projeto__modal .musica__missao--paragrafos {
+  background-color: rgba(162, 162, 162, 0.1);
+  box-shadow: 1px 1px 10px 1px #000;
+}
+
+.projeto__modal .musica__missao--p {
+  width: 400px;
+  font-weight: bold;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: 0.6rem;
+}
+
+.projeto__modal .musica__img--missao {
+  width: 500px;
 }
 
 .projeto__modal.ativo {

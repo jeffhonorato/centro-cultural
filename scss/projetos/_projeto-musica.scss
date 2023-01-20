@@ -32,7 +32,7 @@
         width: 60px;
         position: fixed;
         top: 10px;
-        right: 4px;
+        right: 20px;
         cursor: pointer;
 
         &:hover {
@@ -43,6 +43,41 @@
         @include celular {
             width: 40px;
         }
+    }
+
+    .modal__musica--missao {
+        margin-top: 3rem;
+    }
+
+    .modal__musica--missao {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+    }
+
+    .musica__missao--titulo {
+        font-family: $fonte-subtitulo;
+        text-align: center;
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .musica__missao--paragrafos {
+        background-color: rgba(162, 162, 162, 0.1);
+        box-shadow: 1px 1px 10px 1px #000;
+    }
+
+    .musica__missao--p {
+        width: 400px;
+        font-weight: bold;
+        @include paragrafo;
+    }
+
+    .musica__img--missao {
+        width: 500px;
     }
 
 

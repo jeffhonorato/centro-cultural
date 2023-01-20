@@ -3,13 +3,16 @@ const projetoMusica = () => {
     btnMusica.addEventListener("click", () => {
         const modalMusica = document.querySelector(".js-projeto-modal-musica")
         modalMusica.classList.add("ativo");
-        console.log(modalMusica)
+        const scroll = document.querySelector(".js-scroll");
+            scroll.classList.add("off");
     });
 
     const bntFechar = document.querySelector(".js-btnFechar-musica");
         bntFechar.addEventListener("click", () => {
             const modalMusica = document.querySelector(".js-projeto-modal-musica")
             modalMusica.classList.remove("ativo")
+            const scroll = document.querySelector(".js-scroll");
+            scroll.classList.remove("off");
         });
    
 }

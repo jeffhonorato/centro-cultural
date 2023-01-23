@@ -934,13 +934,29 @@ img {
   margin: 4rem 0rem;
 }
 
-.projeto__modal .musica__img--instrumento {
-  width: 100px;
+.projeto__modal .modal__musica--div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.projeto__modal .musica__obj--itens {
-  display: flex;
-  gap: .2rem;
+.projeto__modal .musica__img--instrumento {
+  width: 300px;
+}
+
+.projeto__modal .musica__projeto--titulo {
+  font-size: 3rem;
+  font-family: "Londrina Solid", cursive;
+}
+
+.projeto__modal .musica__projeto--p {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: 0.6rem;
+  width: 340px;
 }
 
 .projeto__modal.ativo {
@@ -957,6 +973,24 @@ img {
     margin-left: 0%;
     width: 100%;
   }
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
 }
 
 .museu {

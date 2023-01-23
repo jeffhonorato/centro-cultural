@@ -88,13 +88,25 @@
 
     }
 
-    .musica__img--instrumento {
-        width: 100px;
+    .modal__musica--div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
     }
 
-    .musica__obj--itens {
-        display: flex;
-        gap: .2rem;
+    .musica__img--instrumento {
+        width: 300px;
+    }
+
+    .musica__projeto--titulo {
+        font-size: 3rem;
+        font-family: $fonte-subtitulo;
+    }
+    
+    .musica__projeto--p {
+        @include paragrafo;
+        width: 340px;
     }
 
 }
@@ -114,4 +126,22 @@
       margin-left: 0%;
       width: 100%;
     }
+  }
+
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
   }

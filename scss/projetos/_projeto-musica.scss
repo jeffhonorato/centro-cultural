@@ -18,7 +18,7 @@
         font-size: 6rem;
         color: #000;
         height: 100vh;
-        background-image: url("../../img/projetos/musica/background-musica.jpg");
+        background-image: url("../../img/projetos/musica/background-projeto-musica.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -46,7 +46,7 @@
     }
 
     .modal__musica--missao {
-        margin-top: 3rem;
+        margin: 3rem 0rem;
     }
 
     .modal__musica--missao {
@@ -88,8 +88,18 @@
     .modal__musica--projetoTitulo {
         font-family: $fonte-subtitulo;
         text-align: center;
-        font-size: 4rem;
-        margin: 4rem 0rem;
+        font-size: 6rem;
+        color: #000;
+        height: 100vh;
+        background-image: url("../../img/projetos/musica/background-projeto-musica.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 3rem;
 
     }
 
@@ -98,10 +108,22 @@
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
+
+        @include celular {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            gap: 2rem;
+        }
     }
 
     .musica__img--instrumento {
         width: 300px;
+
+        @include celular {
+            width: 200px;
+        }
     }
 
     .musica__projeto--titulo {

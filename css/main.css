@@ -858,7 +858,7 @@ img {
   font-size: 6rem;
   color: #000;
   height: 100vh;
-  background-image: url("../../img/projetos/musica/background-musica.jpg");
+  background-image: url("../../img/projetos/musica/background-projeto-musica.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -888,7 +888,7 @@ img {
 }
 
 .projeto__modal .modal__musica--missao {
-  margin-top: 3rem;
+  margin: 3rem 0rem;
 }
 
 .projeto__modal .modal__musica--missao {
@@ -937,8 +937,18 @@ img {
 .projeto__modal .modal__musica--projetoTitulo {
   font-family: "Londrina Solid", cursive;
   text-align: center;
-  font-size: 4rem;
-  margin: 4rem 0rem;
+  font-size: 6rem;
+  color: #000;
+  height: 100vh;
+  background-image: url("../../img/projetos/musica/background-projeto-musica.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 3rem;
 }
 
 .projeto__modal .modal__musica--div {
@@ -948,8 +958,24 @@ img {
   align-items: center;
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .projeto__modal .modal__musica--div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+
 .projeto__modal .musica__img--instrumento {
   width: 300px;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .projeto__modal .musica__img--instrumento {
+    width: 200px;
+  }
 }
 
 .projeto__modal .musica__projeto--titulo {

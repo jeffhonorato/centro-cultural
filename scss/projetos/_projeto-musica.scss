@@ -85,6 +85,10 @@
 
     .musica__img--missao {
         width: 31rem; /* 500px */
+
+            @include celular {
+                width: 300px;
+            }
     }
 
     .modal__musica--projetoTitulo {
@@ -104,20 +108,8 @@
         margin-bottom: 3rem;
 
         @include celular {
-            @include celular {
-                background: linear-gradient(
-                rgba(0,0,0,0.6),
-                rgba(0,0,0,0.6)),
-
-                url("../../img/projetos/musica/background-projeto-musica-1.png");
-                background-repeat: no-repeat;
-                background-size: cover;
-                // background-position: center;
-                background-attachment: fixed;
-                color: #fff;
-            }
+            font-size: 4.5rem;
         }
-
     }
 
     .bandaDeMusica {
@@ -185,17 +177,9 @@
         margin-bottom: 3rem;
 
         @include celular {
-            background: linear-gradient(
-                rgba(0,0,0,0.6),
-                rgba(0,0,0,0.6)),
-
-                url("../../img/projetos/musica/background-projeto-musica-1.png");
-                background-repeat: no-repeat;
-                background-size: cover;
-                // background-position: center;
-                background-attachment: fixed;
-                color: #fff;
+            font-size: 4.5rem;
         }
+
     }
 
     .tocandoViolao__sessao {

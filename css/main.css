@@ -938,6 +938,12 @@ img {
   /* 500px */
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .projeto__modal .musica__img--missao {
+    width: 300px;
+  }
+}
+
 .projeto__modal .modal__musica--projetoTitulo {
   font-family: "Londrina Solid", cursive;
   text-align: center;
@@ -955,13 +961,9 @@ img {
   margin-bottom: 3rem;
 }
 
-@media (min-width: 0px) and (max-width: 480px) and (min-width: 0px) and (max-width: 480px) {
+@media (min-width: 0px) and (max-width: 480px) {
   .projeto__modal .modal__musica--projetoTitulo {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../img/projetos/musica/background-projeto-musica-1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    color: #fff;
+    font-size: 4.5rem;
   }
 }
 
@@ -1044,11 +1046,7 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .projeto__modal .tocandoViolao--titulo {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../img/projetos/musica/background-projeto-musica-1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    color: #fff;
+    font-size: 4.5rem;
   }
 }
 

@@ -959,6 +959,10 @@ img {
   width: 340px;
 }
 
+.projeto__modal .galeria__musica--img {
+  width: 500px;
+}
+
 .projeto__modal.ativo {
   display: block;
   animation: slideinModal 1s forwards;
@@ -984,13 +988,14 @@ img {
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 300px;
+  width: 400px;
   height: 300px;
 }
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
+@media (min-width: 0px) and (max-width: 480px) {
+  .swiper-slide {
+    width: 310px;
+  }
 }
 
 .museu {

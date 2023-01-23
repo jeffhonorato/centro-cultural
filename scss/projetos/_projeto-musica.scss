@@ -109,6 +109,10 @@
         width: 340px;
     }
 
+    .galeria__musica--img {
+        width: 500px;
+    }
+
 }
 
 .projeto__modal.ativo {
@@ -137,11 +141,11 @@
   .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 300px;
+    width: 400px;
     height: 300px;
+
+        @include celular {
+            width: 310px;
+        }
   }
 
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-  }

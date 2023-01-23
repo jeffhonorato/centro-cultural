@@ -1107,6 +1107,7 @@ img {
 @media (min-width: 0px) and (max-width: 480px) {
   .swiper-slide {
     width: 310px;
+    height: 250px;
   }
 }
 

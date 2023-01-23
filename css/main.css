@@ -948,6 +948,10 @@ img {
   margin-bottom: 3rem;
 }
 
+.projeto__modal .bandaDeMusica {
+  padding-bottom: 3rem;
+}
+
 .projeto__modal .modal__musica--BandaDeMusica {
   display: flex;
   flex-wrap: wrap;
@@ -1026,6 +1030,16 @@ img {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .projeto__modal .tocandoViolao__sessao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+  }
 }
 
 .projeto__modal .tocandoViolao--sobre {

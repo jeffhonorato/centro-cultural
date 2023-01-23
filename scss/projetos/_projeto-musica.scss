@@ -80,6 +80,22 @@
         width: 31rem; /* 500px */
     }
 
+    .modal__musica--projetoTitulo {
+        font-family: $fonte-subtitulo;
+        text-align: center;
+        font-size: 4rem;
+        margin-bottom: 1rem;
+
+    }
+
+    .musica__img--instrumento {
+        width: 100px;
+    }
+
+    .musica__obj--itens {
+        display: flex;
+        gap: .2rem;
+    }
 
 }
 

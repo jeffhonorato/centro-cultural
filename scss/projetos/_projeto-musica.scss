@@ -26,6 +26,11 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+
+            @include celular {
+                font-size: 5rem;
+                padding: 0rem .4rem;
+            }
     }
 
     .btn-fechar-musica {
@@ -98,6 +103,21 @@
         justify-content: center;
         margin-bottom: 3rem;
 
+        @include celular {
+            @include celular {
+                background: linear-gradient(
+                rgba(0,0,0,0.6),
+                rgba(0,0,0,0.6)),
+
+                url("../../img/projetos/musica/background-projeto-musica-1.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                // background-position: center;
+                background-attachment: fixed;
+                color: #fff;
+            }
+        }
+
     }
 
     .bandaDeMusica {
@@ -163,6 +183,19 @@
         flex-direction: column;
         justify-content: center;
         margin-bottom: 3rem;
+
+        @include celular {
+            background: linear-gradient(
+                rgba(0,0,0,0.6),
+                rgba(0,0,0,0.6)),
+
+                url("../../img/projetos/musica/background-projeto-musica-1.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                // background-position: center;
+                background-attachment: fixed;
+                color: #fff;
+        }
     }
 
     .tocandoViolao__sessao {

@@ -912,14 +912,21 @@ img {
 }
 
 .projeto__modal .musica__missao--p {
-  width: 28rem;
-  /* 450px */
-  font-weight: bold;
   font-family: "Rajdhani", sans-serif;
   font-weight: bold;
   line-height: 1.6;
   letter-spacing: 1px;
   padding: 0.6rem;
+  width: 28rem;
+  /* 450px */
+  font-weight: bold;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .projeto__modal .musica__missao--p {
+    width: 20rem;
+    /*320px*/
+  }
 }
 
 .projeto__modal .musica__img--missao {
@@ -948,6 +955,13 @@ img {
 .projeto__modal .musica__projeto--titulo {
   font-size: 3rem;
   font-family: "Londrina Solid", cursive;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.projeto__modal .musica__projeto--paragrafos {
+  background-color: rgba(162, 162, 162, 0.1);
+  box-shadow: 1px 1px 10px 1px #000;
 }
 
 .projeto__modal .musica__projeto--p {
@@ -956,7 +970,15 @@ img {
   line-height: 1.6;
   letter-spacing: 1px;
   padding: 0.6rem;
-  width: 340px;
+  width: 28rem;
+  /* 450px */
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .projeto__modal .musica__projeto--p {
+    width: 20rem;
+    /*320px*/
+  }
 }
 
 .projeto__modal .galeria__musica--img {

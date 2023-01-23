@@ -964,6 +964,11 @@ img {
 @media (min-width: 0px) and (max-width: 480px) {
   .projeto__modal .modal__musica--projetoTitulo {
     font-size: 4.5rem;
+    background-image: url("../../img/projetos/musica/background-projeto-musica.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
   }
 }
 
@@ -1047,6 +1052,11 @@ img {
 @media (min-width: 0px) and (max-width: 480px) {
   .projeto__modal .tocandoViolao--titulo {
     font-size: 4.5rem;
+    background-image: url("../../img/projetos/musica/background-projeto-musica.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
   }
 }
 

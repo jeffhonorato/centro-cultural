@@ -46,15 +46,12 @@
     }
 
     .modal__musica--missao {
-        margin: 3rem 0rem;
-    }
-
-    .modal__musica--missao {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         gap: 2rem;
+        margin: 3rem 0rem;
 
     }
 
@@ -103,7 +100,7 @@
 
     }
 
-    .modal__musica--div {
+    .modal__musica--BandaDeMusica {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -147,9 +144,55 @@
         }
     }
 
-    .galeria__musica--img {
-        width: 500px;
+    .tocandoViolao--titulo {
+        font-family: $fonte-subtitulo;
+        text-align: center;
+        font-size: 6rem;
+        color: #000;
+        height: 100vh;
+        background-image: url("../../img/projetos/musica/background-projeto-musica.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 3rem;
     }
+
+    .tocandoViolao__sessao {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .tocandoViolao--sobre {
+        font-size: 3rem;
+        font-family: $fonte-subtitulo;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .tocandoViolao--paragrafos {
+        background-color: rgba(162, 162, 162, 0.1);
+        box-shadow: 1px 1px 10px 1px #000; 
+    }
+
+    .tocandoViolao--p {
+        @include paragrafo;
+        width: 28rem; /* 450px */
+
+        @include celular {
+            width: 20rem; /*320px*/
+        }
+    }
+
+    .tocandoViolao--img {
+        width: 300px;
+    }
+
 
 }
 

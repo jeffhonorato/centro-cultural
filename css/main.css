@@ -888,15 +888,12 @@ img {
 }
 
 .projeto__modal .modal__musica--missao {
-  margin: 3rem 0rem;
-}
-
-.projeto__modal .modal__musica--missao {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  margin: 3rem 0rem;
 }
 
 .projeto__modal .musica__missao--titulo {
@@ -951,7 +948,7 @@ img {
   margin-bottom: 3rem;
 }
 
-.projeto__modal .modal__musica--div {
+.projeto__modal .modal__musica--BandaDeMusica {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -959,7 +956,7 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  .projeto__modal .modal__musica--div {
+  .projeto__modal .modal__musica--BandaDeMusica {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -1007,8 +1004,61 @@ img {
   }
 }
 
-.projeto__modal .galeria__musica--img {
-  width: 500px;
+.projeto__modal .tocandoViolao--titulo {
+  font-family: "Londrina Solid", cursive;
+  text-align: center;
+  font-size: 6rem;
+  color: #000;
+  height: 100vh;
+  background-image: url("../../img/projetos/musica/background-projeto-musica.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.projeto__modal .tocandoViolao__sessao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.projeto__modal .tocandoViolao--sobre {
+  font-size: 3rem;
+  font-family: "Londrina Solid", cursive;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.projeto__modal .tocandoViolao--paragrafos {
+  background-color: rgba(162, 162, 162, 0.1);
+  box-shadow: 1px 1px 10px 1px #000;
+}
+
+.projeto__modal .tocandoViolao--p {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: 0.6rem;
+  width: 28rem;
+  /* 450px */
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .projeto__modal .tocandoViolao--p {
+    width: 20rem;
+    /*320px*/
+  }
+}
+
+.projeto__modal .tocandoViolao--img {
+  width: 300px;
 }
 
 .projeto__modal.ativo {

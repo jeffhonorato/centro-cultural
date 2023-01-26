@@ -812,6 +812,12 @@ img {
   justify-content: space-around;
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .projetos .capoeira__div {
+    height: 214px;
+  }
+}
+
 .projetos .artesanato__div {
   width: 200px;
   /* 220px */

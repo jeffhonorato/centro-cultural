@@ -26,7 +26,7 @@ var swiper = new Swiper(".galeria-musica", {
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: "auto",
-    // loop: "true",
+    loop: "true",
     coverflowEffect: {
       rotate: 50,
       stretch: 0,
@@ -34,10 +34,10 @@ var swiper = new Swiper(".galeria-musica", {
       modifier: 1,
       slideShadows: false,
     },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
+    // pagination: {
+    //   el: ".swiper-pagination",
+    //   clickable: true,
+    // },
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",

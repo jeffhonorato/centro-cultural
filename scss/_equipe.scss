@@ -1,5 +1,5 @@
 .equipe {
-    height: 60vh;
+    height: 80vh;
     margin-bottom: 4rem;
 
     .equipe__titulo {
@@ -16,7 +16,7 @@
 
     .equipe__card {
         background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
-        width: 200px;
+        width: 300px;
         height: 300px;
 
     }
@@ -28,3 +28,16 @@
 
 
 }
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }

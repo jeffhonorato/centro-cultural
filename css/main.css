@@ -330,7 +330,7 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .sobre .sobre__titulo {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -1192,7 +1192,7 @@ img {
 }
 
 .equipe {
-  height: 60vh;
+  height: 80vh;
   margin-bottom: 4rem;
 }
 
@@ -1212,16 +1212,29 @@ img {
 
 .equipe .equipe__card {
   background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
-  width: 200px;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
   height: 300px;
 }
 
 .museu {
-  background-image: url("../img/background-museu.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/museu/background-museu.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
+  background-attachment: fixed;
   height: 80vh;
   display: flex;
   justify-content: flex-end;

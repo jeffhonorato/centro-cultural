@@ -1210,6 +1210,13 @@ img {
   }
 }
 
+.equipe .equipe__cards {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
 .equipe .equipe__card {
   background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
   width: 300px;

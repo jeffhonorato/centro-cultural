@@ -867,6 +867,7 @@ img {
   .projeto__modal .projeto__modal--cabecalho {
     font-size: 5rem;
     padding: 0rem .4rem;
+    border-bottom-left-radius: 50%;
   }
 }
 
@@ -901,6 +902,7 @@ img {
   top: 10px;
   right: 20px;
   cursor: pointer;
+  z-index: 2;
 }
 
 .projeto__modal .btn-fechar-musica:hover {
@@ -975,6 +977,7 @@ img {
   flex-direction: column;
   justify-content: center;
   margin-bottom: 3rem;
+  border-bottom-right-radius: 110%;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
@@ -992,7 +995,7 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .projeto__modal .modal__musica--projetoTitulo {
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
 }
 
@@ -1067,6 +1070,7 @@ img {
   flex-direction: column;
   justify-content: center;
   margin-bottom: 3rem;
+  border-bottom-left-radius: 110%;
 }
 
 @media (min-width: 0px) and (max-width: 480px) and (min-width: 0px) and (max-width: 480px) {
@@ -1084,7 +1088,7 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .projeto__modal .tocandoViolao--titulo {
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
 }
 

@@ -19,10 +19,12 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        
 
             @include celular {
                 font-size: 5rem;
                 padding: 0rem .4rem;
+                border-bottom-left-radius: 50%;
             }
     }
 
@@ -52,6 +54,7 @@
         top: 10px;
         right: 20px;
         cursor: pointer;
+        z-index: 2;
 
         &:hover {
             width: 58px;
@@ -115,6 +118,7 @@
         flex-direction: column;
         justify-content: center;
         margin-bottom: 3rem;
+        border-bottom-right-radius: 110%;
 
         @include celular {
             background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
@@ -128,7 +132,7 @@
         color: #000;
 
         @include celular {
-            font-size: 4rem;
+            font-size: 4.5rem;
         }
     }
 
@@ -191,6 +195,7 @@
         flex-direction: column;
         justify-content: center;
         margin-bottom: 3rem;
+        border-bottom-left-radius: 110%;
 
         @include celular {
             @include celular {
@@ -206,7 +211,7 @@
         color: #000;
 
         @include celular {
-            font-size: 4rem;
+            font-size: 4.5rem;
         }
 
     }

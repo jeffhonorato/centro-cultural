@@ -11,17 +11,10 @@
     z-index: 2;  
     overflow-y: auto;
     padding-bottom: 3rem;
-    
-   .modal__musica--titulo {
-        font-family: $fonte-subtitulo;
-        text-align: center;
-        font-size: 6rem;
-        color: #000;
+
+    .projeto__modal--cabecalho {
         height: 100vh;
-        background-image: url("../../img/projetos/musica/background-projeto-musica.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
         background-attachment: fixed;
         display: flex;
         flex-direction: column;
@@ -31,6 +24,26 @@
                 font-size: 5rem;
                 padding: 0rem .4rem;
             }
+    }
+
+    .logo__modal--cabecalho {
+        width: 27.5rem; /* 440px */
+        margin: 0 auto;
+
+        @include celular {
+            width: 310px;
+        }
+    }
+    
+   .modal__musica--titulo {
+        font-family: $fonte-subtitulo;
+        text-align: center;
+        font-size: 6rem;
+        color: #000;
+
+        @include celular {
+            font-size: 4rem;
+        }
     }
 
     .btn-fechar-musica {
@@ -91,13 +104,9 @@
             }
     }
 
-    .modal__musica--projetoTitulo {
-        font-family: $fonte-subtitulo;
-        text-align: center;
-        font-size: 6rem;
-        color: #000;
+    .modal__musica--projetoCabecalho {
         height: 100vh;
-        background-image: url("../../img/projetos/musica/background-projeto-musica-1.png");
+        background-image: url("../../img/projetos/musica/background-bandaMusica.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -108,13 +117,18 @@
         margin-bottom: 3rem;
 
         @include celular {
-            font-size: 4.5rem;
-            background-image: url("../../img/projetos/musica/background-projeto-musica.png");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
+            background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
+        }
+    }
 
+    .modal__musica--projetoTitulo {
+        font-family: $fonte-subtitulo;
+        text-align: center;
+        font-size: 6rem;
+        color: #000;
+
+        @include celular {
+            font-size: 4rem;
         }
     }
 
@@ -166,13 +180,9 @@
         }
     }
 
-    .tocandoViolao--titulo {
-        font-family: $fonte-subtitulo;
-        text-align: center;
-        font-size: 6rem;
-        color: #000;
+    .tocandoViolao--cabecalho {
         height: 100vh;
-        background-image: url("../../img/projetos/musica/background-projeto-musica-1.png");
+        background-image: url("../../img/projetos/musica/background-violao.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -183,12 +193,20 @@
         margin-bottom: 3rem;
 
         @include celular {
-            font-size: 4.5rem;
-            background-image: url("../../img/projetos/musica/background-projeto-musica.png");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
+            @include celular {
+                background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
+            }
+        }
+    }
+
+    .tocandoViolao--titulo {
+        font-family: $fonte-subtitulo;
+        text-align: center;
+        font-size: 6rem;
+        color: #000;
+
+        @include celular {
+            font-size: 4rem;
         }
 
     }
@@ -230,7 +248,11 @@
     }
 
     .tocandoViolao--img {
-        width: 300px;
+        width: 18.7rem; /* 300px */
+
+        @include celular {
+            width: 15.6rem; /*250px*/
+        }
     }
 
 

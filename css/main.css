@@ -852,16 +852,9 @@ img {
   padding-bottom: 3rem;
 }
 
-.projeto__modal .modal__musica--titulo {
-  font-family: "Londrina Solid", cursive;
-  text-align: center;
-  font-size: 6rem;
-  color: #000;
+.projeto__modal .projeto__modal--cabecalho {
   height: 100vh;
-  background-image: url("../../img/projetos/musica/background-projeto-musica.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
@@ -869,9 +862,34 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  .projeto__modal .modal__musica--titulo {
+  .projeto__modal .projeto__modal--cabecalho {
     font-size: 5rem;
     padding: 0rem .4rem;
+  }
+}
+
+.projeto__modal .logo__modal--cabecalho {
+  width: 27.5rem;
+  /* 440px */
+  margin: 0 auto;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .projeto__modal .logo__modal--cabecalho {
+    width: 310px;
+  }
+}
+
+.projeto__modal .modal__musica--titulo {
+  font-family: "Londrina Solid", cursive;
+  text-align: center;
+  font-size: 6rem;
+  color: #000;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .projeto__modal .modal__musica--titulo {
+    font-size: 4rem;
   }
 }
 
@@ -944,13 +962,9 @@ img {
   }
 }
 
-.projeto__modal .modal__musica--projetoTitulo {
-  font-family: "Londrina Solid", cursive;
-  text-align: center;
-  font-size: 6rem;
-  color: #000;
+.projeto__modal .modal__musica--projetoCabecalho {
   height: 100vh;
-  background-image: url("../../img/projetos/musica/background-projeto-musica-1.png");
+  background-image: url("../../img/projetos/musica/background-bandaMusica.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -962,13 +976,21 @@ img {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
+  .projeto__modal .modal__musica--projetoCabecalho {
+    background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
+  }
+}
+
+.projeto__modal .modal__musica--projetoTitulo {
+  font-family: "Londrina Solid", cursive;
+  text-align: center;
+  font-size: 6rem;
+  color: #000;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
   .projeto__modal .modal__musica--projetoTitulo {
-    font-size: 4.5rem;
-    background-image: url("../../img/projetos/musica/background-projeto-musica.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    font-size: 4rem;
   }
 }
 
@@ -1032,13 +1054,9 @@ img {
   }
 }
 
-.projeto__modal .tocandoViolao--titulo {
-  font-family: "Londrina Solid", cursive;
-  text-align: center;
-  font-size: 6rem;
-  color: #000;
+.projeto__modal .tocandoViolao--cabecalho {
   height: 100vh;
-  background-image: url("../../img/projetos/musica/background-projeto-musica-1.png");
+  background-image: url("../../img/projetos/musica/background-violao.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1049,14 +1067,22 @@ img {
   margin-bottom: 3rem;
 }
 
+@media (min-width: 0px) and (max-width: 480px) and (min-width: 0px) and (max-width: 480px) {
+  .projeto__modal .tocandoViolao--cabecalho {
+    background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
+  }
+}
+
+.projeto__modal .tocandoViolao--titulo {
+  font-family: "Londrina Solid", cursive;
+  text-align: center;
+  font-size: 6rem;
+  color: #000;
+}
+
 @media (min-width: 0px) and (max-width: 480px) {
   .projeto__modal .tocandoViolao--titulo {
-    font-size: 4.5rem;
-    background-image: url("../../img/projetos/musica/background-projeto-musica.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    font-size: 4rem;
   }
 }
 
@@ -1107,7 +1133,15 @@ img {
 }
 
 .projeto__modal .tocandoViolao--img {
-  width: 300px;
+  width: 18.7rem;
+  /* 300px */
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .projeto__modal .tocandoViolao--img {
+    width: 15.6rem;
+    /*250px*/
+  }
 }
 
 .projeto__modal.ativo {

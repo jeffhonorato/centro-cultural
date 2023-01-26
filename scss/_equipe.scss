@@ -1,0 +1,30 @@
+.equipe {
+    height: 60vh;
+    margin-bottom: 4rem;
+
+    .equipe__titulo {
+        font-family: $fonte-subtitulo;
+        font-size: $size-titulo;
+        color: $cor-links;
+        padding: 1rem;
+        text-align: center;
+    
+            @include celular {
+                font-size: 2.5rem;
+            }
+    }
+
+    .equipe__card {
+        background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
+        width: 200px;
+        height: 300px;
+
+    }
+
+    
+
+
+
+
+
+}

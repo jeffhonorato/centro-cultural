@@ -431,8 +431,8 @@ img {
 }
 
 .cronograma .cards .card {
-  width: 14rem;
-  /* 225px */
+  width: 18.6rem;
+  /* 300px */
   height: 16rem;
   /* 260px */
   padding: .4rem;
@@ -462,14 +462,13 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .cronograma .cards .card {
-    width: 12.5rem;
     height: 16.5rem;
     /* 260px */
   }
 }
 
 .cronograma .cards .card__info--titulo {
-  font-family: "Rajdhani", sans-serif;
+  font-family: "Londrina Solid", cursive;
   text-align: center;
   font-size: 2.5rem;
 }
@@ -506,7 +505,7 @@ img {
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 300px;
+  width: 400px;
 }
 
 .modal {
@@ -1184,6 +1183,31 @@ img {
     width: 310px;
     height: 250px;
   }
+}
+
+.equipe {
+  height: 60vh;
+  margin-bottom: 4rem;
+}
+
+.equipe .equipe__titulo {
+  font-family: "Londrina Solid", cursive;
+  font-size: 4rem;
+  color: #234c66;
+  padding: 1rem;
+  text-align: center;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .equipe .equipe__titulo {
+    font-size: 2.5rem;
+  }
+}
+
+.equipe .equipe__card {
+  background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
+  width: 200px;
+  height: 300px;
 }
 
 .museu {

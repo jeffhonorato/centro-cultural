@@ -13,6 +13,7 @@ var swiper = new Swiper(".galeria-musica", {
     },
     pagination: {
       el: ".swiper-pagination",
+      clickable: true,
     },
     navigation: {
         nextEl: ".swiper-button-next",
@@ -35,6 +36,7 @@ var swiper = new Swiper(".galeria-musica", {
     },
     pagination: {
       el: ".swiper-pagination",
+      clickable: true,
     },
     navigation: {
         nextEl: ".swiper-button-next",

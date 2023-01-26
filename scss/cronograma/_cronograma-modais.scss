@@ -40,14 +40,14 @@
     .modal__cards {
         display: flex;
         flex-wrap: wrap;
-        gap: 1rem;
+        gap: .5rem;
         justify-content: center;
         align-items: center;
     }
 
     .modal__card {
         background-color: #dfe6e9;
-        width: 25rem; /* 400px */
+        width: 25.6rem; /* 400px */
         padding: .5rem;
         text-align: center;
         display: flex;
@@ -143,7 +143,7 @@
         font-weight: bold;
         text-align: start;
         font-size: 1.1rem;
-        color: #000;
+        color: $cor-section1;
 
         &:hover {
             text-decoration: underline;

@@ -26,7 +26,23 @@
         background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
         width: 300px;
         height: 300px;
+        
 
+    }
+
+    .equipe__card--cabecalho {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+        padding: 1rem 0rem;
+    }
+
+
+    .equipe__personImg {
+        width: 80px;
+        border-radius: 100%;
+        border: 1px solid #000;
     }
 
     

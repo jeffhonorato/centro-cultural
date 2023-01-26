@@ -1223,6 +1223,20 @@ img {
   height: 300px;
 }
 
+.equipe .equipe__card--cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  padding: 1rem 0rem;
+}
+
+.equipe .equipe__personImg {
+  width: 80px;
+  border-radius: 100%;
+  border: 1px solid #000;
+}
+
 .swiper {
   width: 100%;
   padding-top: 50px;

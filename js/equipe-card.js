@@ -1,14 +1,14 @@
-var swiper = new Swiper(".equipe", {
+var swiper = new Swiper('.equipe', {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: "auto",
-    loop: "true",
+    loop: true,
     coverflowEffect: {
-      rotate: 50,
+      rotate: 0,
       stretch: 0,
       depth: 100,
-      modifier: 4,
+      modifier: 2.5,
       slideShadows: false,
     },
     navigation: {

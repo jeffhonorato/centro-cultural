@@ -34,8 +34,8 @@
             position: fixed;
             top: 0;
             left: 0;
-            z-index: 1;
             cursor: pointer;
+            z-index: 2;
 
                 @include celular {
                     display: block;
@@ -53,6 +53,7 @@
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
+           
             // height: 30vh;
             
 
@@ -100,7 +101,7 @@
 
         .nav__lista.ativo {
             display: flex;
-            z-index: 1;     
+            z-index: 4;     
         }
 
         .nav__link {

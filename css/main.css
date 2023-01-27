@@ -1063,6 +1063,10 @@ img {
   }
 }
 
+.projeto__modal .galeria__musica--img {
+  width: 500px;
+}
+
 .projeto__modal .tocandoViolao--cabecalho {
   height: 100vh;
   background-image: url("../../img/projetos/musica/background-violao.png");
@@ -1152,6 +1156,10 @@ img {
     width: 15.6rem;
     /*250px*/
   }
+}
+
+.projeto__modal .galeria__violao--img {
+  width: 400px;
 }
 
 .projeto__modal.ativo {

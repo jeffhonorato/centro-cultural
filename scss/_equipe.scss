@@ -31,15 +31,35 @@
         border-bottom-right-radius: 10px;
     }
 
-    // .equipe__card--cabecalho {
-       
-    // }
+    .equipe__pessoa {
+        display: flex;
+        justify-content: center;
+    }
 
 
     .equipe__pessoaImg {
-        width: 80px;
+        width: 100px;
         border-radius: 50%;
-        border: 5px solid #000;
+        border: 2px solid #fff;
+        margin-top: 1rem;
+
+    }
+
+    .equipe__card--nome {
+        color: #fff;
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        font-family: $fonte-titulo;
+        font-weight: 100;
+    }
+
+    .equipe__card--cargo {
+        color: #fff;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: $fonte-corpo;
+        font-weight: 100;
     }
 
 

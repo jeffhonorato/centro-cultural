@@ -1229,6 +1229,8 @@ img {
   width: 300px;
   height: 300px;
   box-shadow: 10px 0px 10px 4px #000;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .equipe .equipe__pessoaImg {

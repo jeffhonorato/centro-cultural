@@ -1360,7 +1360,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
+  height: 110vh;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {

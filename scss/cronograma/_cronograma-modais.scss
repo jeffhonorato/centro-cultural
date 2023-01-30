@@ -26,6 +26,8 @@
 
         @include celular {
             width: 40px;
+            top: 10px;
+            right: 8px;
         }
     }
 
@@ -62,6 +64,10 @@
             @include celular {
                 width: 21rem; /* 330px */
                 margin-bottom: 1.5rem;
+            }
+            
+            @include desktop {
+                width: 23rem; /* 330px */
             }
 
             &:hover {

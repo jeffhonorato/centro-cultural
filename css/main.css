@@ -1203,6 +1203,13 @@ img {
   margin-bottom: 2rem;
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .equipe {
+    height: 60vh;
+    margin-bottom: 2rem;
+  }
+}
+
 .equipe .equipe__titulo {
   font-family: "Londrina Solid", cursive;
   font-size: 4rem;
@@ -1213,7 +1220,7 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .equipe .equipe__titulo {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
   }
 }
 

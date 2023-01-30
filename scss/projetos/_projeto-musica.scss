@@ -22,8 +22,8 @@
         
 
             @include celular {
-                font-size: 5rem;
                 padding: 0rem .4rem;
+                background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
                 border-bottom-left-radius: 50%;
             }
     }

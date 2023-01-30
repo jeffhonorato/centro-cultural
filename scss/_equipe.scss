@@ -1,9 +1,9 @@
 .equipe {
-    height: 75vh;
+    height: 100vh;
     margin-bottom: 2rem;
 
     @include celular {
-        height: 60vh;
+        height: 80vh;
          margin-bottom: 2rem;
     }
 
@@ -30,7 +30,7 @@
     .equipe__card {
         background: linear-gradient(45deg, #56CBF9, #16697A);
         width: 300px;
-        height: 300px;
+        height: 410px;
         box-shadow: 10px 0px 10px 4px #000;
         border-top-left-radius: 10px;
         border-bottom-right-radius: 10px;
@@ -96,6 +96,20 @@
 
     }
 
+    .equipe__card--citacao {
+        text-align: center;
+        padding: .3rem;
+        margin: 1rem 0rem;
+    }
+
+    .equipe__card--citacaoP {
+        color: #fff;
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: $fonte-corpo;
+        font-weight: 100;
+    }
+
     .equipe__card--midias {
         display: flex;
         justify-content: center;
@@ -128,5 +142,5 @@
     background-position: center;
     background-size: cover;
     width: 300px;
-    height: 300px;
+    height: 500px;
   }

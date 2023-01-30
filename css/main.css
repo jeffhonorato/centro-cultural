@@ -1227,7 +1227,7 @@ img {
 .equipe .equipe__card {
   background: linear-gradient(45deg, #56CBF9, #16697A);
   width: 300px;
-  height: 410px;
+  height: 425px;
   box-shadow: 10px 0px 10px 4px #000;
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -1243,6 +1243,11 @@ img {
 
 .equipe .equipe__card:hover {
   box-shadow: 10px 0px 10px 4px #fff;
+  transition: all .5s;
+}
+
+.equipe .equipe__card:hover .equipe__card--citacao {
+  border: 1px solid #000;
   transition: all .5s;
 }
 
@@ -1265,6 +1270,7 @@ img {
   font-size: 1.5rem;
   font-family: "Russo One", sans-serif;
   font-weight: 100;
+  user-select: none;
 }
 
 .equipe .equipe__card--cargo {
@@ -1273,6 +1279,7 @@ img {
   font-size: 1.5rem;
   font-family: "Rajdhani", sans-serif;
   font-weight: 100;
+  user-select: none;
 }
 
 .equipe .equipe__card--projeto {
@@ -1287,20 +1294,29 @@ img {
   font-family: "Russo One", sans-serif;
   font-weight: 100;
   padding: .5rem 0rem;
+  user-select: none;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .equipe .equipe__card--citacao {
   text-align: center;
   padding: .3rem;
-  margin: 1rem 0rem;
+  margin: 2rem 0rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .equipe .equipe__card--citacaoP {
   color: #fff;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-family: "Rajdhani", sans-serif;
   font-weight: 100;
+  user-select: none;
+  margin: 0rem .3rem;
+  font-weight: bold;
 }
 
 .equipe .equipe__card--midias {

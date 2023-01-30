@@ -49,7 +49,7 @@
             }
 
             &:hover .equipe__card--citacao {
-                border: 1px solid #000;
+                box-shadow: 0px 5px 10px 4px #000;
                 transition: all .5s;
             }
 
@@ -115,7 +115,6 @@
         background-color: rgba(255,255,255, 0.2);
         border-top-left-radius: 30px;
         border-bottom-right-radius: 30px;
-
     }
 
     .equipe__card--citacaoP {
@@ -127,6 +126,10 @@
         user-select: none;
         margin: 0rem .3rem;
         font-weight: bold;
+    }
+
+    .equipe__card--citacaoC {
+        user-select: none;
     }
 
     .equipe__card--midias {

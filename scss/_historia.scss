@@ -22,9 +22,7 @@
         gap: 3rem;
     }
 
-    .historia__logo {
-        width: 300px;
-    }
+ 
 
     .historia__titulo {
         color: $cor-header;
@@ -40,9 +38,14 @@
 
     }
 
-    .historia__info--logo {
+    .historia__info--img {
         display: flex;
         justify-content: center;
+        align-items: center;
+    }
+
+    .historia__logo {
+        width: 300px;
     }
 
     .historia__info {

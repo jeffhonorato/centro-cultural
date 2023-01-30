@@ -1343,10 +1343,6 @@ img {
   gap: 3rem;
 }
 
-.historia .historia__logo {
-  width: 300px;
-}
-
 .historia .historia__titulo {
   color: #56CBF9;
   font-family: "Londrina Solid", cursive;
@@ -1361,9 +1357,14 @@ img {
   }
 }
 
-.historia .historia__info--logo {
+.historia .historia__info--img {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.historia .historia__logo {
+  width: 300px;
 }
 
 .historia .historia__info {

@@ -1076,7 +1076,7 @@ img {
   border-bottom-left-radius: 110%;
 }
 
-@media (min-width: 0px) and (max-width: 480px) and (min-width: 0px) and (max-width: 480px) {
+@media (min-width: 0px) and (max-width: 480px) {
   .projeto__modal .tocandoViolao--cabecalho {
     background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
   }

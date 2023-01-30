@@ -973,10 +973,7 @@ img {
 
 .projeto__modal .modal__musica--projetoCabecalho {
   height: 100vh;
-  background-image: url("../../img/projetos/musica/background-bandaMusica.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
@@ -1070,10 +1067,7 @@ img {
 
 .projeto__modal .tocandoViolao--cabecalho {
   height: 100vh;
-  background-image: url("../../img/projetos/musica/background-violao.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
   background-attachment: fixed;
   display: flex;
   flex-direction: column;

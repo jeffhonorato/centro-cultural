@@ -1319,6 +1319,9 @@ img {
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
+}
+
+.historia .historia__conteudo {
   display: flex;
   justify-content: center;
   align-items: center;

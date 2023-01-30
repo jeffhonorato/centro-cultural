@@ -7,11 +7,15 @@
     background-attachment: fixed;
     height: 100vh;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    gap: 3rem;
+  
+
+    .historia__conteudo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        gap: 3rem;
+    }
 
     .historia__logo {
         width: 300px;

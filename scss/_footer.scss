@@ -51,10 +51,19 @@
     }
 
     .endereco__info {
+        background: linear-gradient(45deg, #56CBF9, #16697A);
+        box-shadow: 10px 0px 10px 4px #000;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
         background-color: #234C66;
         padding: 1rem;
         border-radius: 10px;
-        box-shadow: 2px 2px 10px 2px #000;
+
+        &:hover {
+            box-shadow: 10px 0px 10px 4px #fff; 
+            transition: all .5s;
+            background: linear-gradient(80deg, #56CBF9, #16697A);
+        }
     }
 
     .rodape__rua,
@@ -87,6 +96,11 @@
         box-shadow: 2px 2px 10px 2px #000;
         padding: 0.8rem;
         border-radius: 10px;
+
+        &:hover {
+            box-shadow: 10px 0px 10px 4px #fff; 
+            transition: all .5s;
+        }
     }
 
     .funcionamento {

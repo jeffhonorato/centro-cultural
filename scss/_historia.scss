@@ -1,0 +1,63 @@
+.historia {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url("../img/historia/background-historia.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 3rem;
+
+    .historia__logo {
+        width: 300px;
+    }
+
+    .historia__titulo {
+        color: $cor-header;
+        font-family: $fonte-subtitulo;
+        font-size: 3rem;
+        text-align: center;
+
+    }
+
+    .historia__info {
+        width: 400px
+    }
+
+    .historia__info--p {
+        @include paragrafo;
+        color: #fff;
+    }
+
+    .historia__link--btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .historia__link {
+        padding: 1rem;
+        background-color: $cor-links;
+        color: #fff;
+        text-align: center;
+        margin: 1rem auto;
+        max-width: 12.5rem;
+        border-radius: 10px;
+        font-family: $fonte-titulo;
+        font-size: 1.2rem;
+        box-shadow: 1px 5px 10px 1px #fff;
+        border: none;
+        cursor: pointer;
+
+
+            &:hover  {
+                background-color: $cor-links;
+                box-shadow: 5px 1px 5px 1px #fff;
+                transition: all .6s;
+            }
+    }
+}

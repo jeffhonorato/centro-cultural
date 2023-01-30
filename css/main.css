@@ -1312,6 +1312,70 @@ img {
   height: 300px;
 }
 
+.historia {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/historia/background-historia.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 3rem;
+}
+
+.historia .historia__logo {
+  width: 300px;
+}
+
+.historia .historia__titulo {
+  color: #56CBF9;
+  font-family: "Londrina Solid", cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.historia .historia__info {
+  width: 400px;
+}
+
+.historia .historia__info--p {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: 0.6rem;
+  color: #fff;
+}
+
+.historia .historia__link--btn {
+  display: flex;
+  justify-content: center;
+}
+
+.historia .historia__link {
+  padding: 1rem;
+  background-color: #234c66;
+  color: #fff;
+  text-align: center;
+  margin: 1rem auto;
+  max-width: 12.5rem;
+  border-radius: 10px;
+  font-family: "Russo One", sans-serif;
+  font-size: 1.2rem;
+  box-shadow: 1px 5px 10px 1px #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.historia .historia__link:hover {
+  background-color: #234c66;
+  box-shadow: 5px 1px 5px 1px #fff;
+  transition: all .6s;
+}
+
 .museu {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/museu/background-museu.jpg");
   background-position: center;

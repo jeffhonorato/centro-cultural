@@ -77,6 +77,7 @@
             &:hover {
                 transition: .3s;
                 background-color: $cor-links;
+                box-shadow: 0px 0px 2px 1px #fff;
             }
 
             &:hover .card__info--titulo {

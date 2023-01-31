@@ -20,19 +20,17 @@ const modalArtista = () => {
 /***** MODAL CATEGORIAS ******/
 const conteudoArteModal = () => {
 
+    
+
     const btnArte = document.querySelectorAll(".js-btn-arte");
-        btnArte.forEach((btn) => {
-            btn.addEventListener("click", () => {
-                if(btn.innerText === "Musica") {
-                    const conteudoArteMusica = document.querySelector(".js-artistas-musica");
-                    conteudoArteMusica.classList.add("ativo");
-                }
-                
-                
-               
-            });
-        });
-    console.log(btnArte)
+    const conteudoArte = document.querySelectorAll(".artista__modal") 
+    const btnArteIndex = btnArte.length
+    
+
+
+        
+
+
     
 }
 

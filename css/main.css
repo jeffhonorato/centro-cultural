@@ -551,6 +551,7 @@ img {
   color: #fff;
   margin: 2.5rem 0rem;
   font-size: 3rem;
+  user-select: none;
 }
 
 .modal .modal__cards {
@@ -628,6 +629,7 @@ img {
   width: 100px;
   padding: .4rem;
   text-align: center;
+  user-select: none;
 }
 
 .modal .modal__card--evento {
@@ -640,6 +642,7 @@ img {
   font-size: 1.3rem;
   text-align: center;
   font-family: "Londrina Solid", cursive;
+  user-select: none;
 }
 
 .modal .modal__card--endereco {
@@ -652,6 +655,7 @@ img {
   font-family: "Rajdhani", sans-serif;
   font-weight: bold;
   font-size: 1.2rem;
+  user-select: none;
 }
 
 .modal .modal__card--hora {
@@ -664,6 +668,7 @@ img {
   font-family: "Rajdhani", sans-serif;
   font-weight: bold;
   font-size: 1.2rem;
+  user-select: none;
 }
 
 .modal .modal__card--colaborador {
@@ -677,6 +682,7 @@ img {
   font-weight: bold;
   text-align: start;
   font-size: 1.1rem;
+  user-select: none;
 }
 
 .modal .modal__card--instagram {
@@ -691,6 +697,7 @@ img {
   text-align: start;
   font-size: 1.1rem;
   color: #053177;
+  user-select: none;
 }
 
 .modal .modal__card--instagramNome:hover {
@@ -1237,7 +1244,7 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .museu {
-    height: 120vh;
+    height: 100vh;
   }
 }
 

@@ -376,7 +376,7 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .cronograma {
-    height: 100vh;
+    height: 80vh;
   }
 }
 

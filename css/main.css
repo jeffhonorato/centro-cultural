@@ -1585,14 +1585,14 @@ img {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 1rem;
+  color: #fff;
 }
 
 .footer .endereco__info {
-  background: linear-gradient(45deg, #56CBF9, #16697A);
+  background-color: #053177;
   box-shadow: 10px 0px 10px 4px #000;
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  background-color: #234C66;
   padding: 1rem;
   border-radius: 10px;
 }
@@ -1631,8 +1631,8 @@ img {
   font-family: "Rajdhani", sans-serif;
   font-size: 1.5rem;
   text-align: center;
-  background-color: #37769c;
-  box-shadow: 2px 2px 10px 2px #000;
+  background-color: #053177;
+  box-shadow: 10px 0px 10px 4px #000;
   padding: 0.8rem;
   border-radius: 10px;
 }
@@ -1640,6 +1640,7 @@ img {
 .footer .rodape__func:hover {
   box-shadow: 10px 0px 10px 4px #fff;
   transition: all .5s;
+  background: linear-gradient(80deg, #56CBF9, #16697A);
 }
 
 .footer .funcionamento {
@@ -1647,6 +1648,7 @@ img {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 1rem;
+  color: #fff;
 }
 
 .footer .hora__semana,

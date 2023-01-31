@@ -1534,6 +1534,10 @@ img {
   transition: all .6s;
 }
 
+.artistas {
+  height: 100vh;
+}
+
 .footer {
   background-color: #56CBF9;
 }

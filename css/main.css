@@ -522,6 +522,7 @@ img {
   z-index: 2;
   animation: slidein 1s forwards;
   overflow-y: auto;
+  padding-bottom: 2rem;
 }
 
 .modal .btn-fechar {

@@ -75,6 +75,18 @@
                 transition: all .5s;
                 box-shadow: 1px 1px 10px #fff;
             }
+
+            &:hover .modal__card--eventoCategoria {
+                color: $cor-header;
+            }
+
+            &:hover .modal__card--data {
+                color: $cor-header;
+            }
+
+            &:hover .modal__card--eventoNome  {
+                color: $cor-header;
+            }
     }
 
     .modal__card--dataCategoria {
@@ -83,7 +95,7 @@
         align-items: center;
     }
 
-    .modal__card--eventoCategoria{
+    .modal__card--eventoCategoria {
         font-family: $fonte-subtitulo;
         font-size: 1.5rem;
         text-align: center;

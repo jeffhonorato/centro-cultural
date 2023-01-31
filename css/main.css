@@ -596,6 +596,18 @@ img {
   box-shadow: 1px 1px 10px #fff;
 }
 
+.modal .modal__card:hover .modal__card--eventoCategoria {
+  color: #56CBF9;
+}
+
+.modal .modal__card:hover .modal__card--data {
+  color: #56CBF9;
+}
+
+.modal .modal__card:hover .modal__card--eventoNome {
+  color: #56CBF9;
+}
+
 .modal .modal__card--dataCategoria {
   display: flex;
   flex-direction: column;

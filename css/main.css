@@ -1333,7 +1333,6 @@ img {
   box-shadow: 10px 0px 10px 4px #053177;
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  border: none;
 }
 
 .equipe .equipe__card:hover .equipe__card--projetoNome {
@@ -1704,6 +1703,10 @@ img {
   box-shadow: 1px 0px 10px 4px #fff;
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: .3rem;
 }
 
 .artistas .artista__img {

@@ -1664,6 +1664,20 @@ img {
   padding: .4rem;
 }
 
+.artistas .artistas__modal--conteudo {
+  margin-top: 4rem;
+}
+
+.artistas .artistas__musica--titulo {
+  text-align: center;
+  font-family: "Londrina Solid", cursive;
+  color: #fff;
+  margin: 2.5rem 0rem;
+  font-size: 3rem;
+  user-select: none;
+  font-weight: 500;
+}
+
 .artistas__modal.ativo {
   display: block;
   transform: slideOn 1s forwards;

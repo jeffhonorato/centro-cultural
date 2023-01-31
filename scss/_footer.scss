@@ -128,28 +128,53 @@
 
     .desenvolvedor {
         padding: 0.8rem;
-        background-color: #000;
+        background-color: $cor-links;
         text-align: center;
     }
 
+    .dev__caixa {
+        display: flex;
+        gap: .4rem;
+        align-items: center;
+        justify-content: center;
+    }
+
     .img__dev {
-        margin: 0 auto;
+        width: 40px;
+
+        @include celular {
+            width: 30px;
+        }
+        
     }
 
     .dev__dev p {
         color: #fff;
         font-family: $fonte-titulo;
+        font-size: 1rem;
+
+        @include celular {
+            font-size: .8rem;
+        }
     }
 
     .dev__link {
-        max-width: 300px;
+        max-width: 140px;
         margin: 0 auto;
         padding: .4rem;
+        background-color: #000;
+        box-shadow: 0 0 10px #fff;
+
+        @include celular {
+            font-size: .8rem;
+        }
     }
 
     .dev__link:hover {
-        background-color: $cor-header;
         border-radius: 10px;
         transition: all .6s;
+        background-color: $cor-header;
+        box-shadow: 0 0 10px #fff;
+
     }
 }

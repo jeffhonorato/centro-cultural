@@ -1546,6 +1546,7 @@ img {
   height: 70vh;
   display: grid;
   place-content: center;
+  /******* MODAIS ARTISTAS *******/
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
@@ -1600,6 +1601,38 @@ img {
   background-color: #053177;
   box-shadow: 5px 1px 5px 1px #000;
   transition: all .6s;
+}
+
+.artistas .artistas__modal {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #053177;
+  z-index: 2;
+  animation: slidein 1s forwards;
+  overflow-y: auto;
+  padding-bottom: 2rem;
+}
+
+.artistas__modal.ativo {
+  display: block;
+  transform: slideOn 1s forwards;
+}
+
+@keyframes slideOn {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .footer {

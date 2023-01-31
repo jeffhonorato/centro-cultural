@@ -88,9 +88,15 @@
         gap: 1rem;
         justify-content: center;
         align-items: center;
+
+        @include celular {
+            display: flex;
+            gap: .4rem;
+            
+        }
     }
 
-    .artistas__links--btn {
+    .artistas__link--btn {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -116,6 +122,10 @@
         font-weight: bold;
         font-size: 1.4rem;
         padding: .4rem;
+
+        @include celular {
+            font-size: 1rem;
+        }
     }
 
     .artistas__modal--conteudo {

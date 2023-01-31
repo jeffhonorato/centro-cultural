@@ -1636,7 +1636,14 @@ img {
   align-items: center;
 }
 
-.artistas .artistas__links--btn {
+@media (min-width: 0px) and (max-width: 480px) {
+  .artistas .artistas__links {
+    display: flex;
+    gap: .4rem;
+  }
+}
+
+.artistas .artistas__link--btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1650,7 +1657,7 @@ img {
   cursor: pointer;
 }
 
-.artistas .artistas__links--btn:hover {
+.artistas .artistas__link--btn:hover {
   background: linear-gradient(10deg, #fff, #fff);
   transition: all .4s;
   color: #000;
@@ -1662,6 +1669,12 @@ img {
   font-weight: bold;
   font-size: 1.4rem;
   padding: .4rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .artistas .artistas__btn {
+    font-size: 1rem;
+  }
 }
 
 .artistas .artistas__modal--conteudo {

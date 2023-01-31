@@ -142,6 +142,28 @@
         font-weight: 500;
     }
 
+    .artistas__musica--cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .artistas__musica--card {
+        background: linear-gradient(45deg, #56CBF9, #16697A);
+        width: 330px;
+        box-shadow: 10px 0px 10px 4px $cor-links;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .artista__img {
+        width: 100px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        margin-top: 1rem;
+    }
+
 
 
 }

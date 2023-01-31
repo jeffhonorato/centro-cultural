@@ -3,11 +3,29 @@
     display: grid;
     place-content: center;
 
+        @include celular {
+            height: 85vh;
+        }
+
     .artistas__conteudo {
         display: flex;
+        flex-wrap: wrap;
         gap: 1rem;
         justify-content: center;
         align-items: center;
+    }
+
+    .artistas__titulo--h2 {
+        color: $cor-links;
+        font-family: $fonte-subtitulo;
+        font-size: 3rem;
+        text-align: center;
+        
+
+            @include celular {
+                font-size: 2.2rem;
+                padding-top: 2rem;
+            }
     }
 
     .artista__btn {

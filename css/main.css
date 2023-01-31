@@ -1540,11 +1540,32 @@ img {
   place-content: center;
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .artistas {
+    height: 85vh;
+  }
+}
+
 .artistas .artistas__conteudo {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
   align-items: center;
+}
+
+.artistas .artistas__titulo--h2 {
+  color: #053177;
+  font-family: "Londrina Solid", cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .artistas .artistas__titulo--h2 {
+    font-size: 2.2rem;
+    padding-top: 2rem;
+  }
 }
 
 .artistas .artista__btn {

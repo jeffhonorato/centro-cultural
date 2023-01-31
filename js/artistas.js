@@ -26,6 +26,7 @@ const conteudoArteModal = () => {
     const conteudoArte = document.querySelectorAll(".artista__modal") 
     const btnArteIndex = btnArte.length
     
+    btnArte[btnArteIndex].
 
 
         

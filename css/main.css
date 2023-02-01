@@ -564,7 +564,7 @@ img {
 }
 
 .modal .modal__card {
-  background: linear-gradient(40deg, #dfe6e9, #9b9b9b);
+  background: linear-gradient(45deg, #56CBF9, #16697A);
   width: 25.6rem;
   /* 400px */
   padding: .5rem;
@@ -620,6 +620,7 @@ img {
   font-family: "Londrina Solid", cursive;
   font-size: 1.5rem;
   text-align: center;
+  color: #fff;
 }
 
 .modal .modal__card--data {
@@ -631,6 +632,7 @@ img {
   padding: .4rem;
   text-align: center;
   user-select: none;
+  color: #fff;
 }
 
 .modal .modal__card--evento {
@@ -644,6 +646,7 @@ img {
   text-align: center;
   font-family: "Londrina Solid", cursive;
   user-select: none;
+  color: #fff;
 }
 
 .modal .modal__card--endereco {

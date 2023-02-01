@@ -21,15 +21,17 @@ const modalArtista = () => {
 const conteudoArteModal = () => {
     const btnArte = document.querySelectorAll(".js-btn-arte");
     const conteudoArte = document.querySelectorAll(".artista__modal");
-    console.log(conteudoArte.length);
-
+    conteudoArte[0].classList.add("ativo")
+    
     btnArte.forEach((btn, index) => {
-        btn.addEventListener("click", () => {
-            console.log(index)
-        });
-       
-      
+        btn.addEventListener("click", () => {   
+            conteudoArte[0].classList.remove("ativo")  
+            conteudoArte[index].classList.add("ativo");
+
+        });       
     });
+
+
 
 
 }

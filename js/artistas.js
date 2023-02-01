@@ -19,31 +19,19 @@ const modalArtista = () => {
 
 /***** MODAL CATEGORIAS ******/
 const conteudoArteModal = () => {
-
-    
-
     const btnArte = document.querySelectorAll(".js-btn-arte");
     const conteudoArte = document.querySelectorAll(".artista__modal");
-    conteudoArte[0].classList.add("ativo")
-    
+    console.log(conteudoArte.length);
 
-    btnArte.forEach((btn) => {
+    btnArte.forEach((btn, index) => {
         btn.addEventListener("click", () => {
-            
+            console.log(index)
         });
        
       
     });
 
-    
-    
-    
-    // console.log(btnArte);
-    // console.log(conteudoArte)
-        
 
-
-    
 }
 
     

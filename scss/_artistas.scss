@@ -93,6 +93,11 @@
         }
     }
 
+    .artista__modal {
+       background-color: crimson;
+       margin: 0 auto;
+    }
+
     .artistas__modal--titulo {
         text-align: center;
         font-family: $fonte-subtitulo;
@@ -100,6 +105,7 @@
         margin: 2.5rem 0rem;
         font-size: 3rem;
         user-select: none;
+       
     }
 
     .artistas__links {
@@ -162,6 +168,8 @@
         font-size: 3rem;
         user-select: none;
         font-weight: 500;
+        // background-color: darkorange;
+        // display: block;
     }
 
     .artistas__musica--cards {
@@ -169,6 +177,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        gap: .6rem;
     }
 
     .artistas__musica--card {
@@ -179,7 +188,7 @@
         border-bottom-right-radius: 10px;
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
         padding: .3rem;
 
     }
@@ -194,6 +203,8 @@
     .artista__modal {
         position: absolute;
         display: none;
+        width: 100%;
+        height: 100%;
     }
 
     .artista__modal.ativo {

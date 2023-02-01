@@ -24,15 +24,18 @@ const conteudoArteModal = () => {
 
     const btnArte = document.querySelectorAll(".js-btn-arte");
     const conteudoArte = document.querySelectorAll(".artista__modal");
-    const btnArteIndex = conteudoArte.length
+    conteudoArte[0].classList.add("ativo")
+    
 
     btnArte.forEach((btn) => {
         btn.addEventListener("click", () => {
-            console.log("Clickou")
-        })
+            
+        });
        
       
     });
+
+    
     
     
     // console.log(btnArte);

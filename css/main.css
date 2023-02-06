@@ -1643,11 +1643,6 @@ img {
   }
 }
 
-.artistas .artista__modal {
-  background-color: crimson;
-  margin: 0 auto;
-}
-
 .artistas .artistas__modal--titulo {
   text-align: center;
   font-family: "Londrina Solid", cursive;
@@ -1727,6 +1722,7 @@ img {
   justify-content: center;
   align-items: center;
   gap: .6rem;
+  animation: fadeIn 1s forwards;
 }
 
 .artistas .artistas__musica--card {
@@ -1762,10 +1758,19 @@ img {
 
 .artistas__modal.ativo {
   display: block;
-  transform: slideOn 1s forwards;
+  animation: modalOn 1s forwards;
 }
 
-@keyframes slideOn {
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes modalOn {
   from {
     margin-left: 100%;
     width: 300%;

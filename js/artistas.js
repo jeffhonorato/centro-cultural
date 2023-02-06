@@ -18,25 +18,27 @@ const modalArtista = () => {
 };
 
 /***** MODAL CATEGORIAS ******/
-const conteudoArteModal = () => {
+const ativaModalArtistas = () => {
     const btnArte = document.querySelectorAll(".js-btn-arte");
     const conteudoArte = document.querySelectorAll(".artista__modal");
     conteudoArte[0].classList.add("ativo")
     
-    btnArte.forEach((btn, index) => {
-        btn.addEventListener("click", () => {   
-            conteudoArte[0].classList.remove("ativo")  
-            conteudoArte[index].classList.add("ativo");
-
-        });       
-    });
-
-
-
-
-}
-
+    function ativaTabNavegacao(index) {
+        conteudoArte.forEach((conteudo) => {
+            conteudo.classList.remove("ativo")
+        });
     
+        conteudoArte[index].classList.add("ativo");
+    };
+    
+    btnArte.forEach((itemMenu, index) => {
+        itemMenu.addEventListener("click", () => {
+            ativaTabNavegacao(index);
+        });
+    });
+};
+
 
 modalArtista();
-conteudoArteModal();
+ativaModalArtistas();
+

@@ -1,5 +1,19 @@
-const iconeMenu = document.querySelector(".js__icone--menu");
+const navBarOpen = () => {
+    const iconeMenu = document.querySelector(".js__icone--menu");
+    const nav = document.querySelector(".js__nav--itens");
     iconeMenu.addEventListener("click", () => {
-        const nav = document.querySelector(".js__nav--itens");
-        nav.classList.toggle("ativo");
+        nav.classList.toggle("ativo")
     });
+};
+
+// const closeMenu = () => {
+//     const navItens = document.querySelector(".js__nav--itens");
+//     console.log(navItens)
+// }
+
+
+
+
+navBarOpen();
+// closeMenu();
+

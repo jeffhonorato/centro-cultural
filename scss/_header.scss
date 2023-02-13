@@ -54,13 +54,10 @@
             align-items: center;
             justify-content: center;
            
-            // height: 30vh;
-            
-
-             @include celular {
+            @include celular {
                 display: grid;
                 justify-items: center;
-             }
+            }
         }
          
         .nav__lista {

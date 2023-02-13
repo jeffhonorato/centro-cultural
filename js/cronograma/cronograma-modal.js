@@ -5,8 +5,10 @@ const cardMesJaneiro = () => {
         const modalMes = document.querySelector(".js-modal-janeiro");
         modalMes.classList.add("ativo"); 
         e.stopPropagation();
+        const navBar = document.querySelector(".js__nav--itens");
+        navBar.classList.remove("ativo");
         const barraDeRolagem = document.querySelector(".js-scroll");
-            barraDeRolagem.classList.add("off")
+            barraDeRolagem.classList.add("off");
     });
 
     const btnFechar = document.querySelector(".js-btnFechar-modal-janeiro");
@@ -26,6 +28,8 @@ const cardMesfevereiro = () => {
         const modalMes = document.querySelector(".js-modal-fevereiro");
         modalMes.classList.add("ativo"); 
         e.stopPropagation();
+        const navBar = document.querySelector(".js__nav--itens");
+        navBar.classList.remove("ativo");
         const barraDeRolagem = document.querySelector(".js-scroll");
             barraDeRolagem.classList.add("off");
     });

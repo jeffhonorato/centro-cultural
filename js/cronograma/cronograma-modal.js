@@ -18,8 +18,6 @@ const cardMesJaneiro = () => {
             const barraDeRolagem = document.querySelector(".js-scroll");
             barraDeRolagem.classList.remove("off")
         });
-
-        
 }
 
 const cardMesfevereiro = () => {

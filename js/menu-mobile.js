@@ -6,14 +6,4 @@ const navBarOpen = () => {
     });
 };
 
-// const closeMenu = () => {
-//     const navItens = document.querySelector(".js__nav--itens");
-//     console.log(navItens)
-// }
-
-
-
-
 navBarOpen();
-// closeMenu();
-

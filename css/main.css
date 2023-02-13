@@ -1464,6 +1464,7 @@ img {
   background-size: cover;
   background-attachment: fixed;
   height: 110vh;
+  /******** MODAL HISTORIA ********/
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
@@ -1542,6 +1543,20 @@ img {
   background-color: #053177;
   box-shadow: 5px 1px 5px 1px #fff;
   transition: all .6s;
+}
+
+.historia .historia__container {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  background-color: #fff;
+  z-index: 4;
 }
 
 .artistas {

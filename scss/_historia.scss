@@ -171,8 +171,15 @@
     }
 
     .apresentacao__tabela--cards {
-       display: grid;
-       grid-template-columns: 1fr 1fr;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 2rem;
+
+        @include celular {
+            display: grid; 
+            grid-template-columns: 1fr;
+        }
+     
     }
 
     .apresentacao__tabela--card {
@@ -180,6 +187,7 @@
         height: 0px;
         padding: 1rem;
         position: relative;
+        margin-top: 4rem;
        
         
         &:hover {

@@ -1558,7 +1558,7 @@ img {
 }
 
 .historia .historia__modal--cabecalho {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/historia/modal-fotos/modal-cabecalho.webp");
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/historia/modal-fotos/background-modal.webp");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;

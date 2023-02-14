@@ -1631,11 +1631,8 @@ img {
 }
 
 .historia .apresentacao__tabela--cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .historia .apresentacao__tabela--card {
@@ -1648,12 +1645,26 @@ img {
   height: 200px;
 }
 
-.historia .apresentacao__tabela--card:hover .tabela--card--conteudo {
+.historia .apresentacao__tabela--card:hover .tabela__card--conteudo {
   display: block;
 }
 
-.historia .tabela--card--conteudo {
+.historia .tabela__card--titulo {
+  font-family: "Russo One", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.historia .tabela__card--conteudo {
   display: none;
+  text-align: center;
+}
+
+.historia .tabela__card--info {
+  font-family: "Russo One", sans-serif;
+  font-weight: 300;
+  text-align: center;
 }
 
 .artistas {

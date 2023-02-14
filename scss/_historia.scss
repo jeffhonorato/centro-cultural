@@ -171,11 +171,8 @@
     }
 
     .apresentacao__tabela--cards {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem;
-        justify-content: center;
-        align-items: center;
+       display: grid;
+       grid-template-columns: 1fr 1fr;
     }
 
     .apresentacao__tabela--card {
@@ -187,15 +184,29 @@
             height: 200px;
         }
 
-        &:hover .tabela--card--conteudo {
+        &:hover .tabela__card--conteudo {
             display: block;
         }
 
 
     }
 
-    .tabela--card--conteudo {
+    .tabela__card--titulo {
+        font-family: $fonte-titulo;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .tabela__card--conteudo {
         display: none;
+        text-align: center;
+    }
+
+    .tabela__card--info {
+        font-family: $fonte-titulo;
+        font-weight: 300;
+        text-align: center;
     }
 
 }

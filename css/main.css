@@ -1539,7 +1539,7 @@ img {
 }
 
 .historia .historia__container {
-  display: block;
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -1550,6 +1550,11 @@ img {
   overflow-y: auto;
   background-color: #fff;
   z-index: 4;
+  animation: slidein 1s forwards;
+}
+
+.historia .historia__container.open {
+  display: block;
 }
 
 .historia .historia__modal--cabecalho {
@@ -1582,6 +1587,7 @@ img {
   top: 10px;
   right: 20px;
   cursor: pointer;
+  z-index: 4;
 }
 
 .historia .historia__btnFechar:hover {
@@ -1861,6 +1867,17 @@ img {
 
 .historia .vizinhos__localidade li {
   font-family: "Rajdhani", sans-serif;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .swiper {

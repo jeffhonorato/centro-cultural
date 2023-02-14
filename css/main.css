@@ -336,10 +336,9 @@ img {
 
 .sobre .sobre__p {
   font-family: "Rajdhani", sans-serif;
-  font-weight: bold;
   line-height: 1.6;
   letter-spacing: 1px;
-  padding: 0.6rem;
+  padding: .5rem 1rem;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
@@ -787,10 +786,9 @@ img {
 
 .projetos .projeto__p {
   font-family: "Rajdhani", sans-serif;
-  font-weight: bold;
   line-height: 1.6;
   letter-spacing: 1px;
-  padding: 0.6rem;
+  padding: .5rem 1rem;
 }
 
 .projetos .projetos__links {
@@ -984,10 +982,9 @@ img {
 
 .projeto__modal .musica__missao--p {
   font-family: "Rajdhani", sans-serif;
-  font-weight: bold;
   line-height: 1.6;
   letter-spacing: 1px;
-  padding: 0.6rem;
+  padding: .5rem 1rem;
   width: 28rem;
   /* 450px */
   font-weight: bold;
@@ -1086,10 +1083,9 @@ img {
 
 .projeto__modal .musica__projeto--p {
   font-family: "Rajdhani", sans-serif;
-  font-weight: bold;
   line-height: 1.6;
   letter-spacing: 1px;
-  padding: 0.6rem;
+  padding: .5rem 1rem;
   width: 28rem;
   /* 450px */
 }
@@ -1166,10 +1162,9 @@ img {
 
 .projeto__modal .tocandoViolao--p {
   font-family: "Rajdhani", sans-serif;
-  font-weight: bold;
   line-height: 1.6;
   letter-spacing: 1px;
-  padding: 0.6rem;
+  padding: .5rem 1rem;
   width: 28rem;
   /* 450px */
 }
@@ -1272,10 +1267,9 @@ img {
 
 .museu .museu__p {
   font-family: "Rajdhani", sans-serif;
-  font-weight: bold;
   line-height: 1.6;
   letter-spacing: 1px;
-  padding: 0.6rem;
+  padding: .5rem 1rem;
   color: #fff;
 }
 
@@ -1512,10 +1506,9 @@ img {
 
 .historia .historia__info--p {
   font-family: "Rajdhani", sans-serif;
-  font-weight: bold;
   line-height: 1.6;
   letter-spacing: 1px;
-  padding: 0.6rem;
+  padding: .5rem 1rem;
   color: #fff;
 }
 
@@ -1602,6 +1595,75 @@ img {
     top: 10px;
     right: 8px;
   }
+}
+
+.historia .apresentacao__titulo {
+  padding: 2rem 0rem;
+  color: #053177;
+  font-family: "Londrina Solid", cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.historia .apresentacao__p {
+  font-family: "Rajdhani", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: .5rem 1rem;
+}
+
+.historia .apresentacao__fonte {
+  text-align: end;
+  font-family: "Rajdhani", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: .5rem 1rem;
+  color: #053177;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.historia .apresentacao__tabela--titulo {
+  font-family: "Russo One", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.historia .apresentacao__tabela--cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.historia .apresentacao__tabela--card {
+  max-width: 450px;
+  height: 380px;
+  background: linear-gradient(45deg, #56CBF9, #4c96a5);
+  padding: 1rem;
+  display: grid;
+  place-content: center;
+}
+
+.historia .apresentacao__tabela--card div {
+  margin-bottom: 1rem;
+}
+
+.historia .tabela__card--titulo {
+  font-family: "Russo One", sans-serif;
+  font-weight: 100;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.historia .tabela__card--info {
+  text-align: center;
+  color: #fff;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
 }
 
 .artistas {
@@ -1865,10 +1927,9 @@ img {
 
 .footer .rodape p {
   font-family: "Rajdhani", sans-serif;
-  font-weight: bold;
   line-height: 1.6;
   letter-spacing: 1px;
-  padding: 0.6rem;
+  padding: .5rem 1rem;
 }
 
 .footer .redes__sociais {

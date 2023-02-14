@@ -45,10 +45,10 @@ img {
 /*********** MIXINS ***********/
 @mixin paragrafo {
     font-family: $fonte-corpo;
-    font-weight: bold;
+    // font-weight: bold;
     line-height: 1.6;
     letter-spacing: 1px;
-    padding: 0.6rem;
+    padding: .5rem 1rem;
 }
 
 @mixin celular {

@@ -1640,30 +1640,20 @@ img {
 
 .historia .apresentacao__tabela--card {
   max-width: 450px;
-  height: 380px;
   background: linear-gradient(45deg, #56CBF9, #4c96a5);
   padding: 1rem;
-  display: grid;
-  place-content: center;
 }
 
-.historia .apresentacao__tabela--card div {
-  margin-bottom: 1rem;
+.historia .apresentacao__tabela--card:hover {
+  height: 200px;
 }
 
-.historia .tabela__card--titulo {
-  font-family: "Russo One", sans-serif;
-  font-weight: 100;
-  text-align: center;
-  font-size: 1.7rem;
+.historia .apresentacao__tabela--card:hover .tabela--card--conteudo {
+  display: block;
 }
 
-.historia .tabela__card--info {
-  text-align: center;
-  color: #fff;
-  font-family: "Rajdhani", sans-serif;
-  font-weight: 400;
-  font-size: 2rem;
+.historia .tabela--card--conteudo {
+  display: none;
 }
 
 .artistas {

@@ -351,6 +351,17 @@
         text-decoration: underline;
     }
 
+   .img {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+
+        @include celular {
+            width: 320px;
+        }
+
+   }
+
    
 }
 
@@ -358,3 +369,18 @@
     from {margin-top: 0px; opacity: 0;}
     to {margin-top: 10px; opacity: 1;}
 }
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+

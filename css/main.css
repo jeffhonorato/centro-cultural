@@ -1664,6 +1664,10 @@ img {
   padding: .4rem;
 }
 
+.historia .tabela__card--info {
+  opacity: 0;
+}
+
 .artistas {
   height: 70vh;
   display: grid;

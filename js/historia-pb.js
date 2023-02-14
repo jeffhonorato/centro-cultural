@@ -1,22 +1,21 @@
-const btnLink = document.querySelector(".js-historia-link");
-const modal = document.querySelector(".js-historia-modal");
-const scrollBody = document.querySelector(".js-scroll");
-const btnFechar = document.querySelector(".js-btn-fechar");
+const modalOpen = () => {
+    const btnLink = document.querySelector(".js-historia-link");
+    const modal = document.querySelector(".js-historia-modal");
+    const scrollBody = document.querySelector(".js-scroll");
+    const btnFechar = document.querySelector(".js-btn-fechar");
 
-btnLink.addEventListener("click", () => {
-    modal.classList.add("open");
-    scrollBody.classList.add("off");
-})
+    btnLink.addEventListener("click", () => {
+        modal.classList.add("open");
+        scrollBody.classList.add("off");
+    });
 
-btnFechar.addEventListener("click", () => {
-    modal.classList.remove("open");
-    scrollBody.classList.remove("off");
-})
+    btnFechar.addEventListener("click", () => {
+        modal.classList.remove("open");
+        scrollBody.classList.remove("off");
+    });
+};
 
-
-
-
-
+modalOpen();
 
 
 

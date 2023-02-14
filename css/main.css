@@ -1654,7 +1654,7 @@ img {
 .historia .apresentacao__tabela--card:hover {
   width: 300px;
   height: 300px;
-  border-top-left-radius: 30%;
+  border-radius: 6px;
   background: linear-gradient(45deg, #56CBF9, #16697A);
 }
 
@@ -1667,7 +1667,7 @@ img {
   width: 200px;
   position: absolute;
   top: -60px;
-  left: 30%;
+  left: 15%;
   display: grid;
   place-content: center;
   font-family: "Russo One", sans-serif;
@@ -1680,6 +1680,22 @@ img {
 
 .historia .tabela__card--info {
   opacity: 0;
+}
+
+.historia .tabela__card--popTotal {
+  margin-bottom: 1rem;
+}
+
+.historia .tabela__card--popTotal h3 {
+  font-size: 1.5rem;
+  font-family: "Russo One", sans-serif;
+  font-weight: 300;
+}
+
+.historia .tabela__card--popTotal p {
+  font-family: "Rajdhani", sans-serif;
+  color: #fff;
+  font-size: 2rem;
 }
 
 @keyframes offEffect {

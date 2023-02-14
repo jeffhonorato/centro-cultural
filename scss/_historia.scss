@@ -367,12 +367,36 @@
         @include paragrafo;
    }
 
+   .vizinhos__pb--titulo {
+        padding: 2rem 0rem;
+        color: $cor-links;
+        font-family: $fonte-subtitulo;
+        font-size: 3rem;
+        text-align: center;
+   }
+
+   .vizinhos__pb--p {
+        @include paragrafo;
+   }
+
+   .vizinhos__localidade {
+        display: flex;
+        align-items: center;
+        gap: .2rem;
+   }
+
+   .vizinhos__localidade span {
+    font-weight: 900;
+   }
+
+   .vizinhos__localidade li {
+        font-family: $fonte-corpo;
+   }
+
+
+
 }
 
-// @keyframes opacityOn {
-//     from {margin-top: 0px; opacity: 0;}
-//     to {margin-top: 10px; opacity: 1;}
-// }
 
 .swiper {
     width: 100%;

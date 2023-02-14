@@ -1833,6 +1833,35 @@ img {
   padding: .5rem 1rem;
 }
 
+.historia .vizinhos__pb--titulo {
+  padding: 2rem 0rem;
+  color: #053177;
+  font-family: "Londrina Solid", cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.historia .vizinhos__pb--p {
+  font-family: "Rajdhani", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: .5rem 1rem;
+}
+
+.historia .vizinhos__localidade {
+  display: flex;
+  align-items: center;
+  gap: .2rem;
+}
+
+.historia .vizinhos__localidade span {
+  font-weight: 900;
+}
+
+.historia .vizinhos__localidade li {
+  font-family: "Rajdhani", sans-serif;
+}
+
 .swiper {
   width: 100%;
   padding-top: 50px;

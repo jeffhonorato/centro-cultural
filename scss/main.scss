@@ -45,7 +45,6 @@ img {
 /*********** MIXINS ***********/
 @mixin paragrafo {
     font-family: $fonte-corpo;
-    // font-weight: bold;
     line-height: 1.6;
     letter-spacing: 1px;
     padding: .5rem 1rem;

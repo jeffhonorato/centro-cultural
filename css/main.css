@@ -1653,8 +1653,6 @@ img {
   position: relative;
   margin-top: 4rem;
   text-align: center;
-  width: 300px;
-  height: 300px;
   border-radius: 6px;
   background: linear-gradient(45deg, #56CBF9, #16697A);
   box-shadow: 4px 4px 10px 1px #000;
@@ -1669,6 +1667,16 @@ img {
   transform: skewY(0deg);
 }
 
+.historia .apresentacao__tabela--card:hover .tabela__card--cabecalho {
+  box-shadow: 4px 4px 10px 1px #000;
+  transition: all .5s;
+}
+
+.historia .tabela__card--ceara {
+  display: grid;
+  place-content: center;
+}
+
 .historia .tabela__card--cabecalho {
   width: 200px;
   position: absolute;
@@ -1677,7 +1685,7 @@ img {
   display: grid;
   place-content: center;
   cursor: pointer;
-  box-shadow: 4px 4px 10px 1px #000;
+  box-shadow: 4px 4px 10px 1px #fff;
   padding: .4rem;
   transform: skewY(5deg);
 }
@@ -1686,6 +1694,7 @@ img {
   font-family: "Russo One", sans-serif;
   font-weight: 300;
   font-size: 2rem;
+  color: #053177;
 }
 
 .historia .tabela__card--info {
@@ -1740,6 +1749,7 @@ img {
   font-size: 1.8rem;
   font-family: "Russo One", sans-serif;
   font-weight: 300;
+  color: #053177;
 }
 
 .historia .tabela__card--popTotalPb {
@@ -1772,6 +1782,25 @@ img {
   font-family: "Rajdhani", sans-serif;
   color: #fff;
   font-size: 2rem;
+}
+
+.historia .tabela__card--outros {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .5rem;
+  margin-top: 1rem;
+}
+
+.historia .card__outros--h3 {
+  font-size: 1rem;
+  font-family: "Russo One", sans-serif;
+  font-weight: 300;
+}
+
+.historia .card__outros--p {
+  font-family: "Rajdhani", sans-serif;
+  color: #fff;
+  font-size: 1.5rem;
 }
 
 @keyframes opacityOn {

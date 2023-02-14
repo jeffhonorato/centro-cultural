@@ -192,8 +192,6 @@
         position: relative;
         margin-top: 4rem;
         text-align: center;
-        width: 300px;
-        height: 300px;
         border-radius: 6px;
         background: linear-gradient(45deg, #56CBF9, #16697A);
         box-shadow: 4px 4px 10px 1px #000;
@@ -206,6 +204,16 @@
         &:hover .tabela__card--cabecalho {
             transform: skewY(0deg);
         }
+
+        &:hover .tabela__card--cabecalho {
+            box-shadow: 4px 4px 10px 1px #000;
+            transition: all .5s;
+        }
+    }
+
+    .tabela__card--ceara {
+        display: grid;
+        place-content: center;
     }
 
     .tabela__card--cabecalho {
@@ -216,7 +224,7 @@
         display: grid;
         place-content: center;
         cursor: pointer;
-        box-shadow: 4px 4px 10px 1px #000;
+        box-shadow: 4px 4px 10px 1px #fff;
         padding: .4rem;
         transform: skewY(5deg);
     }
@@ -225,6 +233,7 @@
         font-family: $fonte-titulo;
         font-weight: 300;
         font-size: 2rem;
+        color: $cor-links;
        
     }
 
@@ -280,6 +289,7 @@
         font-size: 1.8rem;
         font-family: $fonte-titulo;
         font-weight: 300;
+        color: $cor-links;
     }
 
     .tabela__card--popTotalPb {
@@ -312,6 +322,25 @@
         font-family: $fonte-corpo;
         color: #fff;
         font-size: 2rem;
+    }
+
+    .tabela__card--outros {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: .5rem;
+        margin-top: 1rem;
+    }
+
+    .card__outros--h3 {
+        font-size: 1rem;
+        font-family: $fonte-titulo;
+        font-weight: 300;
+    }
+
+    .card__outros--p {
+        font-family: $fonte-corpo;
+        color: #fff;
+        font-size: 1.5rem;
     }
 
    

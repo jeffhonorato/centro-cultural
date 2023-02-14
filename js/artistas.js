@@ -8,7 +8,7 @@ const modalArtista = () => {
             barraDeRolagem.classList.add("off");
         });
 
-    const btnFechaModal = document.querySelector(".js-btn-fechar");  
+    const btnFechaModal = document.querySelector(".js-btn-fecharArtistas");  
         btnFechaModal.addEventListener("click", () => {
             const modal = document.querySelector(".js-modal-artistas");
             modal.classList.remove("ativo");

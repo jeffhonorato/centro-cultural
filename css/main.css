@@ -1803,6 +1803,17 @@ img {
   font-size: 1.5rem;
 }
 
+.historia .tabela__fonte {
+  text-align: end;
+  font-family: "Rajdhani", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: .5rem 1rem;
+  color: #053177;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
 @keyframes opacityOn {
   from {
     margin-top: 0px;

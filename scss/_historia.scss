@@ -343,6 +343,14 @@
         font-size: 1.5rem;
     }
 
+    .tabela__fonte {
+        text-align: end;
+        @include paragrafo;
+        color: $cor-links;
+        font-size: 14px;
+        text-decoration: underline;
+    }
+
    
 }
 

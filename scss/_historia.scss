@@ -177,36 +177,25 @@
 
     .apresentacao__tabela--card {
         max-width: 450px;
-        background: linear-gradient(45deg, #56CBF9, #4c96a5);
         padding: 1rem;
-
-        &:hover {
-            height: 200px;
-        }
-
-        &:hover .tabela__card--conteudo {
-            display: block;
-        }
-
-
+        border-top-left-radius: 30%;
     }
 
-    .tabela__card--titulo {
+    .tabela__card--cabecalho {
+        background-image: url("../img/historia/modal-fotos/foto-card-ceara.png");
+        height: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        display: grid;
+        place-content: center;
         font-family: $fonte-titulo;
         font-weight: 300;
-        text-align: center;
-        margin-bottom: 1rem;
-    }
+        font-size: 3rem;
+        cursor: pointer;
+        box-shadow: 4px 4px 10px 1px #000;
 
-    .tabela__card--conteudo {
-        display: none;
-        text-align: center;
     }
-
-    .tabela__card--info {
-        font-family: $fonte-titulo;
-        font-weight: 300;
-        text-align: center;
-    }
-
+        
 }

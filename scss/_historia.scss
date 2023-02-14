@@ -167,7 +167,8 @@
         font-family: $fonte-titulo;
         font-weight: 300;
         text-align: center;
-        margin-bottom: 1rem;
+        margin: 1rem 0rem;
+        font-size: 2rem;
     }
 
     .apresentacao__tabela--cards {
@@ -197,7 +198,13 @@
         border-radius: 6px;
         background: linear-gradient(45deg, #56CBF9, #16697A);
         box-shadow: 4px 4px 10px 1px #000;
+
+        &:hover .tabela__card--info {
+            opacity: 1;
+        }
     }
+
+
 
     .tabela__card--cabecalho {
         width: 200px;
@@ -213,6 +220,10 @@
         box-shadow: 4px 4px 10px 1px #000;
         padding: .4rem;
 
+    }
+
+    .tabela__card--info {
+        opacity: 0;
     }
 
     .tabela__card--popTotal {

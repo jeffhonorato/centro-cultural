@@ -1627,7 +1627,8 @@ img {
   font-family: "Russo One", sans-serif;
   font-weight: 300;
   text-align: center;
-  margin-bottom: 1rem;
+  margin: 1rem 0rem;
+  font-size: 2rem;
 }
 
 .historia .apresentacao__tabela--cards {
@@ -1660,6 +1661,10 @@ img {
   box-shadow: 4px 4px 10px 1px #000;
 }
 
+.historia .apresentacao__tabela--card:hover .tabela__card--info {
+  opacity: 1;
+}
+
 .historia .tabela__card--cabecalho {
   width: 200px;
   position: absolute;
@@ -1673,6 +1678,10 @@ img {
   cursor: pointer;
   box-shadow: 4px 4px 10px 1px #000;
   padding: .4rem;
+}
+
+.historia .tabela__card--info {
+  opacity: 0;
 }
 
 .historia .tabela__card--popTotal {

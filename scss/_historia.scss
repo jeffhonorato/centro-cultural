@@ -174,10 +174,13 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-top: 2rem;
+        justify-items: center;
 
         @include celular {
             display: grid; 
             grid-template-columns: 1fr;
+            justify-items: center;
+            gap: 2rem;
         }
      
     }
@@ -189,22 +192,11 @@
         position: relative;
         margin-top: 4rem;
         text-align: center;
-     
-       
-        
-        &:hover {
-            width: 300px;
-            height: 300px;
-            border-radius: 6px;
-            background: linear-gradient(45deg, #56CBF9, #16697A);
-            box-shadow: 4px 4px 10px 1px #000;
-            
-        }
-
-        &:hover .tabela__card--info {
-            opacity: 1;
-            animation: offEffect 1s forwards;
-        }
+        width: 300px;
+        height: 300px;
+        border-radius: 6px;
+        background: linear-gradient(45deg, #56CBF9, #16697A);
+        box-shadow: 4px 4px 10px 1px #000;
     }
 
     .tabela__card--cabecalho {
@@ -223,12 +215,8 @@
 
     }
 
-    .tabela__card--info {
-        opacity: 0;
-    }
-
     .tabela__card--popTotal {
-        margin-bottom: 1rem;
+        margin: 1rem 0rem;
     }
 
     .tabela__card--popTotal h3 {
@@ -270,16 +258,5 @@
         color: #fff;
         font-size: 2rem;
     }
-        
-}
-
-@keyframes offEffect {
-    from {
-        opacity: 0; 
-        margin-top: 0px;
-    }
-    to {
-        opacity: 1; 
-        margin-top: 20px;
-    }
+   
 }

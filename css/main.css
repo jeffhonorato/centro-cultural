@@ -1634,12 +1634,15 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 2rem;
+  justify-items: center;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
   .historia .apresentacao__tabela--cards {
     display: grid;
     grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 2rem;
   }
 }
 
@@ -1650,19 +1653,11 @@ img {
   position: relative;
   margin-top: 4rem;
   text-align: center;
-}
-
-.historia .apresentacao__tabela--card:hover {
   width: 300px;
   height: 300px;
   border-radius: 6px;
   background: linear-gradient(45deg, #56CBF9, #16697A);
   box-shadow: 4px 4px 10px 1px #000;
-}
-
-.historia .apresentacao__tabela--card:hover .tabela__card--info {
-  opacity: 1;
-  animation: offEffect 1s forwards;
 }
 
 .historia .tabela__card--cabecalho {
@@ -1680,12 +1675,8 @@ img {
   padding: .4rem;
 }
 
-.historia .tabela__card--info {
-  opacity: 0;
-}
-
 .historia .tabela__card--popTotal {
-  margin-bottom: 1rem;
+  margin: 1rem 0rem;
 }
 
 .historia .tabela__card--popTotal h3 {
@@ -1726,17 +1717,6 @@ img {
   font-family: "Rajdhani", sans-serif;
   color: #fff;
   font-size: 2rem;
-}
-
-@keyframes offEffect {
-  from {
-    opacity: 0;
-    margin-top: 0px;
-  }
-  to {
-    opacity: 1;
-    margin-top: 20px;
-  }
 }
 
 .artistas {

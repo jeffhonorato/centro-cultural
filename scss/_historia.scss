@@ -194,19 +194,15 @@
         text-align: center;
         border-radius: 6px;
         background: linear-gradient(45deg, #56CBF9, #16697A);
-        box-shadow: 4px 4px 10px 1px #000;
+        box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
 
-        &:hover .tabela__card--info {
-            opacity: 1;
-            animation: opacityOn 1s forwards;
+        &:hover {
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+            transition: all .5s;
         }
 
         &:hover .tabela__card--cabecalho {
-            transform: skewY(0deg);
-        }
-
-        &:hover .tabela__card--cabecalho {
-            box-shadow: 4px 4px 10px 1px #000;
+            box-shadow: 5px 5px 0px 0px #fff;
             transition: all .5s;
         }
     }
@@ -224,21 +220,18 @@
         display: grid;
         place-content: center;
         cursor: pointer;
-        box-shadow: 4px 4px 10px 1px #fff;
+        box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.75);
         padding: .4rem;
-        transform: skewY(5deg);
+        background-color: $cor-links;
+
+       
     }
 
     .tabela__card--titulo {
         font-family: $fonte-titulo;
         font-weight: 300;
         font-size: 2rem;
-        color: $cor-links;
-       
-    }
-
-    .tabela__card--info {
-        opacity: 0;
+        color: #fff;
     }
 
     .tabela__card--popTotal {
@@ -289,7 +282,7 @@
         font-size: 1.8rem;
         font-family: $fonte-titulo;
         font-weight: 300;
-        color: $cor-links;
+        color: #fff;
     }
 
     .tabela__card--popTotalPb {
@@ -362,13 +355,24 @@
 
    }
 
-   
+   .localidade__pb--titulo {
+        padding: 2rem 0rem;
+        color: $cor-links;
+        font-family: $fonte-subtitulo;
+        font-size: 3rem;
+        text-align: center;
+   }
+
+   .localidade__pb--p {
+        @include paragrafo;
+   }
+
 }
 
-@keyframes opacityOn {
-    from {margin-top: 0px; opacity: 0;}
-    to {margin-top: 10px; opacity: 1;}
-}
+// @keyframes opacityOn {
+//     from {margin-top: 0px; opacity: 0;}
+//     to {margin-top: 10px; opacity: 1;}
+// }
 
 .swiper {
     width: 100%;

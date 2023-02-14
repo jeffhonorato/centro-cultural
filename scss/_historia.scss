@@ -188,8 +188,7 @@
 
     .apresentacao__tabela--card {
         width: 300px;
-        height: 0px;
-        padding: 1rem;
+        padding: .6rem;
         position: relative;
         margin-top: 4rem;
         text-align: center;
@@ -276,6 +275,45 @@
         color: #fff;
         font-size: 2rem;
     }
+
+    .tabela__card--tituloPb {
+        font-size: 1.8rem;
+        font-family: $fonte-titulo;
+        font-weight: 300;
+    }
+
+    .tabela__card--popTotalPb {
+        margin-top: 3rem;
+    }
+
+    .tabela__card--popTotalPb h3 {
+        font-size: 1.5rem;
+        font-family: $fonte-titulo;
+        font-weight: 300;
+    }
+
+    .tabela__card--popTotalPb p {
+        font-family: $fonte-corpo;
+        color: #fff;
+        font-size: 2rem;
+    }
+
+    .tabela__card--popUrbanaPb {
+        margin-top: 1rem;
+    }
+
+    .tabela__card--popUrbanaPb h3 {
+        font-size: 1.5rem;
+        font-family: $fonte-titulo;
+        font-weight: 300;
+    }
+
+    .tabela__card--popUrbanaPb p {
+        font-family: $fonte-corpo;
+        color: #fff;
+        font-size: 2rem;
+    }
+
    
 }
 

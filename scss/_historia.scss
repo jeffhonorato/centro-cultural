@@ -201,25 +201,32 @@
 
         &:hover .tabela__card--info {
             opacity: 1;
+            animation: opacityOn 1s forwards;
+        }
+
+        &:hover .tabela__card--cabecalho {
+            transform: skewY(0deg);
         }
     }
-
-
 
     .tabela__card--cabecalho {
         width: 200px;
         position: absolute;
-        top: -60px;
+        top: -40px;
         left: 15%;
         display: grid;
         place-content: center;
-        font-family: $fonte-titulo;
-        font-weight: 300;
-        font-size: 2.6rem;
         cursor: pointer;
         box-shadow: 4px 4px 10px 1px #000;
         padding: .4rem;
+        transform: skewY(5deg);
+    }
 
+    .tabela__card--titulo {
+        font-family: $fonte-titulo;
+        font-weight: 300;
+        font-size: 2rem;
+       
     }
 
     .tabela__card--info {
@@ -270,4 +277,9 @@
         font-size: 2rem;
     }
    
+}
+
+@keyframes opacityOn {
+    from {margin-top: 0px; opacity: 0;}
+    to {margin-top: 10px; opacity: 1;}
 }

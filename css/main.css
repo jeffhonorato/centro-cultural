@@ -1852,6 +1852,7 @@ img {
   display: flex;
   align-items: center;
   gap: .2rem;
+  padding: 0rem 1rem;
 }
 
 .historia .vizinhos__localidade span {

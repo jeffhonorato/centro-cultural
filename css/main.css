@@ -1616,6 +1616,13 @@ img {
   text-align: center;
 }
 
+.historia .apresentacao__container {
+  background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .historia .apresentacao__p {
   font-family: "Rajdhani", sans-serif;
   line-height: 1.6;
@@ -1856,6 +1863,13 @@ img {
   }
 }
 
+.historia .localidade__pb {
+  background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .historia .localidade__pb--titulo {
   padding: 2rem 0rem;
   color: #053177;
@@ -1877,6 +1891,13 @@ img {
   font-family: "Londrina Solid", cursive;
   font-size: 3rem;
   text-align: center;
+}
+
+.historia .vizinhos__pb {
+  background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .historia .vizinhos__pb--p {
@@ -1922,6 +1943,13 @@ img {
   }
 }
 
+.historia .transportes {
+  background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .historia .transportes__titulo {
   color: #053177;
   font-family: "Londrina Solid", cursive;
@@ -1935,6 +1963,13 @@ img {
   line-height: 1.6;
   letter-spacing: 1px;
   padding: .5rem 1rem;
+}
+
+.historia .aspectos__historicos {
+  background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .historia .aspectos__historicos--titulo {

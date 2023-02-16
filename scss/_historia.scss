@@ -163,6 +163,13 @@
         text-align: center;
     }
 
+    .apresentacao__container {
+        background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     .apresentacao__p {
         @include paragrafo;
     }
@@ -393,6 +400,13 @@
         }
    }
 
+   .localidade__pb {
+        background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+   }
+
    .localidade__pb--titulo {
         padding: 2rem 0rem;
         color: $cor-links;
@@ -411,6 +425,13 @@
         font-family: $fonte-subtitulo;
         font-size: 3rem;
         text-align: center;
+   }
+
+   .vizinhos__pb {
+        background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
    }
 
    .vizinhos__pb--p {
@@ -455,6 +476,13 @@
    
     }
 
+    .transportes {
+        background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     .transportes__titulo {
         color: $cor-links;
         font-family: $fonte-subtitulo;
@@ -465,6 +493,13 @@
 
     .transportes__info p {
         @include paragrafo;
+    }
+
+    .aspectos__historicos {
+        background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .aspectos__historicos--titulo {

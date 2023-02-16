@@ -2077,15 +2077,22 @@ img {
   padding: 2rem 0rem;
 }
 
+.historia .espaco__trapia--cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
 .historia .espaco__trapia--card {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
-  justify-content: center;
   width: 450px;
   border-radius: 6px;
   background: linear-gradient(45deg, #56CBF9, #16697A);
   box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+  padding: .4rem;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
@@ -2107,6 +2114,12 @@ img {
   font-family: "Rajdhani", sans-serif;
   color: #fff;
   text-align: center;
+}
+
+.historia .card__trapia--footer {
+  font-family: "Rajdhani", sans-serif;
+  text-align: end;
+  color: #fff;
 }
 
 @keyframes slidein {

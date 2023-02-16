@@ -595,15 +595,22 @@
         padding: 2rem 0rem;
     }
 
+    .espaco__trapia--cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
     .espaco__trapia--card {
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-items: center;
-        justify-content: center;
         width: 450px;
         border-radius: 6px;
         background: linear-gradient(45deg, #56CBF9, #16697A);
         box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+        padding: .4rem;
 
         @include celular {
             width: 320px;
@@ -625,6 +632,11 @@
         text-align: center;
     }
 
+    .card__trapia--footer {
+        font-family: $fonte-corpo;
+        text-align: end;
+        color:#fff;
+    }
 
 
 

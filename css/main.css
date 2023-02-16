@@ -1629,12 +1629,17 @@ img {
   text-decoration: underline;
 }
 
+.historia .apresentacao__tabela {
+  background-image: linear-gradient(to right top, #56cbf9, #30a3dc, #0d7cbd, #00569b, #053177);
+  padding: 1.5rem 0rem;
+}
+
 .historia .apresentacao__tabela--titulo {
   font-family: "Russo One", sans-serif;
   font-weight: 300;
   text-align: center;
-  margin: 1rem 0rem;
   font-size: 2rem;
+  color: #fff;
 }
 
 .historia .apresentacao__tabela--cards {

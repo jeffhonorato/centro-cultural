@@ -102,6 +102,7 @@
        
     }
 
+
     .historia__modal--cabecalho {
         background: linear-gradient(
             rgba(0,0,0, 0.1),
@@ -170,12 +171,19 @@
         text-decoration: underline;
     }
 
+    .apresentacao__tabela {
+        background-image: linear-gradient(to right top, #56cbf9, #30a3dc, #0d7cbd, #00569b, #053177);
+        padding: 1.5rem 0rem;
+    }
+
     .apresentacao__tabela--titulo {
         font-family: $fonte-titulo;
         font-weight: 300;
         text-align: center;
-        margin: 1rem 0rem;
+        // margin: 1rem 0rem;
         font-size: 2rem;
+        color: #fff;
+
     }
 
     .apresentacao__tabela--cards {

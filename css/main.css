@@ -1630,8 +1630,14 @@ img {
 }
 
 .historia .apresentacao__tabela {
-  background-image: linear-gradient(to right top, #56cbf9, #30a3dc, #0d7cbd, #00569b, #053177);
+  background-image: radial-gradient(circle, #56cbf9, #30a3dc, #0d7cbd, #00569b, #053177);
   padding: 1.5rem 0rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .apresentacao__tabela {
+    border-bottom-right-radius: 80%;
+  }
 }
 
 .historia .apresentacao__tabela--titulo {
@@ -1817,15 +1823,30 @@ img {
   text-decoration: underline;
 }
 
-.historia .img {
+.historia .historia__slider--fotos {
+  background-color: brown;
+}
+
+.historia .imgSlider {
   width: 450px;
   display: flex;
   justify-content: center;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-  .historia .img {
+  .historia .imgSlider {
     width: 320px;
+  }
+}
+
+.historia .imgSlider legend {
+  font-family: "Rajdhani", sans-serif;
+  text-align: center;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .imgSlider legend {
+    font-size: .8rem;
   }
 }
 
@@ -1887,8 +1908,15 @@ img {
 
 .swiper {
   width: 100%;
+  height: 65vh;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .swiper {
+    height: 45vh;
+  }
 }
 
 .swiper-slide {

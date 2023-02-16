@@ -514,6 +514,31 @@
         @include paragrafo;
     }
 
+    .certidao__nascimento {
+        background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .certidao__titulo {
+        color: $cor-links;
+        font-family: $fonte-subtitulo;
+        font-size: 3rem;
+        text-align: center;
+        padding: 2rem 0rem;
+    }
+
+    .certidao__p {
+        @include paragrafo;
+    }
+
+    .certidao__pFooter {
+        text-align: end;
+    }
+
+
+
 }
 
 @keyframes slidein {

@@ -1987,6 +1987,32 @@ img {
   padding: .5rem 1rem;
 }
 
+.historia .certidao__nascimento {
+  background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.historia .certidao__titulo {
+  color: #053177;
+  font-family: "Londrina Solid", cursive;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+.historia .certidao__p {
+  font-family: "Rajdhani", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: .5rem 1rem;
+}
+
+.historia .certidao__pFooter {
+  text-align: end;
+}
+
 @keyframes slidein {
   from {
     margin-left: 100%;

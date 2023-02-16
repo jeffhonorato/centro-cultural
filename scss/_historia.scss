@@ -537,6 +537,35 @@
         text-align: end;
     }
 
+    .prosa {
+        background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .prosa__titulo {
+        color: $cor-links;
+        font-family: $fonte-subtitulo;
+        font-size: 3rem;
+        text-align: center;
+        padding: 2rem 0rem;
+    }
+
+    .prosa__info {
+        font-family: $fonte-corpo;
+        text-align: center;
+    }
+
+    .prosa__p {
+        text-align: end;
+        @include paragrafo;
+        font-weight: 700;
+    }
+
+
+
+
 
 
 }

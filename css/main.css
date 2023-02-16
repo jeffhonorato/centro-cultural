@@ -2013,6 +2013,35 @@ img {
   text-align: end;
 }
 
+.historia .prosa {
+  background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.historia .prosa__titulo {
+  color: #053177;
+  font-family: "Londrina Solid", cursive;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+.historia .prosa__info {
+  font-family: "Rajdhani", sans-serif;
+  text-align: center;
+}
+
+.historia .prosa__p {
+  text-align: end;
+  font-family: "Rajdhani", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: .5rem 1rem;
+  font-weight: 700;
+}
+
 @keyframes slidein {
   from {
     margin-left: 100%;

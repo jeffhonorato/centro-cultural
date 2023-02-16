@@ -598,7 +598,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 2rem;
+        height: 70vh;
     }
 
     .espaco__trapia--card {
@@ -621,7 +621,7 @@
     .trapia--card--titulo {
         width: 100px;
         position: absolute;
-        top: -35px;
+        top: -42px;
         left: 40%;
         font-family: $fonte-titulo;
         box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.75);
@@ -630,6 +630,12 @@
         text-align: center;
         color: #fff;
         font-weight: 100;
+
+        @include celular {
+            position: absolute;
+            top: -42px;
+            left: 350%
+        }
     }
 
     .trapia__card--div {

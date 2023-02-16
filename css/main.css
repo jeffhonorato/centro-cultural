@@ -2080,7 +2080,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  height: 70vh;
 }
 
 .historia .espaco__trapia--card {
@@ -2104,7 +2104,7 @@ img {
 .historia .trapia--card--titulo {
   width: 100px;
   position: absolute;
-  top: -35px;
+  top: -42px;
   left: 40%;
   font-family: "Russo One", sans-serif;
   box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.75);
@@ -2113,6 +2113,14 @@ img {
   text-align: center;
   color: #fff;
   font-weight: 100;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .trapia--card--titulo {
+    position: absolute;
+    top: -42px;
+    left: 350%;
+  }
 }
 
 .historia .trapia__card--div {

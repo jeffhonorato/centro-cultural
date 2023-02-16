@@ -372,6 +372,7 @@
         width: 450px;
         display: flex;
         justify-content: center;
+        border-radius: 10px;
 
         @include celular {
             width: 320px;
@@ -427,7 +428,48 @@
         font-family: $fonte-corpo;
    }
 
+   .historiaSlider2 {
+        
+    .imgSlider {
+        width: 420px;
+        border-radius: 10px;
 
+        @include celular {
+            width: 320px;
+        }
+    }
+
+    .imgSlider legend {
+        font-family: $fonte-corpo;
+
+        @include celular {
+            font-size: .8rem;
+        }
+       
+    }
+   
+   
+    }
+
+    .transportes__titulo {
+        color: $cor-links;
+        font-family: $fonte-subtitulo;
+        font-size: 3rem;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    .transportes__info p {
+        @include paragrafo;
+    }
+
+    .aspectos__historicos--titulo {
+        color: $cor-links;
+        font-family: $fonte-subtitulo;
+        font-size: 3rem;
+        text-align: center;
+        padding: 2rem 0rem;
+    }
 
 }
 

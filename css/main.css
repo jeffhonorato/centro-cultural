@@ -1440,6 +1440,7 @@ img {
 
 .equipe .swiper {
   width: 100%;
+  height: 90vh;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -1831,6 +1832,7 @@ img {
   width: 450px;
   display: flex;
   justify-content: center;
+  border-radius: 10px;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
@@ -1893,6 +1895,50 @@ img {
 
 .historia .vizinhos__localidade li {
   font-family: "Rajdhani", sans-serif;
+}
+
+.historia .historiaSlider2 .imgSlider {
+  width: 420px;
+  border-radius: 10px;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .historiaSlider2 .imgSlider {
+    width: 320px;
+  }
+}
+
+.historia .historiaSlider2 .imgSlider legend {
+  font-family: "Rajdhani", sans-serif;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .historiaSlider2 .imgSlider legend {
+    font-size: .8rem;
+  }
+}
+
+.historia .transportes__titulo {
+  color: #053177;
+  font-family: "Londrina Solid", cursive;
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.historia .transportes__info p {
+  font-family: "Rajdhani", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: .5rem 1rem;
+}
+
+.historia .aspectos__historicos--titulo {
+  color: #053177;
+  font-family: "Londrina Solid", cursive;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem 0rem;
 }
 
 @keyframes slidein {

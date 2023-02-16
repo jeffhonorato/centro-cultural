@@ -596,9 +596,20 @@
 
     .espaco__trapia--cards {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         height: 70vh;
+        gap: 2rem;
+
+        @include celular {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            gap: .5rem;
+        }
     }
 
     .espaco__trapia--card {
@@ -632,11 +643,30 @@
         font-weight: 100;
 
         @include celular {
+            width: 100px;
             position: absolute;
             top: -42px;
-            left: 350%
+            left: 33%;
+        }
+
+       
+    }
+
+    .caracteristica {
+        width: 280px;
+        position: absolute;
+        top: -42px;
+        left: 20%;
+
+        @include celular {
+            width: 280px;
+            position: absolute;
+            top: -42px;
+            left: 7%;
         }
     }
+
+
 
     .trapia__card--div {
         margin-bottom: 1rem;

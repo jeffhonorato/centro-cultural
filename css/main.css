@@ -2078,9 +2078,22 @@ img {
 
 .historia .espaco__trapia--cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   height: 70vh;
+  gap: 2rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .espaco__trapia--cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    gap: .5rem;
+  }
 }
 
 .historia .espaco__trapia--card {
@@ -2117,9 +2130,26 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .historia .trapia--card--titulo {
+    width: 100px;
     position: absolute;
     top: -42px;
-    left: 350%;
+    left: 33%;
+  }
+}
+
+.historia .caracteristica {
+  width: 280px;
+  position: absolute;
+  top: -42px;
+  left: 20%;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .caracteristica {
+    width: 280px;
+    position: absolute;
+    top: -42px;
+    left: 7%;
   }
 }
 

@@ -2042,6 +2042,73 @@ img {
   font-weight: 700;
 }
 
+.historia .espaco {
+  background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.historia .espaco__titulo {
+  color: #053177;
+  font-family: "Londrina Solid", cursive;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+.historia .espaco__info p {
+  font-family: "Rajdhani", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: .5rem 1rem;
+}
+
+.historia .espaco__trapia {
+  background-image: radial-gradient(circle, #56cbf9, #30a3dc, #0d7cbd, #00569b, #053177);
+}
+
+.historia .espaco__trapia--titulo {
+  font-family: "Russo One", sans-serif;
+  font-weight: 300;
+  font-size: 1.7rem;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+.historia .espaco__trapia--card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  justify-content: center;
+  width: 450px;
+  border-radius: 6px;
+  background: linear-gradient(45deg, #56CBF9, #16697A);
+  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .espaco__trapia--card {
+    width: 320px;
+  }
+}
+
+.historia .trapia__card--div {
+  margin-bottom: 1rem;
+}
+
+.historia .trapia__card--nome {
+  font-family: "Russo One", sans-serif;
+  text-align: center;
+}
+
+.historia .trapia__card--dados {
+  font-family: "Rajdhani", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
 @keyframes slidein {
   from {
     margin-left: 100%;

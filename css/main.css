@@ -1604,6 +1604,10 @@ img {
   }
 }
 
+.historia .historia__modal--conteudo {
+  background-color: #ECECEC;
+}
+
 .historia .apresentacao__titulo {
   padding: 2rem 0rem;
   color: #053177;
@@ -1939,6 +1943,13 @@ img {
   font-size: 3rem;
   text-align: center;
   padding: 2rem 0rem;
+}
+
+.historia .aspectos__historicos--info p {
+  font-family: "Rajdhani", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: .5rem 1rem;
 }
 
 @keyframes slidein {

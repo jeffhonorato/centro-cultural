@@ -151,6 +151,10 @@
         }
     }
 
+    .historia__modal--conteudo {
+        background-color: #ECECEC;
+    }
+
     .apresentacao__titulo {
         padding: 2rem 0rem;
         color: $cor-links;
@@ -469,6 +473,10 @@
         font-size: 3rem;
         text-align: center;
         padding: 2rem 0rem;
+    }
+
+    .aspectos__historicos--info p {
+        @include paragrafo;
     }
 
 }

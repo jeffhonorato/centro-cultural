@@ -1709,7 +1709,6 @@ img {
   left: 15%;
   display: grid;
   place-content: center;
-  cursor: pointer;
   box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.75);
   padding: .4rem;
   background-color: #053177;
@@ -2087,18 +2086,33 @@ img {
 .historia .espaco__trapia--card {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-items: center;
+  place-content: center;
   width: 450px;
   border-radius: 6px;
   background: linear-gradient(45deg, #56CBF9, #16697A);
   box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
   padding: .4rem;
+  position: relative;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
   .historia .espaco__trapia--card {
     width: 320px;
   }
+}
+
+.historia .trapia--card--titulo {
+  width: 100px;
+  position: absolute;
+  top: -35px;
+  left: 40%;
+  font-family: "Russo One", sans-serif;
+  box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.75);
+  padding: .4rem;
+  background-color: #053177;
+  text-align: center;
+  color: #fff;
+  font-weight: 100;
 }
 
 .historia .trapia__card--div {

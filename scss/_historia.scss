@@ -737,7 +737,9 @@
         padding: 2rem 0rem;
     }
 
-
+    .clima__info p {
+        @include paragrafo;
+    }
 
 
 

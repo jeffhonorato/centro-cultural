@@ -532,8 +532,23 @@
         @include paragrafo;
     }
 
+    .certidao__p--item {
+        font-family: $fonte-corpo; 
+        padding: 0rem 1rem;
+        letter-spacing: 1px;
+    }
+
+    .certidao__p--item strong {
+        font-weight: 700;
+    }
+
     .certidao__pFooter {
         text-align: end;
+        @include paragrafo;
+        color: $cor-links;
+        font-size: 14px;
+        text-decoration: underline;
+
     }
 
     .prosa {
@@ -557,9 +572,15 @@
     }
 
     .prosa__p {
+        font-family: $fonte-corpo;        
         text-align: end;
-        @include paragrafo;
         font-weight: 700;
+        padding: 0 1rem;
+
+        @include celular {
+            margin: 1rem 0;
+            text-align: center;
+        }
     }
 
     .espaco {

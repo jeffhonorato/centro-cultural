@@ -2008,8 +2008,25 @@ img {
   padding: .5rem 1rem;
 }
 
+.historia .certidao__p--item {
+  font-family: "Rajdhani", sans-serif;
+  padding: 0rem 1rem;
+  letter-spacing: 1px;
+}
+
+.historia .certidao__p--item strong {
+  font-weight: 700;
+}
+
 .historia .certidao__pFooter {
   text-align: end;
+  font-family: "Rajdhani", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: .5rem 1rem;
+  color: #053177;
+  font-size: 14px;
+  text-decoration: underline;
 }
 
 .historia .prosa {
@@ -2033,12 +2050,17 @@ img {
 }
 
 .historia .prosa__p {
-  text-align: end;
   font-family: "Rajdhani", sans-serif;
-  line-height: 1.6;
-  letter-spacing: 1px;
-  padding: .5rem 1rem;
+  text-align: end;
   font-weight: 700;
+  padding: 0 1rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .prosa__p {
+    margin: 1rem 0;
+    text-align: center;
+  }
 }
 
 .historia .espaco {

@@ -2281,7 +2281,7 @@ img {
   padding: .5rem 1rem;
 }
 
-.historia .fauna__info--div {
+.historia .fauna__info--cards {
   background-image: radial-gradient(circle, #56cbf9, #30a3dc, #0d7cbd, #00569b, #053177);
   height: 55vh;
 }
@@ -2290,15 +2290,32 @@ img {
   display: grid;
   place-content: center;
   justify-items: center;
+  width: 400px;
+  height: 290px;
+  border-radius: 6px;
+  background: linear-gradient(45deg, #56CBF9, #16697A);
+  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+}
+
+.historia .fauna__card:hover {
+  transition: all .5s;
+  box-shadow: 1px 1px 10px 0px #fff;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .fauna__card {
+    width: 340px;
+    margin: 0rem .4rem;
+  }
 }
 
 .historia .fauna__card--titulo {
   font-family: "Russo One", sans-serif;
   font-weight: 300;
-  font-size: 1rem;
-  color: #fff;
+  font-size: 1.4rem;
+  color: #000;
   text-align: center;
-  padding: 2rem 0rem;
+  padding-bottom: 1rem;
 }
 
 .historia .fauna__card--info {
@@ -2306,23 +2323,7 @@ img {
   grid-template-columns: 1fr 1fr;
   place-content: center;
   justify-items: center;
-  width: 400px;
-  height: 220px;
-  border-radius: 6px;
-  background: linear-gradient(45deg, #56CBF9, #16697A);
-  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
-}
-
-@media (min-width: 0px) and (max-width: 480px) {
-  .historia .fauna__card--info {
-    width: 340px;
-    margin: 0rem .4rem;
-  }
-}
-
-.historia .fauna__card--info:hover {
-  transition: all .5s;
-  box-shadow: 1px 1px 10px 0px #fff;
+  gap: 3rem;
 }
 
 .historia .fauna__card--lista1 p {

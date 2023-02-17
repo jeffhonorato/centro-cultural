@@ -636,8 +636,9 @@
     .espaco__trapia--card {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        place-content: center;
         width: 450px;
+        height: 260px;
+        place-content: center;
         border-radius: 6px;
         background: linear-gradient(45deg, #56CBF9, #16697A);
         box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
@@ -680,6 +681,10 @@
         }
 
        
+    }
+
+    .trapia__card--info {
+        background-color: #fff;
     }
 
     .caracteristica {

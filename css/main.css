@@ -2136,6 +2136,16 @@ img {
   }
 }
 
+.historia .espaco__trapia--card:hover {
+  transition: all .5s;
+  box-shadow: 0px 0px 10px 0px #fff;
+}
+
+.historia .espaco__trapia--card:hover .trapia--card--titulo {
+  box-shadow: 5px 5px 0px 0px #fff;
+  transition: all .5s;
+}
+
 .historia .trapia--card--titulo {
   width: 100px;
   position: absolute;
@@ -2194,6 +2204,21 @@ img {
   font-family: "Rajdhani", sans-serif;
   text-align: end;
   color: #fff;
+}
+
+.historia .clima {
+  background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.historia .clima__titulo {
+  color: #053177;
+  font-family: "Londrina Solid", cursive;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem 0rem;
 }
 
 @keyframes slidein {

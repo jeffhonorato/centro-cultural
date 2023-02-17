@@ -643,10 +643,19 @@
         box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
         padding: .4rem;
         position: relative;
-       
 
         @include celular {
             width: 320px;
+        }
+
+        &:hover {
+            transition: all .5s;
+            box-shadow: 0px 0px 10px 0px #fff;
+        }
+
+        &:hover .trapia--card--titulo {
+            box-shadow: 5px 5px 0px 0px #fff;
+            transition: all .5s;
         }
     }
 
@@ -687,8 +696,6 @@
         }
     }
 
-
-
     .trapia__card--div {
         margin-bottom: 1rem;
     }
@@ -708,6 +715,21 @@
         font-family: $fonte-corpo;
         text-align: end;
         color:#fff;
+    }
+
+    .clima {
+        background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .clima__titulo {
+        color: $cor-links;
+        font-family: $fonte-subtitulo;
+        font-size: 3rem;
+        text-align: center;
+        padding: 2rem 0rem;
     }
 
 

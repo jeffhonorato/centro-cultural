@@ -741,6 +741,113 @@
         @include paragrafo;
     }
 
+    .solos {
+        background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .solos__titulo {
+        color: $cor-links;
+        font-family: $fonte-subtitulo;
+        font-size: 3rem;
+        text-align: center;
+        padding: 2rem 0rem;
+    }
+
+    .solos p {
+        @include paragrafo;
+    }
+
+    .solos__info p em {
+        font-weight: 700;
+    }
+
+    .fauna {
+        background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .fauna__titulo {
+        color: $cor-links;
+        font-family: $fonte-subtitulo;
+        font-size: 3rem;
+        text-align: center;
+        padding: 2rem 0rem;
+    }
+
+    .fauna__info p {
+        @include paragrafo;
+    }
+
+    .fauna__info--div {
+        background-image: radial-gradient(circle, #56cbf9, #30a3dc, #0d7cbd, #00569b, #053177);
+        height: 55vh;
+    }
+
+    .fauna__card {
+        display: grid;
+        place-content: center;
+        justify-items: center;
+       
+    }
+
+    .fauna__card--titulo {
+        font-family: $fonte-titulo;
+        font-weight: 300;
+        font-size: 1.7rem;
+        color: #fff;
+        text-align: center;
+        padding: 2rem 0rem;
+    }
+
+    .fauna__card--info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-content: center;
+        justify-items: center;
+        width: 400px;
+        height: 220px;
+        border-radius: 6px;
+        background: linear-gradient(45deg, #56CBF9, #16697A);
+        box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+
+        @include celular {
+            width: 340px;
+            margin: 0rem .4rem;
+        }
+
+        &:hover {
+            transition: all .5s;
+            box-shadow: 1px 1px 10px 0px #fff;
+        }
+    }
+
+    .fauna__card--lista1 p {
+        font-family: $fonte-corpo;
+        color: #fff;
+        font-size: 1.4rem;
+
+        @include celular {
+            font-size: 1.2rem;
+        }
+    }
+
+    .fauna__card--lista2 p {
+        font-family: $fonte-corpo;
+        color: #fff;
+        font-size: 1.4rem;
+
+        @include celular {
+            font-size: 1.2rem;
+        }
+    }
+
+
+
 
 
 }

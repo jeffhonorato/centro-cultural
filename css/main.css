@@ -2649,6 +2649,11 @@ img {
   margin: 2rem auto;
 }
 
+.historia .caatinga__prosaVerso--autor {
+  text-align: center;
+  margin-top: 1rem;
+}
+
 @keyframes slidein {
   from {
     margin-left: 100%;

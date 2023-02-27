@@ -2717,11 +2717,12 @@ img {
 .historia .tabela--vigarios--titulo {
   font-family: "Russo One", sans-serif;
   font-weight: 300;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #000;
   text-align: center;
-  padding-bottom: 1rem;
+  padding-bottom: 1rem .3rem;
   margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .historia .tabela__vigarios--lista {

@@ -1634,8 +1634,8 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .historia .apresentacao__info {
-    width: 20rem;
-    /*320px*/
+    width: 21.2rem;
+    /*340px*/
   }
 }
 
@@ -1904,8 +1904,8 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .historia .localidade__pb--info {
-    width: 20rem;
-    /*320px*/
+    width: 21.2rem;
+    /*340px*/
   }
 }
 
@@ -1935,8 +1935,8 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .historia .vizinhos__pb--info {
-    width: 20rem;
-    /*320px*/
+    width: 21.2rem;
+    /*340px*/
   }
 }
 
@@ -2016,8 +2016,8 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .historia .transportes__info {
-    width: 20rem;
-    /*320px*/
+    width: 21.2rem;
+    /*340px*/
   }
 }
 
@@ -2054,8 +2054,8 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .historia .aspectos__historicos--info {
-    width: 20rem;
-    /*320px*/
+    width: 21.2rem;
+    /*340px*/
   }
 }
 
@@ -2092,8 +2092,8 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .historia .certidao__info {
-    width: 20rem;
-    /*320px*/
+    width: 21.2rem;
+    /*340px*/
   }
 }
 
@@ -2193,8 +2193,8 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .historia .espaco__info {
-    width: 20rem;
-    /*320px*/
+    width: 21.2rem;
+    /*340px*/
   }
 }
 
@@ -2357,8 +2357,8 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .historia .clima__info {
-    width: 20rem;
-    /*320px*/
+    width: 21.2rem;
+    /*340px*/
   }
 }
 
@@ -2437,8 +2437,8 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .historia .fauna__info {
-    width: 20rem;
-    /*320px*/
+    width: 21.2rem;
+    /*340px*/
   }
 }
 
@@ -2617,8 +2617,8 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .historia .caatinga__info {
-    width: 20rem;
-    /*320px*/
+    width: 21.2rem;
+    /*340px*/
   }
 }
 
@@ -2680,8 +2680,8 @@ img {
 
 @media (min-width: 0px) and (max-width: 480px) {
   .historia .religiao__info {
-    width: 20rem;
-    /*320px*/
+    width: 21.2rem;
+    /*340px*/
   }
 }
 
@@ -2720,7 +2720,7 @@ img {
   font-size: 1.2rem;
   color: #000;
   text-align: center;
-  padding-bottom: 1rem .3rem;
+  padding: 0rem .3rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }

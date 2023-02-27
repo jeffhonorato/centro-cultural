@@ -76,7 +76,7 @@ var swiper = new Swiper('.historiaPB', {
     },
   });
 
-  var swiper = new Swiper('.caatinga', {
+  var swiper = new Swiper('.sliderCaatinga', {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,

@@ -2606,6 +2606,29 @@ img {
   padding: 2rem 0rem;
 }
 
+.historia .caatinga__info {
+  background-color: rgba(162, 162, 162, 0.1);
+  box-shadow: 1px 1px 10px 1px #000;
+  width: 75rem;
+  /* 1200px */
+  margin: 0rem auto;
+  padding: 1rem 0rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .caatinga__info {
+    width: 20rem;
+    /*320px*/
+  }
+}
+
+.historia .caatinga__p {
+  font-family: "Rajdhani", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: .5rem 1rem;
+}
+
 @keyframes slidein {
   from {
     margin-left: 100%;

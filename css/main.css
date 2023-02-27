@@ -2654,6 +2654,54 @@ img {
   margin-top: 1rem;
 }
 
+.historia .religiao {
+  background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.historia .religiao__titulo {
+  color: #053177;
+  font-family: "Londrina Solid", cursive;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+.historia .religiao__info {
+  background-color: rgba(162, 162, 162, 0.1);
+  box-shadow: 1px 1px 10px 1px #000;
+  width: 75rem;
+  /* 1200px */
+  margin: 0rem auto;
+  padding: 1rem 0rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .religiao__info {
+    width: 20rem;
+    /*320px*/
+  }
+}
+
+.historia .religiao__info--titulo {
+  font-family: "Russo One", sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+  color: #000;
+  text-align: center;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.historia .religiao__info--p {
+  font-family: "Rajdhani", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: .5rem 1rem;
+}
+
 @keyframes slidein {
   from {
     margin-left: 100%;

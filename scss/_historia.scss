@@ -1105,6 +1105,47 @@
 
     }
 
+    .religiao {
+        background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .religiao__titulo {
+        color: $cor-links;
+        font-family: $fonte-subtitulo;
+        font-size: 3rem;
+        text-align: center;
+        padding: 2rem 0rem;
+    }
+
+    .religiao__info {
+        background-color: rgba(162, 162, 162, 0.1);
+        box-shadow: 1px 1px 10px 1px #000;
+        width: 75rem; /* 1200px */
+        margin: 0rem auto;
+        padding: 1rem 0rem;
+
+
+        @include celular {
+            width: 20rem; /*320px*/
+        }
+    }
+
+    .religiao__info--titulo {
+        font-family: $fonte-titulo;
+        font-weight: 300;
+        font-size: 1.4rem;
+        color: #000;
+        text-align: center;
+        padding-bottom: 1rem;
+        margin-top: 2rem;
+    }
+
+    .religiao__info--p {
+        @include paragrafo;
+    }
 
 
 }

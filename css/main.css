@@ -2726,7 +2726,11 @@ img {
 
 .historia .tabela__vigarios--lista {
   text-align: center;
+}
+
+.historia .tabela__vigarios--lista p {
   font-family: "Rajdhani", sans-serif;
+  padding: .3rem 0rem;
 }
 
 .historia .tabela__vigarios--lista hr {

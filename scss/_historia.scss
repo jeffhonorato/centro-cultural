@@ -1174,7 +1174,11 @@
 
     .tabela__vigarios--lista {
         text-align: center;  
+    }
+
+    .tabela__vigarios--lista p {
         font-family: $fonte-corpo;
+        padding: .3rem 0rem;
     }
 
     .tabela__vigarios--lista hr {

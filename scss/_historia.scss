@@ -173,8 +173,13 @@
     .apresentacao__info {
         background-color: rgba(162, 162, 162, 0.1);
         box-shadow: 1px 1px 10px 1px #000;
-        width: 1200px; /* 900px */
+        width: 75rem; /* 1200px */
         margin: 0 auto;
+        padding: 1rem 0rem;
+
+        @include celular {
+            width: 20rem; /*320px*/
+        }
     }
 
     .apresentacao__p {
@@ -421,6 +426,19 @@
         text-align: center;
    }
 
+   .localidade__pb--info {
+        background-color: rgba(162, 162, 162, 0.1);
+        box-shadow: 1px 1px 10px 1px #000;
+        width: 75rem; /* 1200px */
+        margin: 2rem auto;
+        padding: 1rem 0rem;
+
+
+        @include celular {
+            width: 20rem; /*320px*/
+        }
+   }
+
    .localidade__pb--p {
         @include paragrafo;
    }
@@ -431,6 +449,19 @@
         font-family: $fonte-subtitulo;
         font-size: 3rem;
         text-align: center;
+   }
+
+   .vizinhos__pb--info {
+        background-color: rgba(162, 162, 162, 0.1);
+        box-shadow: 1px 1px 10px 1px #000;
+        width: 75rem; /* 1200px */
+        margin: 2rem auto;
+        padding: 1rem 0rem;
+
+
+        @include celular {
+            width: 20rem; /*320px*/
+        }
    }
 
    .vizinhos__pb {
@@ -497,6 +528,19 @@
         padding-bottom: 2rem;
     }
 
+    .transportes__info {
+        background-color: rgba(162, 162, 162, 0.1);
+        box-shadow: 1px 1px 10px 1px #000;
+        width: 75rem; /* 1200px */
+        margin: 2rem auto;
+        padding: 1rem 0rem;
+
+
+        @include celular {
+            width: 20rem; /*320px*/
+        }
+    }
+
     .transportes__info p {
         @include paragrafo;
     }
@@ -516,6 +560,19 @@
         padding: 2rem 0rem;
     }
 
+    .aspectos__historicos--info {
+        background-color: rgba(162, 162, 162, 0.1);
+        box-shadow: 1px 1px 10px 1px #000;
+        width: 75rem; /* 1200px */
+        margin: 2rem auto;
+        padding: 1rem 0rem;
+
+
+        @include celular {
+            width: 20rem; /*320px*/
+        }
+    }
+
     .aspectos__historicos--info p {
         @include paragrafo;
     }
@@ -533,6 +590,19 @@
         font-size: 3rem;
         text-align: center;
         padding: 2rem 0rem;
+    }
+
+    .certidao__info {
+        background-color: rgba(162, 162, 162, 0.1);
+        box-shadow: 1px 1px 10px 1px #000;
+        width: 75rem; /* 1200px */
+        margin: 2rem auto;
+        padding: 1rem 0rem;
+
+
+        @include celular {
+            width: 20rem; /*320px*/
+        }
     }
 
     .certidao__p {
@@ -576,6 +646,11 @@
     .prosa__info {
         font-family: $fonte-corpo;
         text-align: center;
+        background-color: rgba(162, 162, 162, 0.1);
+        box-shadow: 1px 1px 10px 1px #000;
+        padding: 1rem 0rem;
+        width: 400px;
+        margin: 0 auto;
     }
 
     .prosa__p {

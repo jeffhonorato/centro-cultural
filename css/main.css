@@ -1626,9 +1626,17 @@ img {
 .historia .apresentacao__info {
   background-color: rgba(162, 162, 162, 0.1);
   box-shadow: 1px 1px 10px 1px #000;
-  width: 1200px;
-  /* 900px */
+  width: 75rem;
+  /* 1200px */
   margin: 0 auto;
+  padding: 1rem 0rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .apresentacao__info {
+    width: 20rem;
+    /*320px*/
+  }
 }
 
 .historia .apresentacao__p {
@@ -1885,6 +1893,22 @@ img {
   text-align: center;
 }
 
+.historia .localidade__pb--info {
+  background-color: rgba(162, 162, 162, 0.1);
+  box-shadow: 1px 1px 10px 1px #000;
+  width: 75rem;
+  /* 1200px */
+  margin: 2rem auto;
+  padding: 1rem 0rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .localidade__pb--info {
+    width: 20rem;
+    /*320px*/
+  }
+}
+
 .historia .localidade__pb--p {
   font-family: "Rajdhani", sans-serif;
   line-height: 1.6;
@@ -1898,6 +1922,22 @@ img {
   font-family: "Londrina Solid", cursive;
   font-size: 3rem;
   text-align: center;
+}
+
+.historia .vizinhos__pb--info {
+  background-color: rgba(162, 162, 162, 0.1);
+  box-shadow: 1px 1px 10px 1px #000;
+  width: 75rem;
+  /* 1200px */
+  margin: 2rem auto;
+  padding: 1rem 0rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .vizinhos__pb--info {
+    width: 20rem;
+    /*320px*/
+  }
 }
 
 .historia .vizinhos__pb {
@@ -1965,6 +2005,22 @@ img {
   padding-bottom: 2rem;
 }
 
+.historia .transportes__info {
+  background-color: rgba(162, 162, 162, 0.1);
+  box-shadow: 1px 1px 10px 1px #000;
+  width: 75rem;
+  /* 1200px */
+  margin: 2rem auto;
+  padding: 1rem 0rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .transportes__info {
+    width: 20rem;
+    /*320px*/
+  }
+}
+
 .historia .transportes__info p {
   font-family: "Rajdhani", sans-serif;
   line-height: 1.6;
@@ -1987,6 +2043,22 @@ img {
   padding: 2rem 0rem;
 }
 
+.historia .aspectos__historicos--info {
+  background-color: rgba(162, 162, 162, 0.1);
+  box-shadow: 1px 1px 10px 1px #000;
+  width: 75rem;
+  /* 1200px */
+  margin: 2rem auto;
+  padding: 1rem 0rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .aspectos__historicos--info {
+    width: 20rem;
+    /*320px*/
+  }
+}
+
 .historia .aspectos__historicos--info p {
   font-family: "Rajdhani", sans-serif;
   line-height: 1.6;
@@ -2007,6 +2079,22 @@ img {
   font-size: 3rem;
   text-align: center;
   padding: 2rem 0rem;
+}
+
+.historia .certidao__info {
+  background-color: rgba(162, 162, 162, 0.1);
+  box-shadow: 1px 1px 10px 1px #000;
+  width: 75rem;
+  /* 1200px */
+  margin: 2rem auto;
+  padding: 1rem 0rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .certidao__info {
+    width: 20rem;
+    /*320px*/
+  }
 }
 
 .historia .certidao__p {
@@ -2055,6 +2143,11 @@ img {
 .historia .prosa__info {
   font-family: "Rajdhani", sans-serif;
   text-align: center;
+  background-color: rgba(162, 162, 162, 0.1);
+  box-shadow: 1px 1px 10px 1px #000;
+  padding: 1rem 0rem;
+  width: 400px;
+  margin: 0 auto;
 }
 
 .historia .prosa__p {

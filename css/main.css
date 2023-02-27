@@ -2459,6 +2459,13 @@ img {
   gap: 2rem;
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .fauna__info--cards {
+    height: 100vh;
+    gap: .5rem;
+  }
+}
+
 .historia .fauna__card {
   display: grid;
   place-content: center;
@@ -2582,6 +2589,21 @@ img {
   .historia .flora__card--lista2 p {
     font-size: 1.2rem;
   }
+}
+
+.historia .caatinga {
+  background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.historia .caatinga__titulo {
+  color: #053177;
+  font-family: "Londrina Solid", cursive;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem 0rem;
 }
 
 @keyframes slidein {

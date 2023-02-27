@@ -928,6 +928,11 @@
         justify-content: center;
         align-items: center;
         gap: 2rem;
+
+        @include celular {
+            height: 100vh;
+            gap: .5rem;
+        }
     }
 
     .fauna__card {
@@ -1042,7 +1047,20 @@
         }
     }
 
+    .caatinga {
+        background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
+    .caatinga__titulo {
+        color: $cor-links;
+        font-family: $fonte-subtitulo;
+        font-size: 3rem;
+        text-align: center;
+        padding: 2rem 0rem;
+    }
 
 
 

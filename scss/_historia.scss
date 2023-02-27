@@ -1145,6 +1145,31 @@
 
     .religiao__info--p {
         @include paragrafo;
+        margin-bottom: 1rem;
+    }
+
+    .religiao__foto {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .religiao__foto--paroquia {
+
+        @include celular {
+            width: 300px;
+        }
+      
+    }
+
+    .tabela--vigarios--titulo {
+        font-family: $fonte-titulo;
+        font-weight: 300;
+        font-size: 1.4rem;
+        color: #000;
+        text-align: center;
+        padding-bottom: 1rem;
+        margin-top: 2rem;
     }
 
 

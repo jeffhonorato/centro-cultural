@@ -2700,6 +2700,28 @@ img {
   line-height: 1.6;
   letter-spacing: 1px;
   padding: .5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.historia .religiao__foto {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .religiao__foto--paroquia {
+    width: 300px;
+  }
+}
+
+.historia .tabela--vigarios--titulo {
+  font-family: "Russo One", sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+  color: #000;
+  text-align: center;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 @keyframes slidein {

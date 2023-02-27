@@ -683,6 +683,19 @@
         padding: 2rem 0rem;
     }
 
+    .espaco__info {
+        background-color: rgba(162, 162, 162, 0.1);
+        box-shadow: 1px 1px 10px 1px #000;
+        width: 75rem; /* 1200px */
+        margin: 0rem auto;
+        padding: 1rem 0rem;
+
+
+        @include celular {
+            width: 20rem; /*320px*/
+        }
+    }
+
     .espaco__info p {
         @include paragrafo;
     }
@@ -822,6 +835,19 @@
         padding: 2rem 0rem;
     }
 
+    .clima__info {
+        background-color: rgba(162, 162, 162, 0.1);
+        box-shadow: 1px 1px 10px 1px #000;
+        width: 75rem; /* 1200px */
+        margin: 0rem auto;
+        padding: 1rem 0rem;
+
+
+        @include celular {
+            width: 20rem; /*320px*/
+        }
+    }
+
     .clima__info p {
         @include paragrafo;
     }
@@ -839,6 +865,19 @@
         font-size: 3rem;
         text-align: center;
         padding: 2rem 0rem;
+    }
+
+    .solos__info {
+        background-color: rgba(162, 162, 162, 0.1);
+        box-shadow: 1px 1px 10px 1px #000;
+        width: 75rem; /* 1200px */
+        margin: 0rem auto;
+        padding: 1rem 0rem;
+
+
+        @include celular {
+            width: 20rem; /*320px*/
+        }
     }
 
     .solos p {
@@ -862,6 +901,19 @@
         font-size: 3rem;
         text-align: center;
         padding: 2rem 0rem;
+    }
+
+    .fauna__info {
+        background-color: rgba(162, 162, 162, 0.1);
+        box-shadow: 1px 1px 10px 1px #000;
+        width: 75rem; /* 1200px */
+        margin: 0rem auto;
+        padding: 1rem 0rem;
+
+
+        @include celular {
+            width: 20rem; /*320px*/
+        }
     }
 
     .fauna__info p {

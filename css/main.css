@@ -2182,6 +2182,22 @@ img {
   padding: 2rem 0rem;
 }
 
+.historia .espaco__info {
+  background-color: rgba(162, 162, 162, 0.1);
+  box-shadow: 1px 1px 10px 1px #000;
+  width: 75rem;
+  /* 1200px */
+  margin: 0rem auto;
+  padding: 1rem 0rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .espaco__info {
+    width: 20rem;
+    /*320px*/
+  }
+}
+
 .historia .espaco__info p {
   font-family: "Rajdhani", sans-serif;
   line-height: 1.6;
@@ -2330,6 +2346,22 @@ img {
   padding: 2rem 0rem;
 }
 
+.historia .clima__info {
+  background-color: rgba(162, 162, 162, 0.1);
+  box-shadow: 1px 1px 10px 1px #000;
+  width: 75rem;
+  /* 1200px */
+  margin: 0rem auto;
+  padding: 1rem 0rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .clima__info {
+    width: 20rem;
+    /*320px*/
+  }
+}
+
 .historia .clima__info p {
   font-family: "Rajdhani", sans-serif;
   line-height: 1.6;
@@ -2350,6 +2382,22 @@ img {
   font-size: 3rem;
   text-align: center;
   padding: 2rem 0rem;
+}
+
+.historia .solos__info {
+  background-color: rgba(162, 162, 162, 0.1);
+  box-shadow: 1px 1px 10px 1px #000;
+  width: 75rem;
+  /* 1200px */
+  margin: 0rem auto;
+  padding: 1rem 0rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .solos__info {
+    width: 20rem;
+    /*320px*/
+  }
 }
 
 .historia .solos p {
@@ -2376,6 +2424,22 @@ img {
   font-size: 3rem;
   text-align: center;
   padding: 2rem 0rem;
+}
+
+.historia .fauna__info {
+  background-color: rgba(162, 162, 162, 0.1);
+  box-shadow: 1px 1px 10px 1px #000;
+  width: 75rem;
+  /* 1200px */
+  margin: 0rem auto;
+  padding: 1rem 0rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .fauna__info {
+    width: 20rem;
+    /*320px*/
+  }
 }
 
 .historia .fauna__info p {

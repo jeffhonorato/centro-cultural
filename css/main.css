@@ -2724,6 +2724,15 @@ img {
   margin-top: 2rem;
 }
 
+.historia .tabela__vigarios--lista {
+  text-align: center;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.historia .tabela__vigarios--lista hr {
+  margin: 0 auto;
+}
+
 @keyframes slidein {
   from {
     margin-left: 100%;

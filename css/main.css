@@ -2452,6 +2452,11 @@ img {
 .historia .fauna__info--cards {
   background-image: radial-gradient(circle, #56cbf9, #30a3dc, #0d7cbd, #00569b, #053177);
   height: 55vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 .historia .fauna__card {
@@ -2497,7 +2502,7 @@ img {
 .historia .fauna__card--lista1 p {
   font-family: "Rajdhani", sans-serif;
   color: #fff;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
@@ -2509,11 +2514,72 @@ img {
 .historia .fauna__card--lista2 p {
   font-family: "Rajdhani", sans-serif;
   color: #fff;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
   .historia .fauna__card--lista2 p {
+    font-size: 1.2rem;
+  }
+}
+
+.historia .flora__card {
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  width: 400px;
+  height: 290px;
+  border-radius: 6px;
+  background: linear-gradient(45deg, #56CBF9, #16697A);
+  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+}
+
+.historia .flora__card:hover {
+  transition: all .5s;
+  box-shadow: 1px 1px 10px 0px #fff;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .flora__card {
+    width: 340px;
+    margin: 0rem .4rem;
+  }
+}
+
+.historia .flora__card--info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+  justify-items: center;
+  gap: 1rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .flora__card--info {
+    font-size: 1.2rem;
+  }
+}
+
+.historia .flora__card--lista1 p {
+  font-family: "Rajdhani", sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .flora__card--lista1 p {
+    font-size: 1.2rem;
+  }
+}
+
+.historia .flora__card--lista2 p {
+  font-family: "Rajdhani", sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .flora__card--lista2 p {
     font-size: 1.2rem;
   }
 }

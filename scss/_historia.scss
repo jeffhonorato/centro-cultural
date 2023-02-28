@@ -1194,6 +1194,37 @@
         margin: 0 auto;
     }
 
+    .politica {
+        background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .politica__titulo {
+        color: $cor-links;
+        font-family: $fonte-subtitulo;
+        font-size: 3rem;
+        text-align: center;
+        padding: 2rem 0rem;
+    }
+
+    .politica__info {
+        background-color: rgba(162, 162, 162, 0.1);
+        box-shadow: 1px 1px 10px 1px #000;
+        width: 75rem; /* 1200px */
+        margin: 0rem auto;
+        padding: 1rem 0rem;
+
+
+        @include celular {
+            width: 21.2rem; /*340px*/
+        }
+    }
+
+    .politica__info--p {
+        @include paragrafo;
+    }
 
 
 

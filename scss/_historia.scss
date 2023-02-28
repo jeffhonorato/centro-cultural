@@ -1156,6 +1156,12 @@
         gap: 2rem;
     }
 
+    [width="423"] {
+        @include celular {
+            width: 300px;
+        }
+    }
+
     .religiao__foto--paroquia {
 
         @include celular {

@@ -2703,9 +2703,12 @@ img {
   margin-bottom: 1rem;
 }
 
-.historia .religiao__foto {
+.historia .religiao__info--midias {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {

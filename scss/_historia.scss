@@ -1148,10 +1148,12 @@
         margin-bottom: 1rem;
     }
 
-    .religiao__foto {
+    .religiao__info--midias {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
-        
+        align-items: center;
+        gap: 2rem;
     }
 
     .religiao__foto--paroquia {

@@ -2661,6 +2661,12 @@ img {
   background-size: cover;
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .religiao {
+    margin-bottom: 2rem;
+  }
+}
+
 .historia .religiao__titulo {
   color: #053177;
   font-family: "Londrina Solid", cursive;

@@ -1110,6 +1110,10 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+
+        @include celular {
+            margin-bottom: 2rem;
+        }
     }
 
     .religiao__titulo {

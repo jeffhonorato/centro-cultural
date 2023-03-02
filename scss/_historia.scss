@@ -1265,6 +1265,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         margin-bottom: 2rem;
+        padding-bottom: 2rem;
     }
 
     .versos__titulo {
@@ -1321,25 +1322,6 @@
         margin-top: 1rem;   
         font-family: $fonte-corpo;
         font-weight: 800;
-    }
-
-    .calendario {
-        background-image: radial-gradient(circle, #56cbf9, #30a3dc, #0d7cbd, #00569b, #053177);
-        height: 70vh;
-       
-    }
-
-    .calendario__titulo {
-        color: #fff;
-        font-family: $fonte-titulo;
-        font-size: 2rem;
-        text-align: center;
-        padding: 2rem 0rem;
-    }
-
-    .calendario__info {
-        display: grid;
-        place-content: center;
     }
 
 

@@ -2826,6 +2826,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .historia .versos__titulo {
@@ -2883,24 +2884,6 @@ img {
   margin-top: 1rem;
   font-family: "Rajdhani", sans-serif;
   font-weight: 800;
-}
-
-.historia .calendario {
-  background-image: radial-gradient(circle, #56cbf9, #30a3dc, #0d7cbd, #00569b, #053177);
-  height: 70vh;
-}
-
-.historia .calendario__titulo {
-  color: #fff;
-  font-family: "Russo One", sans-serif;
-  font-size: 2rem;
-  text-align: center;
-  padding: 2rem 0rem;
-}
-
-.historia .calendario__info {
-  display: grid;
-  place-content: center;
 }
 
 @keyframes slidein {

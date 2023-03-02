@@ -2884,6 +2884,13 @@ img {
   font-weight: 800;
 }
 
+.historia .calendario {
+  background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @keyframes slidein {
   from {
     margin-left: 100%;

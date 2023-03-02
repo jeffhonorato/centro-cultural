@@ -2848,9 +2848,9 @@ img {
 .historia .versos__cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 2;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .historia .verso__card {

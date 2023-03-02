@@ -1259,6 +1259,64 @@
         margin: 0 auto;
     }
 
+    .versos {
+        background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .versos__titulo {
+        color: $cor-links;
+        font-family: $fonte-subtitulo;
+        font-size: 3rem;
+        text-align: center;
+        padding: 2rem 0rem;
+    }
+
+    .versus__subtitulo {
+        font-family: $fonte-titulo;
+        font-weight: 300;
+        font-size: 1.2rem;
+        color: #000;
+        text-align: center;
+        margin-bottom: 2rem;
+        padding: 0 .4rem;
+    }
+
+    .versos__cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .verso__card {
+        background-color: rgba(162, 162, 162, 0.1);
+        box-shadow: 1px 1px 10px 1px #000;
+        width: 20rem; /* 320px */
+        margin: 0rem auto;
+        padding: 1rem 0rem;
+        text-align: center;
+
+    }
+
+    .verso__card--p {
+        font-family: $fonte-corpo;
+    }
+
+    .verso__card--p em {
+        font-weight: 800;
+        font-size: 1.4rem;
+    }
+
+    .verso__autor {
+        margin-top: 1rem;   
+        font-family: $fonte-corpo;
+        font-weight: 800;
+    }
+
 
 
 }

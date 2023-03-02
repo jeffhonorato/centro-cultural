@@ -2820,6 +2820,64 @@ img {
   margin: 0 auto;
 }
 
+.historia .versos {
+  background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.historia .versos__titulo {
+  color: #053177;
+  font-family: "Londrina Solid", cursive;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+.historia .versus__subtitulo {
+  font-family: "Russo One", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #000;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 0 .4rem;
+}
+
+.historia .versos__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.historia .verso__card {
+  background-color: rgba(162, 162, 162, 0.1);
+  box-shadow: 1px 1px 10px 1px #000;
+  width: 20rem;
+  /* 320px */
+  margin: 0rem auto;
+  padding: 1rem 0rem;
+  text-align: center;
+}
+
+.historia .verso__card--p {
+  font-family: "Rajdhani", sans-serif;
+}
+
+.historia .verso__card--p em {
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+
+.historia .verso__autor {
+  margin-top: 1rem;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 800;
+}
+
 @keyframes slidein {
   from {
     margin-left: 100%;

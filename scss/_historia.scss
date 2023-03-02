@@ -1264,6 +1264,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        margin-bottom: 2rem;
     }
 
     .versos__titulo {
@@ -1323,12 +1324,23 @@
     }
 
     .calendario {
-        background-image: url("../img/historia/modal-fotos/background-cabecalho.svg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-image: radial-gradient(circle, #56cbf9, #30a3dc, #0d7cbd, #00569b, #053177);
+        height: 70vh;
+       
     }
 
+    .calendario__titulo {
+        color: #fff;
+        font-family: $fonte-titulo;
+        font-size: 2rem;
+        text-align: center;
+        padding: 2rem 0rem;
+    }
+
+    .calendario__info {
+        display: grid;
+        place-content: center;
+    }
 
 
 }

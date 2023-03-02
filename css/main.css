@@ -2863,6 +2863,12 @@ img {
   text-align: center;
 }
 
+@media (min-width: 0px) and (max-width: 480px) {
+  .historia .verso__card {
+    margin: 1rem auto;
+  }
+}
+
 .historia .verso__card--p {
   font-family: "Rajdhani", sans-serif;
 }
